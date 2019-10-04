@@ -1,0 +1,52 @@
+body{
+    font-size:1em;
+}
+.news{
+    width:80%;
+    margin:auto;
+    display:flex;
+    font-size: 1.1em;
+}
+.news div{
+    width:100%;
+}
+.instruction {
+    font-size: 1.1em;
+}
+
+.instruction,
+.propozicii {
+    width: 80%;
+}
+.formPropos{
+    display:flex;
+    flex-direction: column;
+    padding-left: 5%;
+    font-size: 1.1em;
+}
+.formPropos input[type="text"]
+{
+    width: 75%;
+    font-size: 1em;
+    margin-bottom: 2%;
+}
+.formPropos textarea{
+    font-size: 1.1em;
+    height:100px;
+}
+.formPropos input[type="submit"]
+{
+    width: auto;
+    font-size: 1em;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+@media (max-width:600px) {
+    .instruction{
+        width: 80%;
+    }
+    .formPropos{
+        width:80%;
+    }
+}

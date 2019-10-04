@@ -1,0 +1,166 @@
+﻿@{
+    ViewBag.Title = "Налаштування";
+}
+@{Layout = "~/Views/Shared/_Layout.cshtml";}
+
+@section Style {
+    <style>
+	input[type=color]{
+	    padding-top:0;
+	    padding-bottom:0;
+	}
+        input[name="color1"] {
+            width: 100%;
+	    padding:0;
+        }
+        input[name="color2"] {
+            width: 100%;
+        }
+        input[name="color3"] {
+            width: 100%;
+	    padding:0;
+        }
+        .container{
+            width: 80%;
+            margin-top:2%;
+        }
+        @@media (max-device-width:650px) {
+            .container{
+                width:100%;
+            }
+        }
+        .button_properties
+        {
+            margin-top:3%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap:wrap;
+        }
+    </style>
+}
+
+<div class="container">
+    <table>
+        <tr>
+            <th>№</th>
+            <th><input type="color" id="color" name="color" value="#e66465"></th>
+            <th>Time</th>
+        </tr>
+    </table>
+    <table>
+        <caption><input type="color" id="captionColor" name="captionColor" value="#e66465"></caption>
+        <tr>
+            <td><input type="color" id="color1" name="color1" value="#e66465"></td>
+            <td><a href="#">Text</a><input type="color" id="color2" name="color2" value="#e66465"></td>
+            <td><input type="color" id="color3" name="color3" value="#e66465"></td>
+        </tr>
+    </table>
+    <div class="button_properties">
+        <div style="width: 100%;display: inline-flex;justify-content: center;align-items: center; margin-bottom: 2%;">Колір шрифта <input type="color" id="color4" name="color4" value="#e66465"></div>
+        <div style="width: 100%;display: inline-flex;justify-content: center;align-items: center; margin-bottom: 2%;">Колір назв дисциплін <input type="color" id="colorDyscipline" name="colorDyscipline" value="#e66465"></div>
+        <input style="width:auto; height:3%" type="submit" id="btn-reset" value="Повернути до стандартних значень">
+    </div>
+</div>
+
+@section Script{
+    <script>
+        var c = document.getElementById("color");
+        var c1 = document.getElementById("color1");
+        var c2 = document.getElementById("color2");
+        var c3 = document.getElementById("color3");
+        var c4 = document.getElementById("color4");
+        var cc = document.getElementById("captionColor");
+        var btn_reset = document.getElementById("btn-reset");
+        var cd = document.getElementById("colorDyscipline");
+
+        btn_reset.addEventListener("click", function(){
+            localStorage.removeItem("color1");
+            localStorage.removeItem("color2");
+            localStorage.removeItem("color3");
+            localStorage.removeItem("color4");
+            localStorage.removeItem("color");
+            localStorage.removeItem("captionColor");
+            localStorage.removeItem("colorDyscipline");
+
+            $("td:nth-child(1)").css('background-color', "#3eeeb3");
+            $("td:nth-child(2)").css('background-color', "#7fffd4");
+            $("td:nth-child(3)").css('background-color', "#3eeeb3");
+            $("table").css('color', "#000000");
+            $("th").css('background-color', "#dcdcdc");
+            $("caption").css('background-color', "#f8f8ff");
+            $("td > a").css('color', "#000000");
+        })
+
+        c1.addEventListener("input", function () {
+            $("td:nth-child(1)").css('background-color', c1.value);
+            localStorage.setItem("color1", c1.value);
+        }, false);
+
+        c2.addEventListener("input", function () {
+            $("td:nth-child(2)").css('background-color', c2.value);
+            localStorage.setItem("color2", c2.value);
+        }, false);
+
+        c3.addEventListener("input", function () {
+            $("td:nth-child(3)").css('background-color', c3.value);
+            localStorage.setItem("color3", c3.value);
+        }, false);
+
+        c4.addEventListener("input", function () {
+            $("table").css('color', c4.value);
+            localStorage.setItem("color4", c4.value);
+        }, false);
+
+        c.addEventListener("input", function () {
+            $("th").css('background-color', c.value);
+            localStorage.setItem("color", c.value);
+        }, false);
+
+        cc.addEventListener("input", function () {
+            $("caption").css('background-color', cc.value);
+            localStorage.setItem("captionColor", cc.value);
+        }, false);
+        cd.addEventListener("input", function () {
+            $("a").css('color', cd.value);
+            localStorage.setItem("colorDyscipline", cd.value);
+        }, false);
+
+        var color1 = localStorage.getItem("color1"),
+            color2 = localStorage.getItem("color2"),
+            color3 = localStorage.getItem("color3"),
+            color4 = localStorage.getItem("color4"),
+            color = localStorage.getItem("color"),
+            captionColor = localStorage.getItem("captionColor"),
+            colorDyscipline = localStorage.getItem("colorDyscipline");
+
+        if (captionColor == "" || captionColor === null) cc.value = "#f8f8ff";
+        else cc.value = captionColor;
+
+        if (color1 == "" || color1 === null) c1.value = "#3eeeb3";
+        else c1.value = color1;
+
+        if (color2 == "" || color2 === null) c2.value = "#7fffd4";
+        else c2.value = color2;
+
+        if (color3 == "" || color3 === null) c3.value = "#3eeeb3";
+        else c3.value = color3;
+
+        if (color4 == "" || color4 === null) c4.value = "#000000";
+        else c4.value = color4;
+
+        if (color == "" || color === null) c.value = "#dcdcdc";
+        else c.value = color;
+
+        if (colorDyscipline == "" || colorDyscipline === null) cd.value = "#000000";
+        else cd.value = colorDyscipline;
+
+        $("td:nth-child(1)").css('background-color', color1);
+        $("td:nth-child(2)").css('background-color', color2);
+        $("td:nth-child(3)").css('background-color', color3);
+        $("table").css('color', color4);
+        $("th").css('background-color', color);
+        $("caption").css('background-color', captionColor);
+        $("td > a").css('color', colorDyscipline);
+    </script>
+}

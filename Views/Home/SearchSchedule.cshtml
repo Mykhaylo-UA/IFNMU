@@ -1,0 +1,136 @@
+﻿@model IEnumerable<IFNMUSiteCore.Models.Week>
+@{Layout = null;}
+<div class="titlePage"><span>Курс - @ViewBag.Course | Група - @ViewBag.Group</span></div>
+<div class="buttonDiv"><button onclick="OneWeek()">Перший тиждень</button><button onclick="TwoWeek()">Другий тиждень</button></div>
+<table>
+    <tr>
+        <th>№</th>
+        <th>Name</th>
+        <th>Time</th>
+    </tr>
+</table>
+@foreach (var week in Model)
+{
+    if (week.NumberWeek == 1)
+    {
+        @foreach (var day in week.ScheduleDays)
+        {
+            <table class="oneWeekTable">
+                <caption>
+                    @switch (@day.DayNumber)
+                    {
+                        case 1:
+                            <span>Понеділок</span>
+                            break;
+                        case 2:
+                            <span>Вівторок</span>
+                            break;
+                        case 3:
+                            <span>Середа</span>
+                            break;
+                        case 4:
+                            <span>Четвер</span>
+                            break;
+                        case 5:
+                            <span>П'ятниця</span>
+                            break;
+                    }
+                </caption>
+                @foreach (var lessons in day.Lessons)
+                {
+                    <tr>
+                        <td>@lessons.LessonNumber</td>
+                        <td>@Html.ActionLink(lessons.Name, "Documents", "Home", new { id = lessons.Id }, null)</td>
+                        <td>
+                            @switch (lessons.LessonNumber)
+                            {
+                                case 1:
+                                    <span>8:00</span>
+                                    break;
+                                case 2:
+                                    <span>10:05</span>
+                                    break;
+                                case 3:
+                                    <span>12:10</span>
+                                    break;
+                                case 4:
+                                    <span>14:15</span>
+                                    break;
+                            }
+                        </td>
+                    </tr>
+                }
+            </table>
+        }
+    }
+    else
+    {
+        @foreach (var day in week.ScheduleDays)
+        {
+            <table class="twoWeekTable" hidden>
+                <caption>
+                @switch (@day.DayNumber)
+                {
+                    case 1:
+                        <span > Понеділок </span >
+                        break;
+                    case 2:
+                        <span > Вівторок </span >
+                        break;
+                    case 3:
+                        <span > Середа </span >
+                        break;
+                    case 4:
+                        <span > Четвер </span >
+                        break;
+                    case 5:
+                        <span > П'ятниця</span>
+                        break;
+                }
+                </caption>
+                @foreach (var lessons in day.Lessons)
+                {
+                    <tr>
+                    <td> @lessons.LessonNumber </td >
+                    <td> @Html.ActionLink(lessons.Name, "Documents", "Home", new { id = lessons.Id }, null) </td>
+                    <td>
+                    @switch (lessons.LessonNumber)
+                    {
+                        case 1:
+                            <span> 8:00 </span>
+                            break;
+                        case 2:
+                            <span> 10:05 </span>
+                            break;
+                        case 3:
+                            <span> 12:10 </span>
+                            break;
+                        case 4:
+                            <span> 14:15 </span>
+                            break;
+                    }
+                    </td>
+                    </tr>
+                }
+            </table>
+        }
+    }
+}
+                <script>
+                    var color1 = localStorage.getItem("color1"),
+                        color2 = localStorage.getItem("color2"),
+                        color3 = localStorage.getItem("color3"),
+                        color4 = localStorage.getItem("color4"),
+                        color = localStorage.getItem("color"),
+                        captionColor = localStorage.getItem("captionColor");
+                    colorDyscipline = localStorage.getItem("colorDyscipline");
+
+                    $("td:nth-child(1)").css('background-color', color1);
+                    $("td:nth-child(2)").css('background-color', color2);
+                    $("td:nth-child(3)").css('background-color', color3);
+                    $("table").css('color', color4);
+                    $("th").css('background-color', color);
+                    $("caption").css('background-color', captionColor);
+                    $("td > a").css('color', colorDyscipline);
+
+                </script>

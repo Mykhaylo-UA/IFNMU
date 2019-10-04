@@ -1,0 +1,72 @@
+﻿@model IFNMUSiteCore.Models.Week
+@using System.Globalization;
+@{Layout = null;}
+<div class="titlePage"><span>Курс - @ViewBag.Course | Група - @ViewBag.Group</span></div>
+<div style="text-align: center;margin: 1%;font-size: 1.2em;">Поточний тиждень: <br/> @Convert.ToDateTime(Model.From).ToString("d MMMM yyyy", new CultureInfo("uk-UA")) - @Convert.ToDateTime(Model.To).ToString("d MMMM yyyy", new CultureInfo("uk-UA"))</div>
+<form style="margin:0;" action="/Home/ScheduleBig" data-ajax="true" data-ajax-loading="#loading" data-ajax-mode="replace" data-ajax-update="#results2" method="post">
+    <select style="background-color: azure;border: 0;border-radius: 4px; margin:0.5%; font-size: 16px;" name="WeekId" id="WeekId" onchange="$('#sbm').trigger('click');">
+        @foreach (var w in ViewBag.Weeks)
+        {
+            <option value="@w.Id">@Convert.ToDateTime(w.From).ToString("d MMMM yyyy", new CultureInfo("uk-UA")) - @Convert.ToDateTime(w.To).ToString("d MMMM yyyy", new CultureInfo("uk-UA"))</option>
+        }
+    </select>
+    <input id="sbm" style="display:none;" type="submit" value=""/>
+</form>
+<div id="results2">
+    <table>
+        <tr>
+            <th>№</th>
+            <th>Name</th>
+            <th>Time</th>
+        </tr>
+    </table>
+    @foreach (var day in Model.ScheduleDays.OrderBy(day => day.DayNumber))
+    {
+        <table>
+            <caption>
+                @switch (@day.DayNumber)
+                {
+                    case 1:
+                        <span>Понеділок</span>
+                        break;
+                    case 2:
+                        <span>Вівторок</span>
+                        break;
+                    case 3:
+                        <span>Середа</span>
+                        break;
+                    case 4:
+                        <span>Четвер</span>
+                        break;
+                    case 5:
+                        <span>П'ятниця</span>
+                        break;
+                }
+            </caption>
+            @foreach (var lessons in day.Lessons.OrderBy(les => les.LessonNumber))
+            {
+                <tr>
+                    <td>@lessons.LessonNumber</td>
+                    <td>@Html.ActionLink(lessons.Name, "Documents", "Home", new { id = lessons.Id }, null)</td>
+                    <td>
+                        @switch (lessons.LessonNumber)
+                        {
+                            case 1:
+                                <span>8:00</span>
+                                break;
+                            case 2:
+                                <span>10:05</span>
+                                break;
+                            case 3:
+                                <span>12:10</span>
+                                break;
+                            case 4:
+                                <span>14:15</span>
+                                break;
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    }
+</div>

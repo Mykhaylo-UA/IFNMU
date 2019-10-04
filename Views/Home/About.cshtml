@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Про нас";
+}
+@{Layout = "~/Views/Shared/_Layout.cshtml";}
+@section Style{
+    <link href="~/css/proNas.css" rel="stylesheet" />
+}
+<div class="pronas">
+    <div class="news">
+        <div>
+            <h2>Новини</h2>
+            <p>
+                В цьому розділі будуть публікуватися новини сайта.
+            </p>
+        </div>
+    </div>
+    <div class="instruction">
+        <h2>Інструкція</h2>
+        <p>
+            Вітаємо що завітали на наш сайт. На даний час ви можете використовувати такі функції:
+            <ul>
+                <li>Переглядати розклад занять (в "шапці" сайта введіть ваш номер групи і курс)</li>
+                <li>Якщо ви натиснете на кнопку "Показати", не заповнивши дані курсу і групи, вам буде показано розклад останньої групи яку ви переглядали</li>
+                <li>Переглядати тематичні плани (натисніть по назві заняття і вас перенаправить на тематичний план)</li>
+            </ul>
+            Також ви можете налаштувати сайт під свій смак, натисніть пункт "Налаштування" на шапці сайту.
+        </p>
+    </div>
+    <div class="propozicii">
+        <h2>Пропозиції та побажання</h2>
+        <div style="width: 100%;display: flex;justify-content: center;flex-wrap: wrap;">
+            <p style="align-items: center;display: inline-flex;margin: 2%;">
+                <img src="https://img.icons8.com/nolan/64/000000/telegram-app.png">
+                Telegram: misha1809
+            </p>
+            <p style="display: inline-flex;align-items: center;margin: 2%; padding-left:10%;">
+                <img src="https://img.icons8.com/nolan/64/000000/email.png">
+                E-mail: mykhaylo1809@gmail.com
+            </p>
+        </div>
+    </div>
+</div>

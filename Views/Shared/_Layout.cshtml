@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/css/main.css" rel="stylesheet" />
+    <link href="~/logo.ico" rel="shortcut icon" runat="server" type="image/x-icon" />
+    <link href="~/logo.ico" rel="icon" runat="server" type="image/ico" />
+    @RenderSection("Style", false)
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147988086-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-147988086-1');
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"><img src="~/images/logo.png" alt="Logo"></div>
+        <div class="navigation">
+            <div class="formIndex">
+                <form action="/Home/SearchSchedule" data-ajax="true" data-ajax-loading="#loading" data-ajax-mode="replace" data-ajax-update="#results" id="form0" method="post">
+                    <input type="text" name="courses" placeholder="Курс">
+                    <input type="text" name="group" placeholder="Група">
+                    <input id="buttonModal" type="submit" value="Показати">
+                </form>
+            </div>
+            <div class="navb">
+                <ul class="ulnav">
+                    <li><a asp-controller="Home" asp-action="Index">Головна</a></li>
+                    <li><a asp-controller="Home" asp-action="Properties">Налаштування</a></li>
+                    <li><a asp-controller="Home" asp-action="About">Про нас</a></li>
+                    <li><a href="https://list.e-decanat-ifnmu.site/">Записатись в деканат</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="toggleId" class="toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" style="overflow-y: auto">
+        <div class="modal">
+
+            <a class="close-modal">
+                <svg viewBox="0 0 20 20">
+                    <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                </svg>
+            </a><!-- close modal -->
+
+            <div class="modal-content">
+                <div id="results">
+                </div>
+                <div class="cssload-dots" id="loading" style="display:none;">
+                    <div class="cssload-dot"></div>
+                    <div class="cssload-dot"></div>
+                    <div class="cssload-dot"></div>
+                    <div class="cssload-dot"></div>
+                    <div class="cssload-dot"></div>
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <filter id="goo">
+                                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12"></feGaussianBlur>
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0	0 1 0 0 0	0 0 1 0 0	0 0 0 18 -7" result="goo"></feColorMatrix>
+                                <!--<feBlend in2="goo" in="SourceGraphic" result="mix" ></feBlend>-->
+                            </filter>
+                        </defs>
+                    </svg>
+                </div>
+            </div><!-- content -->
+
+        </div><!-- modal -->
+    </div><!-- overlay -->
+    @RenderBody()
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/js/site.js"></script>
+    @RenderSection("Script", false)
+</body>
+</html>

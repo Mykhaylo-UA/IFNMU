@@ -1,0 +1,1017 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.toggle {
+    width: 60px;
+    height: 30px;
+    border-radius: 0.5em;
+    visibility: hidden;
+    position: relative;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    background-color: rgb(252, 238, 220);
+}
+
+    .toggle div {
+        width: 80%;
+        height: 8%;
+        margin: auto;
+        background-color: rgb(0, 0, 201);
+        border-radius: 2em;
+    }
+
+    .toggle:hover {
+        background-color: rgb(253, 231, 203);
+        cursor: pointer;
+    }
+
+.navigation {
+    display: flex;
+    background-color: rgb(252, 243, 232);
+    position: static;
+    width: 100%;
+}
+
+.logo {
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    position: static;
+    width:80%;
+}
+
+    .logo img {
+        height: 70px;
+        width: 250px;
+        position: relative;
+        top: 0%;
+        left: 0%;
+    }
+
+.nav {
+    width: 100%;
+    height: auto;
+    background-color: rgb(252, 243, 232);
+    display: flex;
+    box-shadow: 0px 2px rgba(0, 0, 255, 0.486);
+}
+
+.formIndex {
+    width: auto;
+}
+
+.navb {
+    width: 100%;
+}
+
+.ulnav {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 98%;
+    text-align: center;
+    visibility: visible;
+    margin:0;
+}
+
+    .ulnav li {
+        margin: 0.5% 1%;
+        font-size: 1.2em;
+        border-radius: 1em;
+        padding: 1% 4%;
+        cursor: pointer;
+        text-align: center;
+        width: auto;
+        white-space: pre;
+    }
+
+        .ulnav li:hover {
+            background-color: rgb(253, 255, 118);
+            box-shadow: 0px 2px rgba(0, 0, 255, 0.486);
+        }
+
+        .ulnav li a {
+            font-size: 1em;
+            text-decoration: none;
+            color: black;
+        }
+        div{
+            margin:auto;
+        }
+    
+table {
+    width: 100%;
+    margin: auto;
+    border: 1px dotted;
+    font-size: 2em;
+}
+
+th {
+    background-color: gainsboro;
+}
+
+    th:nth-child(1),
+    td:nth-child(1) {
+        width: 7%;
+    }
+
+    th:nth-child(3),
+    td:nth-child(3) {
+        width: 20%;
+    }
+
+td:nth-child(1),
+td:nth-child(3) {
+    text-align: center;
+    background-color: rgb(62, 238, 179);
+}
+
+td:nth-child(2) {
+    background-color: aquamarine;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.titlePage {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+caption {
+    font-style: italic;
+    font-weight: 600;
+    background-color: ghostwhite;
+}
+
+    caption > span {
+        margin-left: -10%;
+    }
+
+form {
+    width: 100%;
+    margin-left: -5%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+input {
+    width: 4em;
+    text-align: center;
+    font-size: 1.4em;
+    margin-right: 0.5%;
+    border-radius: 10%;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+}
+
+    input[type=text]:hover {
+        box-shadow: 0px 0px 2px 2px rgba(79,100,255,1);
+    }
+
+    input:focus {
+        box-shadow: 0px 0px 2px 2px rgba(79,100,255,1);
+    }
+
+    input[type=submit] {
+        width: auto;
+        text-align: center;
+        font-size: 100%;
+        background-color: yellow;
+	height: auto;
+    }
+
+        input[type=submit]:hover {
+            background-color: rgb(255, 231, 97);
+            cursor: pointer;
+        }
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+    .buttonDiv > button {
+        font-size: 1.3em;
+        margin: 2% 0;
+        background-color: #f2ffe4;
+        border-radius: 10%;
+        font-family: unset;
+    }
+
+        .buttonDiv > button:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            background-color: azure;
+            border-radius: 10%;
+        }
+
+
+
+
+.cssload-dots {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    outline: 1px solid red;
+    filter: url(#goo);
+    -o-filter: url(#goo);
+    -ms-filter: url(#goo);
+    -webkit-filter: url(#goo);
+    -moz-filter: url(#goo);
+}
+
+.cssload-dot {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+    .cssload-dot:before {
+        content: "";
+        width: 48px;
+        height: 48px;
+        border-radius: 69px;
+        background: rgb(251,211,1);
+        position: absolute;
+        left: 50%;
+        transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        margin-left: -24.5px;
+        margin-top: -24.5px;
+    }
+
+
+
+    .cssload-dot:nth-child(5):before {
+        z-index: 100;
+        width: 62.5px;
+        height: 62.5px;
+        margin-left: -31.75px;
+        margin-top: -31.75px;
+        animation: cssload-dot-colors 4.6s ease infinite;
+        -o-animation: cssload-dot-colors 4.6s ease infinite;
+        -ms-animation: cssload-dot-colors 4.6s ease infinite;
+        -webkit-animation: cssload-dot-colors 4.6s ease infinite;
+        -moz-animation: cssload-dot-colors 4.6s ease infinite;
+    }
+
+
+    .cssload-dot:nth-child(1) {
+        animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+        -o-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+        -ms-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+        -webkit-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+        -moz-animation: cssload-dot-rotate-1 4.6s 0s linear infinite;
+    }
+
+        .cssload-dot:nth-child(1):before {
+            background-color: rgb(255,50,112);
+            animation: cssload-dot-move 4.6s 0s ease infinite;
+            -o-animation: cssload-dot-move 4.6s 0s ease infinite;
+            -ms-animation: cssload-dot-move 4.6s 0s ease infinite;
+            -webkit-animation: cssload-dot-move 4.6s 0s ease infinite;
+            -moz-animation: cssload-dot-move 4.6s 0s ease infinite;
+        }
+
+    .cssload-dot:nth-child(2) {
+        animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+        -o-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+        -ms-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+        -webkit-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+        -moz-animation: cssload-dot-rotate-2 4.6s 1.15s linear infinite;
+    }
+
+        .cssload-dot:nth-child(2):before {
+            background-color: rgb(32,139,241);
+            animation: cssload-dot-move 4.6s 1.15s ease infinite;
+            -o-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+            -ms-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+            -webkit-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+            -moz-animation: cssload-dot-move 4.6s 1.15s ease infinite;
+        }
+
+    .cssload-dot:nth-child(3) {
+        animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+        -o-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+        -ms-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+        -webkit-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+        -moz-animation: cssload-dot-rotate-3 4.6s 2.3s linear infinite;
+    }
+
+        .cssload-dot:nth-child(3):before {
+            background-color: rgb(175,225,2);
+            animation: cssload-dot-move 4.6s 2.3s ease infinite;
+            -o-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+            -ms-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+            -webkit-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+            -moz-animation: cssload-dot-move 4.6s 2.3s ease infinite;
+        }
+
+    .cssload-dot:nth-child(4) {
+        animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+        -o-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+        -ms-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+        -webkit-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+        -moz-animation: cssload-dot-rotate-4 4.6s 3.45s linear infinite;
+    }
+
+        .cssload-dot:nth-child(4):before {
+            background-color: rgba(0,102,255,0.98);
+            animation: cssload-dot-move 4.6s 3.45s ease infinite;
+            -o-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+            -ms-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+            -webkit-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+            -moz-animation: cssload-dot-move 4.6s 3.45s ease infinite;
+        }
+
+@keyframes cssload-dot-move {
+    0% {
+        transform: translateY(0);
+    }
+
+    18%, 22% {
+        transform: translateY(-96px);
+    }
+
+    40%, 100% {
+        transform: translateY(0);
+    }
+}
+
+@-o-keyframes cssload-dot-move {
+    0% {
+        -o-transform: translateY(0);
+    }
+
+    18%, 22% {
+        -o-transform: translateY(-96px);
+    }
+
+    40%, 100% {
+        -o-transform: translateY(0);
+    }
+}
+
+@-ms-keyframes cssload-dot-move {
+    0% {
+        -ms-transform: translateY(0);
+    }
+
+    18%, 22% {
+        -ms-transform: translateY(-96px);
+    }
+
+    40%, 100% {
+        -ms-transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes cssload-dot-move {
+    0% {
+        -webkit-transform: translateY(0);
+    }
+
+    18%, 22% {
+        -webkit-transform: translateY(-96px);
+    }
+
+    40%, 100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes cssload-dot-move {
+    0% {
+        -moz-transform: translateY(0);
+    }
+
+    18%, 22% {
+        -moz-transform: translateY(-96px);
+    }
+
+    40%, 100% {
+        -moz-transform: translateY(0);
+    }
+}
+
+@keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251,211,1);
+    }
+
+    25% {
+        background-color: rgb(255,50,112);
+    }
+
+    50% {
+        background-color: rgb(32,139,241);
+    }
+
+    75% {
+        background-color: rgb(175,225,2);
+    }
+
+    100% {
+        background-color: rgb(251,211,1);
+    }
+}
+
+@-o-keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251,211,1);
+    }
+
+    25% {
+        background-color: rgb(255,50,112);
+    }
+
+    50% {
+        background-color: rgb(32,139,241);
+    }
+
+    75% {
+        background-color: rgb(175,225,2);
+    }
+
+    100% {
+        background-color: rgb(251,211,1);
+    }
+}
+
+@-ms-keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251,211,1);
+    }
+
+    25% {
+        background-color: rgb(255,50,112);
+    }
+
+    50% {
+        background-color: rgb(32,139,241);
+    }
+
+    75% {
+        background-color: rgb(175,225,2);
+    }
+
+    100% {
+        background-color: rgb(251,211,1);
+    }
+}
+
+@-webkit-keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251,211,1);
+    }
+
+    25% {
+        background-color: rgb(255,50,112);
+    }
+
+    50% {
+        background-color: rgb(32,139,241);
+    }
+
+    75% {
+        background-color: rgb(175,225,2);
+    }
+
+    100% {
+        background-color: rgb(251,211,1);
+    }
+}
+
+@-moz-keyframes cssload-dot-colors {
+    0% {
+        background-color: rgb(251,211,1);
+    }
+
+    25% {
+        background-color: rgb(255,50,112);
+    }
+
+    50% {
+        background-color: rgb(32,139,241);
+    }
+
+    75% {
+        background-color: rgb(175,225,2);
+    }
+
+    100% {
+        background-color: rgb(251,211,1);
+    }
+}
+
+@keyframes cssload-dot-rotate-1 {
+    0% {
+        transform: rotate(-105deg);
+    }
+
+    100% {
+        transform: rotate(270deg);
+    }
+}
+
+@-o-keyframes cssload-dot-rotate-1 {
+    0% {
+        -o-transform: rotate(-105deg);
+    }
+
+    100% {
+        -o-transform: rotate(270deg);
+    }
+}
+
+@-ms-keyframes cssload-dot-rotate-1 {
+    0% {
+        -ms-transform: rotate(-105deg);
+    }
+
+    100% {
+        -ms-transform: rotate(270deg);
+    }
+}
+
+@-webkit-keyframes cssload-dot-rotate-1 {
+    0% {
+        -webkit-transform: rotate(-105deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(270deg);
+    }
+}
+
+@-moz-keyframes cssload-dot-rotate-1 {
+    0% {
+        -moz-transform: rotate(-105deg);
+    }
+
+    100% {
+        -moz-transform: rotate(270deg);
+    }
+}
+
+@keyframes cssload-dot-rotate-2 {
+    0% {
+        transform: rotate(165deg);
+    }
+
+    100% {
+        transform: rotate(540deg);
+    }
+}
+
+@-o-keyframes cssload-dot-rotate-2 {
+    0% {
+        -o-transform: rotate(165deg);
+    }
+
+    100% {
+        -o-transform: rotate(540deg);
+    }
+}
+
+@-ms-keyframes cssload-dot-rotate-2 {
+    0% {
+        -ms-transform: rotate(165deg);
+    }
+
+    100% {
+        -ms-transform: rotate(540deg);
+    }
+}
+
+@-webkit-keyframes cssload-dot-rotate-2 {
+    0% {
+        -webkit-transform: rotate(165deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(540deg);
+    }
+}
+
+@-moz-keyframes cssload-dot-rotate-2 {
+    0% {
+        -moz-transform: rotate(165deg);
+    }
+
+    100% {
+        -moz-transform: rotate(540deg);
+    }
+}
+
+@keyframes cssload-dot-rotate-3 {
+    0% {
+        transform: rotate(435deg);
+    }
+
+    100% {
+        transform: rotate(810deg);
+    }
+}
+
+@-o-keyframes cssload-dot-rotate-3 {
+    0% {
+        -o-transform: rotate(435deg);
+    }
+
+    100% {
+        -o-transform: rotate(810deg);
+    }
+}
+
+@-ms-keyframes cssload-dot-rotate-3 {
+    0% {
+        -ms-transform: rotate(435deg);
+    }
+
+    100% {
+        -ms-transform: rotate(810deg);
+    }
+}
+
+@-webkit-keyframes cssload-dot-rotate-3 {
+    0% {
+        -webkit-transform: rotate(435deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(810deg);
+    }
+}
+
+@-moz-keyframes cssload-dot-rotate-3 {
+    0% {
+        -moz-transform: rotate(435deg);
+    }
+
+    100% {
+        -moz-transform: rotate(810deg);
+    }
+}
+
+@keyframes cssload-dot-rotate-4 {
+    0% {
+        transform: rotate(705deg);
+    }
+
+    100% {
+        transform: rotate(1080deg);
+    }
+}
+
+@-o-keyframes cssload-dot-rotate-4 {
+    0% {
+        -o-transform: rotate(705deg);
+    }
+
+    100% {
+        -o-transform: rotate(1080deg);
+    }
+}
+
+@-ms-keyframes cssload-dot-rotate-4 {
+    0% {
+        -ms-transform: rotate(705deg);
+    }
+
+    100% {
+        -ms-transform: rotate(1080deg);
+    }
+}
+
+@-webkit-keyframes cssload-dot-rotate-4 {
+    0% {
+        -webkit-transform: rotate(705deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(1080deg);
+    }
+}
+
+@-moz-keyframes cssload-dot-rotate-4 {
+    0% {
+        -moz-transform: rotate(705deg);
+    }
+
+    100% {
+        -moz-transform: rotate(1080deg);
+    }
+}
+
+.containerQuestions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:80%;
+    margin:auto;
+}
+
+.question h4 {
+    text-align: justify;
+}
+
+.question {
+    margin-top: 1%;
+    padding: 1%;
+    width: 40%;
+    border-image: linear-gradient(210deg, rgba(0, 0, 255, 0.521) 0%, white 30% 70%, rgba(255, 255, 0, 0.527) 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+    border-style: solid;
+}
+
+    .question p {
+        width: 90%;
+        margin: 0;
+        vertical-align: middle;
+        padding-top: 1%;
+        padding-left: 5%;
+        padding-bottom: 1%;
+        border-radius: 0.5em;
+    }
+
+
+.hoverAnswer:hover {
+    background-color: beige;
+    cursor: pointer;
+}
+
+.answer {
+    background-color: rgba(255, 60, 60, 0.425);
+}
+
+@media (max-width:600px) {
+    div {
+        width: 100%;
+    }
+
+    form {
+        margin-left: 0;
+    }
+
+    .titlePage > span {
+        margin-left: 0;
+    }
+
+    .buttonDiv {
+        margin-left: 0;
+    }
+
+    table {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:750px) {
+    table {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-device-width:1150px) {
+    .toggle {
+        visibility: visible;
+    }
+
+    .ulnav {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(252, 243, 232);
+        margin: auto;
+        padding: 0;
+    }
+
+        .ulnav li {
+            width: 80%;
+            margin: auto;
+        }
+
+    .formIndex {
+        position: relative;
+        left: 12%;
+        margin: 1%;
+    }
+
+    .containerQuestions {
+        width: 100%;
+    }
+}
+
+@media (max-device-width:650px) {
+    .navigation {
+        display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 75px;
+        flex-direction: column;
+    }
+
+    .ulnav {
+        position: static;
+    }
+
+    .toggle {
+        width: 50px;
+    }
+
+    .formIndex {
+        width: 100%;
+        position: static;
+        left: 0;
+        margin-left: 0;
+    }
+
+    form {
+        margin: 0;
+    }
+
+    .containerQuestions {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .question {
+        width: 97.5%;
+    }
+}
+
+@media (max-device-width:500px) {
+    .toggle {
+        width: 40px;
+    }
+}
+
+@media (max-device-width:320px) {
+    .logo img {
+        height: 60px;
+        width: 220px
+    }
+
+    .navigation {
+        top: 60px;
+    }
+
+    form {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-device-width:295px) {
+    .logo img {
+        height: 50px;
+        width: 150px
+    }
+
+    .navigation {
+        top: 50px;
+    }
+}
+
+.trueAnswer {
+    background-color: rgba(34, 240, 34, 0.356);
+}
+
+
+@media only screen and (min-width: 40em) {
+    .modal-overlay {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        visibility: hidden;
+        backface-visibility: hidden;
+        transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+}
+ 
+/** * Modal */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    max-width: 75rem;
+    min-height: 20rem;
+    padding: 1rem;
+    border-radius: 3px;
+    opacity: 0;
+    overflow-y: auto;
+    visibility: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    backface-visibility: hidden;
+    transform: scale(1.2);
+    transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    top:0;
+    width:80%;
+    height:90%;
+}
+
+    .modal .close-modal {
+        position: absolute;
+        cursor: pointer;
+        top: 5px;
+        right: 15px;
+        opacity: 0;
+        backface-visibility: hidden;
+        transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+        transition-delay: 0.3s;
+    }
+
+        .modal .close-modal svg {
+            width: 1.75em;
+            height: 1.75em;
+        }
+
+    .modal .modal-content {
+        opacity: 0;
+        backface-visibility: hidden;
+        transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+        transition-delay: 0.3s;
+        width:100%;
+    }
+
+    .modal.active {
+        visibility: visible;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+        .modal.active .modal-content {
+            opacity: 1;
+        }
+
+        .modal.active .close-modal {
+            transform: translateY(10px);
+            opacity: 1;
+        }
+/** * Mobile styling */
+@media only screen and (max-width: 39.9375em) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-overflow-scrolling: touch;
+        border-radius: 0;
+        transform: scale(1.1);
+        padding: 0;
+    }
+
+    .close-modal {
+        right: 20px;
+    }
+}

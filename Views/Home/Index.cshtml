@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Schedule";
+}
+@{Layout = "~/Views/Shared/_Layout.cshtml";}
+    <div class="containerQuestions">
+        @{
+            byte number = 0;
+            foreach (var i in ViewBag.Questions)
+            {
+                <div id="@(++number)" class="question">
+                    <h3>Запитання №@(number)</h3>
+                    <h4>
+                        @i.QuestionText
+                    </h4>
+                    <p class="hoverAnswer" data-trueAnswer="@(i.Answers[0].TrueAnswer == 1 ? true : false)">@i.Answers[0].Text</p>
+                    <p class="hoverAnswer" data-trueAnswer="@(i.Answers[1].TrueAnswer == 1 ? true : false)">@i.Answers[1].Text</p>
+                    <p class="hoverAnswer" data-trueAnswer="@(i.Answers[2].TrueAnswer == 1 ? true : false)">@i.Answers[2].Text</p>
+                    <p class="hoverAnswer" data-trueAnswer="@(i.Answers[3].TrueAnswer == 1 ? true : false)">@i.Answers[3].Text</p>
+                    <p class="hoverAnswer" data-trueAnswer="@(i.Answers[4].TrueAnswer == 1 ? true : false)">@i.Answers[4].Text</p>
+                </div>
+            }
+        }
+    </div>

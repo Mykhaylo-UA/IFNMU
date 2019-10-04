@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon>wwwroot\logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="wwwroot\Content\bootstrap-theme.css" />
+    <None Remove="wwwroot\Content\bootstrap-theme.css.map" />
+    <None Remove="wwwroot\Content\bootstrap-theme.min.css" />
+    <None Remove="wwwroot\Content\bootstrap-theme.min.css.map" />
+    <None Remove="wwwroot\Content\bootstrap.css" />
+    <None Remove="wwwroot\Content\bootstrap.css.map" />
+    <None Remove="wwwroot\Content\bootstrap.min.css" />
+    <None Remove="wwwroot\Content\bootstrap.min.css.map" />
+    <None Remove="wwwroot\Content\main.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\Scripts\bootstrap.js" />
+    <None Include="wwwroot\Scripts\bootstrap.min.js" />
+    <None Include="wwwroot\Scripts\jquery-3.3.1.intellisense.js" />
+    <None Include="wwwroot\Scripts\jquery-3.3.1.js" />
+    <None Include="wwwroot\Scripts\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\Scripts\jquery-3.3.1.min.map" />
+    <None Include="wwwroot\Scripts\jquery-3.3.1.slim.js" />
+    <None Include="wwwroot\Scripts\jquery-3.3.1.slim.min.js" />
+    <None Include="wwwroot\Scripts\jquery-3.3.1.slim.min.map" />
+    <None Include="wwwroot\Scripts\jquery.unobtrusive-ajax.js" />
+    <None Include="wwwroot\Scripts\jquery.unobtrusive-ajax.min.js" />
+    <None Include="wwwroot\Scripts\jquery.validate-vsdoc.js" />
+    <None Include="wwwroot\Scripts\jquery.validate.js" />
+    <None Include="wwwroot\Scripts\jquery.validate.min.js" />
+    <None Include="wwwroot\Scripts\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\Scripts\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\Scripts\modernizr-2.8.3.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="MailKit" Version="2.2.0" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.17" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="System.Diagnostics.Debug" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Ajax" Version="3.2.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\ThematicPlans\" />
+    <Folder Include="wwwroot\MethodicalRecomentadion\" />
+  </ItemGroup>
+</Project>

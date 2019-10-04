@@ -1,0 +1,110 @@
+﻿@using IFNMUSiteCore.Models
+@model Week
+
+@{
+    Layout = null; }
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddDay</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form asp-action="AddWeek" asp-controller="Admin" method="post">
+            <div class="form-group">
+                <label for="From">Від</label>
+                <input class="form-control" type="date" asp-for="From" />
+            </div>
+            <div class="form-group">
+                <label for="To">До</label>
+                <input class="form-control" type="date" asp-for="To" />
+            </div>
+            <div class="form-group">
+                <label for="NumberWeek">Номер тижня</label>
+                <input class="text-box single-line form-control" asp-for="NumberWeek" type="number" value="">
+            </div>
+            <div class="form-group">
+                <label for="Course">Курс</label>
+                <input class="text-box single-line form-control" data-val="true" data-val-required="The Courses field is required." asp-for="Course" type="number" max="6" min="1" value="">
+            </div>
+            <div class="form-group">
+                <label for="Group">Група</label>
+                <input class="text-box single-line form-control" asp-for="Group" type="text" value="">
+            </div>
+            <div class="form-group">
+                <h3>Понеділок</h3>
+                <input type="hidden" name="ScheduleDays[0].DayNumber" value="1" />
+                <div class="form-group">
+                    <div id="lessonBlock1" style="border: 1px solid black;padding: 5%;">
+                    </div>
+                    <a class="aj" data-ajax="true" data-ajax-mode="after" data-ajax-update="#lessonBlock1" href="/Admin/AddLesson?dayNumber=0&index=0">Додати заняття</a>
+                </div>
+            </div>
+            <div class="form-group">
+                <h3>Вівторок</h3>
+                <input type="hidden" name="ScheduleDays[1].DayNumber" value="2" />
+                <div class="form-group">
+                    <div id="lessonBlock2" style="border: 1px solid black;padding: 5%;">
+                    </div>
+                    <a class="aj" data-ajax="true" data-ajax-mode="after" data-ajax-update="#lessonBlock2" href="/Admin/AddLesson?dayNumber=1&index=0">Додати заняття</a>
+                </div>
+            </div>
+            <div class="form-group">
+                <h3>Середа</h3>
+                <input type="hidden" name="ScheduleDays[2].DayNumber" value="3" />
+                <div class="form-group">
+                    <div id="lessonBlock3" style="border: 1px solid black;padding: 5%;">
+                    </div>
+                    <a class="aj" data-ajax="true" data-ajax-mode="after" data-ajax-update="#lessonBlock3" href="/Admin/AddLesson?dayNumber=2&index=0">Додати заняття</a>
+                </div>
+            </div>
+            <div class="form-group">
+                <h3>Четвер</h3>
+                <input type="hidden" name="ScheduleDays[3].DayNumber" value="4" />
+                <div class="form-group">
+                    <div id="lessonBlock4" style="border: 1px solid black;padding: 5%;">
+                    </div>
+                    <a class="aj" data-ajax="true" data-ajax-mode="after" data-ajax-update="#lessonBlock4" href="/Admin/AddLesson?dayNumber=3&index=0">Додати заняття</a>
+                </div>
+            </div>
+            <div class="form-group">
+                <h3>П'ятниця</h3>
+                <input type="hidden" name="ScheduleDays[4].DayNumber" value="5"/>
+                <div class="form-group">
+                    <div id="lessonBlock5" style="border: 1px solid black;padding: 5%;">
+                    </div>
+                    <a class="aj" data-ajax="true" data-ajax-mode="after" data-ajax-update="#lessonBlock5" href="/Admin/AddLesson?dayNumber=4&index=0">Додати заняття</a>
+                </div>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Додати">
+        </form>
+    </div>
+    <script>
+        let i = 0;
+
+        var link = document.getElementsByClassName("aj");
+        function A() {
+            i++;
+            link[0].href = "/Admin/AddLesson?dayNumber=0&index=" + i;
+            link[1].href = "/Admin/AddLesson?dayNumber=1&index=" + i;
+            link[2].href = "/Admin/AddLesson?dayNumber=2&index=" + i;
+            link[3].href = "/Admin/AddLesson?dayNumber=3&index=" + i;
+            link[4].href = "/Admin/AddLesson?dayNumber=4&index=" + i;
+        }
+        link[0].addEventListener('click', function () { A(); }, false);
+        link[1].addEventListener('click', function () { A(); }, false);
+        link[2].addEventListener('click', function () { A(); }, false);
+        link[3].addEventListener('click', function () { A(); }, false);
+        link[4].addEventListener('click', function () { A(); }, false);
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

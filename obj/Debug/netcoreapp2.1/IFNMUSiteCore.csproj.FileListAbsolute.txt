@@ -1,0 +1,142 @@
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.deps.json
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.runtimeconfig.json
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.runtimeconfig.dev.json
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.dll
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.csprojAssemblyReference.cache
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorAssemblyInfo.cache
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorAssemblyInfo.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.AssemblyInfo.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.TagHelpers.input.cache
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.TagHelpers.output.cache
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorCoreGenerate.cache
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorTargetAssemblyInfo.cache
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorTargetAssemblyInfo.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Properties.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\SearchSchedule.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.dll
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.pdb
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.pdb
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.Views.dll
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.Views.pdb
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.Views.pdb
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.csproj.CopyComplete
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+c:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddDay.g.cshtml.cs
+c:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddLesson.g.cshtml.cs
+c:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddThematicPlan.g.cshtml.cs
+c:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddTheme.g.cshtml.cs
+c:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Questions.g.cshtml.cs
+c:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\ThematicPlan.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Delete.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Days.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\DeleteDay.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditDay.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ThematicPlans.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditThematicPlan.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\DeleteThematicPlan.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditTheme.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\DeleteTheme.g.cshtml.cs
+C:\Users\asus\source\repos\IFNMUSiteCore\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\NoThematicPlan.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.deps.json
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.runtimeconfig.json
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.dll
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.pdb
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.Views.dll
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.Views.pdb
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorAssemblyInfo.cache
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorAssemblyInfo.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.AssemblyInfo.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.TagHelpers.input.cache
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.TagHelpers.output.cache
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorCoreGenerate.cache
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddDay.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddLesson.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddThematicPlan.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddTheme.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Days.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Delete.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\DeleteDay.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\DeleteThematicPlan.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\DeleteTheme.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditDay.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditThematicPlan.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditTheme.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Questions.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ThematicPlans.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\NoThematicPlan.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Properties.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\SearchSchedule.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\ThematicPlan.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorTargetAssemblyInfo.cache
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorTargetAssemblyInfo.cs
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.Views.pdb
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.dll
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.pdb
+C:\Users\asus\Desktop\Projects (1)\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.csproj.CopyComplete
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.deps.json
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.runtimeconfig.json
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.runtimeconfig.dev.json
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.dll
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.pdb
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.Views.dll
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\bin\Debug\netcoreapp2.1\IFNMUSiteCore.Views.pdb
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.csprojAssemblyReference.cache
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorAssemblyInfo.cache
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorAssemblyInfo.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.AssemblyInfo.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.TagHelpers.input.cache
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.TagHelpers.output.cache
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorCoreGenerate.cache
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddLesson.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddThematicPlan.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Questions.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\NoThematicPlan.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Properties.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\SearchSchedule.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorTargetAssemblyInfo.cache
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.RazorTargetAssemblyInfo.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.Views.pdb
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.dll
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.pdb
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\IFNMUSiteCore.csproj.CopyComplete
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Documents.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddMethodic.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddWeek.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\ScheduleBig.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\NoSchedule.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\ScheduleBigResult.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Warning.g.cshtml.cs

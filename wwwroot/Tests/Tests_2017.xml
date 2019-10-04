@@ -1,0 +1,4403 @@
+﻿<?xml version="1.0"?>
+<ArrayOfQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Question>
+    <QuestionText>Тривале перебування в умовах спеки викликало у людини спрагу. Сигналізація від яких рєцєпторів, перш за все, зумовила її розвиток?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Осморецептори гіпоталамусу</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Натрiєвi рецептори гіпоталамусу</Text>
+      </Answer>
+      <Answer>
+        <Text>Осморецептори пєчінки</Text>
+      </Answer>
+      <Answer>
+        <Text>Глюкорецептори гіпоталамусу</Text>
+      </Answer>
+      <Answer>
+        <Text>Барорецептори дуги аорти</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому з ревматоїдним артритом тривалий час вводили гідрокортизон. У нього з’явилися гіперглікемія, поліурія, глюкозурія, спрага. Ці ускладнення лікування є наслідком активації такого процесу:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Глюконеогенез</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Глікогеноліз</Text>
+      </Answer>
+      <Answer>
+        <Text>Глікогенез</Text>
+      </Answer>
+      <Answer>
+        <Text>Гліколіз</Text>
+      </Answer>
+      <Answer>
+        <Text>Ліполіз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Для зняття марення і галюцинацій у хворої на шизофренію лікар використав аміназин. Який механізм антипсихотичної дії препарату?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Блокада адренергічних і дофамінергічних процесів в ЦНС</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Стимуляція адренергічних і дофамінергічних процесів в ЦНС</Text>
+      </Answer>
+      <Answer>
+        <Text>Стимуляція холінергічних процесів в ЦНС</Text>
+      </Answer>
+      <Answer>
+        <Text>Блокада холінергічних процесів в ЦНС</Text>
+      </Answer>
+      <Answer>
+        <Text>Інгібування зворотнього нейронального захоплення МАО</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При підозрі на туберкульоз хворій дитині зробили пробу Манту. Через 24 години у місці введення алергену з’явились припухлість, гіперемія і болісність. Які основні компоненти визначають цю реакцію організму?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Мононуклеари, Т-лімфоцити і лімфокіни</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гранулоцити, Т-лімфоцити і IgG</Text>
+      </Answer>
+      <Answer>
+        <Text>Плазматичні клітини, Т-лімфоцити і лімфокіни</Text>
+      </Answer>
+      <Answer>
+        <Text>В-лімфоцити, IgM</Text>
+      </Answer>
+      <Answer>
+        <Text>Макрофаги, В-лімфоцити і моноцити</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому перед операцією було введено дитилін (лістенон) і проведено інтубацію. Дефіцит якого ферменту в організмі хворого подовжує дію м’язового релаксанту?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Псевдохолінестераза</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Сукцинатдегідрогеназа</Text>
+      </Answer>
+      <Answer>
+        <Text>Карбангідраза</Text>
+      </Answer>
+      <Answer>
+        <Text>N-ацетилтрансфераза</Text>
+      </Answer>
+      <Answer>
+        <Text>K-Аа-АтФ-аза</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хлопчик 12-ти років знаходиться у лікарні з підозрою на харчову токсикоінфекцію. При посіві фекалій хворого на середовище Ендо виросла велика кількість безбарвних колоній. Який мікроорганізм можна з найбільшою імовірністю ВИКЛЮЧИТИ з числа можливих збудників захворювання?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Escherichia coli</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Salmonella enteritidis</Text>
+      </Answer>
+      <Answer>
+        <Text>Proteus vulgaris</Text>
+      </Answer>
+      <Answer>
+        <Text>Pseudomonas aeruginosa</Text>
+      </Answer>
+      <Answer>
+        <Text>Yersinia enterocolitica</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого внаслідок хронічного захворювання органів дихання, що супроводжується задишкою, тахікардією і ціанозом, при дослідженні газового складу крові виявлений розвиток гіпоксемії і гіперкапнії. Внаслідок якого з порушень зовнішнього дихання виникли ці зміни?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гіповентиляція</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гіпервентиляція</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіперперфузія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпоперфузія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпердифузія</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У тварини через 2 тижні після експериментального звуження ниркової артерії підвищився артеріальний тиск. З посиленням дії на судини якого чинника гуморальної регуляції це пов’язане?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ангіотензин II</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Кортизол</Text>
+      </Answer>
+      <Answer>
+        <Text>Альдостерон</Text>
+      </Answer>
+      <Answer>
+        <Text>Вазопресин</Text>
+      </Answer>
+      <Answer>
+        <Text>Дофамін</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У чоловіка 43-х років, що помер у хірургічному відділенні при явищах розлитого гнійного перитоніту, на розтині у дистальному відділі тонкого кишечника виявлені пейєрові бляшки, що виступають у просвіт, поверхня деяких з них вкрита струпом, коричнево-зеленуватого кольору, у центрі деяких бляшок наявні глибокі дефекти, що сягають серозного шару. Для якого захворювання характерні зміни, виявлені у тонкому кишечнику?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Черевний тиф</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Дизентерія</Text>
+      </Answer>
+      <Answer>
+        <Text>Туберкульоз кишечника</Text>
+      </Answer>
+      <Answer>
+        <Text>Хвороба Крона</Text>
+      </Answer>
+      <Answer>
+        <Text>Стафілококовий ентерит</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого виявлено ожиріння, гірсутизм, ”місяцеподібне” обличчя, рубці багряного кольору на шкірі стегон. Артеріальний тиск -180/110 мм рт.ст., глюкоза крові -17,2 ммоль/л. При якій зміні продукції гормонів наднирників можлива така картина?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гіперпродукція глюкокортикоїдів</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гіпопродукція глюкокортикоїдів</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіперпродукція мінералокортикоїдів</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпопродукція мінералокортикоїдів</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпопродукція адреналіну</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого, що тривало приймав глюкокортикоїди, в результаті відміни препарату виникло загострення наявного захворювання, зниження артеріального тиску, слабкість. Ці явища можна пов’язати з розвитком:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Недостатності наднирників</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Звикання до препарату</Text>
+      </Answer>
+      <Answer>
+        <Text>Сенсибілізацією</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіперпродукцією АКТГ</Text>
+      </Answer>
+      <Answer>
+        <Text>Кумуляцією</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Тварині, сенсибілізованій туберкуліном, внутрішньоочеревинно введений туберкулін. Через 24 години при лапа-ратомії виявлено венозну гіперемію та набряк очеревини. У мазках-відбитках з очеревини велика кількість лімфоцитів та моноцитів. Яке запалення має місце у тварини?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Алергічне</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Серозне</Text>
+      </Answer>
+      <Answer>
+        <Text>Гнійне</Text>
+      </Answer>
+      <Answer>
+        <Text>Фібринозне</Text>
+      </Answer>
+      <Answer>
+        <Text>Асептичне</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого спостерігаються біль голови , висока температура, озноб, кашель. З харкотиння виділили палички овоїдної форми з біполярним забарвленням, грам-негативні, у мазку з бульйонної культури розташовані ланцюжками, на агарі утворюються колонії R-форми. Це характерне для збудника такого захворювання:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Чума</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Туберкульоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Дифтерія</Text>
+      </Answer>
+      <Answer>
+        <Text>Стрептококова ангіна</Text>
+      </Answer>
+      <Answer>
+        <Text>Менінгококовий назофарингіт</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>До лікарні потрапили пацієнти зі скаргами: слабкість, болі в кишечнику, розлади травлення. Після дослідження фекалій були виявлені кулясті цисти з чотирма ядрами. Для якого найпростішого характерні такі цисти?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Амеба дизентерійна</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Амеба кишкова</Text>
+      </Answer>
+      <Answer>
+        <Text>Балантидій</Text>
+      </Answer>
+      <Answer>
+        <Text>Амеба ротова</Text>
+      </Answer>
+      <Answer>
+        <Text>Кишкова трихомонада</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У доношеного новонародженого спостерігається жовте забарвлення шкіри та слизових оболонок. Імовірною причиною цього стану може бути тимчасова нестача такого ферменту:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>УДФ-глюкуронілтрансфераза</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Уридинтрансфераза</Text>
+      </Answer>
+      <Answer>
+        <Text>Гемсинтетаза</Text>
+      </Answer>
+      <Answer>
+        <Text>Гемоксигеназа</Text>
+      </Answer>
+      <Answer>
+        <Text>Білівердинредуктаза</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У немовляти спостерігаються епіле-птиформні судоми, викликані дефіцитом вітаміну B6. Це спричинено зменшенням у нервовій тканині гальмівного медіатора - 7-аміномасляної кислоти. Активність якого ферменту знижена при цьому?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Глутаматдекарбоксилаза</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Аланінамінотрансфераза</Text>
+      </Answer>
+      <Answer>
+        <Text>Глутаматдегідрогеназа</Text>
+      </Answer>
+      <Answer>
+        <Text>Піридоксалькіназа</Text>
+      </Answer>
+      <Answer>
+        <Text>Глутаматсинтетаза</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У молодої особи впродовж року прогресувала ниркова недостатність зі смертельним наслідком. При розтині тіла виявлені великі строкаті нирки з червоними дрібними краплинами в жовто-сірому корковому шарі. Гістологічно в клубочках виявлені ’’півмісяці” з проліферуючого нефротелія. Який найбільш імовірний діагноз?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Швидкопрогресуючий гломерулонефрит</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Амілоїдоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Крововилив в нирки</Text>
+      </Answer>
+      <Answer>
+        <Text>Гнійний нефрит</Text>
+      </Answer>
+      <Answer>
+        <Text>Рак нирки</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого відсутній зір, але зіничний рефлекс реалізується нормально. Де може знаходитись зона пошкодження?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Зорова кора</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Верхні горбики чотиригорбкового тіла</Text>
+      </Answer>
+      <Answer>
+        <Text>Нижні горбики чотиригорбкового тіла</Text>
+      </Answer>
+      <Answer>
+        <Text>Соматосенсорна кора</Text>
+      </Answer>
+      <Answer>
+        <Text>Зоровий перехрест</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий з 30-річним стажем роботи у шахті помер від легенево-серцевої недостатності, що наростала. На розтині легені збільшені у розмірах, щільної консистенції, на розрізі у них велика кількість вузликів розмірами з просяні зерна і більше, щільних, сіруватого і сірувато-чорного кольору, місцями вузлики зливаються у більш великі ділянки. Назвіть найбільш імовірне захворювання:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Антрако-силікоз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Азбестоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Алюміноз</Text>
+      </Answer>
+      <Answer>
+        <Text>Бериліоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Сидероз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Для серодіагностики черевного тифу ставлять реакцію, при якій до різних розведень сироватки хворого добавляють дiагностикуми трьох видів мікроорганізмів і результат якої оцінюють за наявності осаду із склеєних бактерій. Ця реакція відома під назвою:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Відаля</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Борде-Жангу</Text>
+      </Answer>
+      <Answer>
+        <Text>Вассермана</Text>
+      </Answer>
+      <Answer>
+        <Text>Райта</Text>
+      </Answer>
+      <Answer>
+        <Text>Асколі</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого напад тахікардії. Які мембранні циторецептори кардіоміоцитів доцільно заблокувати, щоб припинити напад?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Бета-адренорецептори</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Альфа-адренорецептори</Text>
+      </Answer>
+      <Answer>
+        <Text>М-холінорецептори</Text>
+      </Answer>
+      <Answer>
+        <Text>Н-холінорецептори</Text>
+      </Answer>
+      <Answer>
+        <Text>М- та Н-холінорецептори</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого на ЕКГ виявлено, що тривалість інтервалу RR дорівнює 1,5 с, частота серцевих скорочень - 40/хв. Що є водієм ритму серця?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Атріовентрикулярний вузол</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Синусовий вузол</Text>
+      </Answer>
+      <Answer>
+        <Text>Пучок Гіса</Text>
+      </Answer>
+      <Answer>
+        <Text>Ліва ножка Гіса</Text>
+      </Answer>
+      <Answer>
+        <Text>Права ножка Гіса</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого за лабораторними даними визначили аскаридоз. Який засіб треба призначити?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Мебендазол</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Фенасал</Text>
+      </Answer>
+      <Answer>
+        <Text>Піперазин</Text>
+      </Answer>
+      <Answer>
+        <Text>Фуразолідон</Text>
+      </Answer>
+      <Answer>
+        <Text>Гентаміцин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий не може відвести від тулуба верхню кінцівку. Який м’яз НЕ ВИКОНУЄ свою функцію?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Дельтоподібний</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Великий коловий м’яз</Text>
+      </Answer>
+      <Answer>
+        <Text>Підосний м’яз</Text>
+      </Answer>
+      <Answer>
+        <Text>Малий коловий м’яз</Text>
+      </Answer>
+      <Answer>
+        <Text>Найширший м’яз спини</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Пункцію сечового міхура через передню черевну стінку, не займаючи очеревину, можливо виконати:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>При наповненому сечовому міхурі</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>При пустому сечовому міхурі</Text>
+      </Answer>
+      <Answer>
+        <Text>Тільки у чоловіків</Text>
+      </Answer>
+      <Answer>
+        <Text>Тільки у жінок</Text>
+      </Answer>
+      <Answer>
+        <Text>Тільки у дітей</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В судово-медичній експертизі широко використовується метод дактилоскопії, який оснований на тому, що сосочковий шар дерми визначає строго індивідуальний малюнок на поверхні шкіри. Яка тканина утворює цей шар дерми?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Пухка волокниста неоформлена сполучна тканина</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Щільна оформлена сполучна тканина</Text>
+      </Answer>
+      <Answer>
+        <Text>Щільна неоформлена сполучна тканина</Text>
+      </Answer>
+      <Answer>
+        <Text>Ретикулярна тканина</Text>
+      </Answer>
+      <Answer>
+        <Text>Жирова тканина</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Важливою складовою частиною ниркового фільтраційного бар’єру є тришарова базальна мембрана, яка має спеціальну сітчасту будову її середнього електроннощільного шару. Де міститься ця базальна мембрана?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ниркове тільце</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Капіляри перитубулярної капілярної сітки</Text>
+      </Answer>
+      <Answer>
+        <Text>Проксимальні канальці</Text>
+      </Answer>
+      <Answer>
+        <Text>Тонкі канальці</Text>
+      </Answer>
+      <Answer>
+        <Text>Дистальні прямі канальці</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Чоловік 42-х років помер при явищах вираженої інтоксикації і дихальної недостатності. На розтині: тканина легень у всіх відділах строката, з множинними дрібновогнищевими крововиливами та вогнищами емфіземи. Гістологічно у легенях: геморагічна бронхопневмонія з абсцедуванням, у цитоплазмі клітин епітелію бронхів еозинофільні і базофільні включення. Діагностуйте виявлене на секції захворювання:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Грип</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Крупозна пневмонія</Text>
+      </Answer>
+      <Answer>
+        <Text>Плевропневмонія</Text>
+      </Answer>
+      <Answer>
+        <Text>Часткова пневмонія</Text>
+      </Answer>
+      <Answer>
+        <Text>Стафілококова бронхопневмонія</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В експерименті подразнюють скелетний м’яз серією електричних імпульсів. Який вид м’язового скорочення виникне, якщо кожний наступний імпульс припадає на період вкорочення поодинокого м’язового скорочення?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Суцільний тетанус</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Зубчастий тетанус</Text>
+      </Answer>
+      <Answer>
+        <Text>Асинхронний тетанус</Text>
+      </Answer>
+      <Answer>
+        <Text>Серія поодиноких скорочень</Text>
+      </Answer>
+      <Answer>
+        <Text>Контрактура м’яза</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого, який тривалий час страждав на переміжну кульгавість, тканини пальців стопи сухі, чорного кольору, нагадують мумію. На невеликій відстані від почорнілої ділянки розташована двоколірна лінія (червоний колір прилягає до практично незмінених тканин, а біло-жовтий колір - до змінених тканин). Який вид некрозу у даного хворого?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гангрена</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>!нфаркт</Text>
+      </Answer>
+      <Answer>
+        <Text>Секвестр</Text>
+      </Answer>
+      <Answer>
+        <Text>Пролежень</Text>
+      </Answer>
+      <Answer>
+        <Text>Мацерація</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У пацієнта, що звернувся до лікаря, спостерігається жовте забарвлення шкіри, сеча - темна, кал темно-жовтого кольору. Підвищення концентрації якої речовини буде спостерігатися в сироватці крові?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Вільний білірубін</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Кон’югований білірубін</Text>
+      </Answer>
+      <Answer>
+        <Text>Мезобілірубін</Text>
+      </Answer>
+      <Answer>
+        <Text>Вердоглобін</Text>
+      </Answer>
+      <Answer>
+        <Text>Білівердин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>До дерматолога звернулася пацієнтка із скаргами на екзематозне ураження шкіри рук, що з’являється після контакту з миючим засобом ”Лотос” Використання гумових рукавичок запобігає цьому. Патологічна реакція шкіри зумовлена активацією:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Т-лімфоцитів</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>В -лімфоцитів</Text>
+      </Answer>
+      <Answer>
+        <Text>Моноцитів</Text>
+      </Answer>
+      <Answer>
+        <Text>Нейтрофілів</Text>
+      </Answer>
+      <Answer>
+        <Text>Базофілів</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого на тимому (пухлину ви-лочкової залози) спостерігається ціаноз, розширення підшкірної венозної сітки і набряк м’яких тканин обличчя, шиї, верхньої половини тулуба і верхніх кінцівок. Який венозний стовбур перетиснено пухлиною?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Верхня порожниста вена</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Зовнішня яремна вена</Text>
+      </Answer>
+      <Answer>
+        <Text>Підключична вена</Text>
+      </Answer>
+      <Answer>
+        <Text>Внутрішня яремна вена</Text>
+      </Answer>
+      <Answer>
+        <Text>Передня яремна вена</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В результаті травми у чоловіка 47-ми років пошкоджені передні корінці спинного мозку. Відростки яких нейронів пошкоджені?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Аксони нейронів рухових соматичних та вегетативних ядер</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Аксони чутливих псевдоуніполярних</Text>
+      </Answer>
+      <Answer>
+        <Text>Дендрити чутливих псевдоуніполярних</Text>
+      </Answer>
+      <Answer>
+        <Text>Дендрити рухових і аксони ядер бокових стовпів</Text>
+      </Answer>
+      <Answer>
+        <Text>Дендрити і аксони чутливих псевдоуні-полярних</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Під час розтину померлого 43-х років, що страждав на іХС з розвитком інфаркту міокарда, патологоанатом виявив набряк легень. Які патологічні зміни могли зумовити набряк легень?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гостра лівошлуночкова недостатність</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гостре загальне малокрів’я</Text>
+      </Answer>
+      <Answer>
+        <Text>Гостра правошлуночкова недостатність</Text>
+      </Answer>
+      <Answer>
+        <Text>Ішемія малого кола</Text>
+      </Answer>
+      <Answer>
+        <Text>Стаз крові</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У чоловіка 40-ка років ушкоджені міжпальцеві проміжки на ногах: шкіра мокне, відшаровується, з’явилися тріщини. При посіві зішкрібу шкіри на середовище Сабуро виросли пухнасті колонії, білі зверху та зеленувато-жовті внизу. У мазках з верхньої частини колоній видно конідії у вигляді ”дубинок” з 1-5 клітинами. Які ще органи найбільш імовірно може уразити цей збудник?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Нігті</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Волосся</Text>
+      </Answer>
+      <Answer>
+        <Text>Підшкірна клітковина</Text>
+      </Answer>
+      <Answer>
+        <Text>Лімфатичні судини</Text>
+      </Answer>
+      <Answer>
+        <Text>Слизова статевих шляхів</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При ендоскопічному дослідженні у хворого з хронічним ентероколітом (запалення кишки) спостерігається відсутність специфічних структур рельєфа тонкої кишки. Які компоненти визначають особливості рельєфа слизової оболонки цього органу?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Циркулярні складки, ворсинки та крипти</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Поля, складки, ямки</Text>
+      </Answer>
+      <Answer>
+        <Text>Гаустри, ворсинки, крипти</Text>
+      </Answer>
+      <Answer>
+        <Text>Косо-спіральні складки</Text>
+      </Answer>
+      <Answer>
+        <Text>Поля, ворсинки</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Під час операції на головному мозку відмічено, що подразнення певних зон кори великих півкуль викликало у хворого і тактильні і температурні відчуття. На яку звивину діяли подразники?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Постцентральна</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Прецентральна</Text>
+      </Answer>
+      <Answer>
+        <Text>Верхня латеральна</Text>
+      </Answer>
+      <Answer>
+        <Text>Поясна</Text>
+      </Answer>
+      <Answer>
+        <Text>Парагіпокампова</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому проведено субтотальну суб-фасціальну резекцію щитоподібної залози. У післяопераційному періоді тривалий час зберігається охриплість голосу. Який нерв ушкоджено в ході операції?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Зворотній гортанний нерв</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Верхній гортанний нерв</Text>
+      </Answer>
+      <Answer>
+        <Text>Під’язиковий нерв</Text>
+      </Answer>
+      <Answer>
+        <Text>Язиковий нерв</Text>
+      </Answer>
+      <Answer>
+        <Text>Нижньощелепний нерв</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В результат виснажуючої м’язової роботи у робочого значно зменшилась буферна ємність крові. Надходженням якої речовини у кров можна пояснити це явище?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Лактат</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Піруват</Text>
+      </Answer>
+      <Answer>
+        <Text>1,3-бісфосфогліцерат</Text>
+      </Answer>
+      <Answer>
+        <Text>Альфа-кетоглутарат</Text>
+      </Answer>
+      <Answer>
+        <Text>3-фосфоглицерат</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В біоптаті бронха хворого, який зловживає палінням, в потовщеній слизовій оболонці виявлено хронічний обструктивний бронхіт з ознаками трансформації одношарового війчастого епітелія в багатошаровий плоский епітелій. Який з процесів найбільш імовірний?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Метаплазія</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гіперплазія епітелію</Text>
+      </Answer>
+      <Answer>
+        <Text>Плоскоклітинний рак</Text>
+      </Answer>
+      <Answer>
+        <Text>Лейкоплакія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпертрофія епітелію</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого 45-ти років при аналізі ЕКГ встановлено: ритм синусовий, число передсердних комплексів більше числа шлуночкових комплексів; прогресуюче подовження інтервалу P-Q від комплексу до комплексу; випадіння окремих шлуно-чкових комплексів; зубці P та комплекси QRST без змін. Назвіть тип порушення серцевого ритму:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Атріовентрикулярна блокада II ступеня</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Синоаурікулярна блокада</Text>
+      </Answer>
+      <Answer>
+        <Text>Атріовентрикулярна блокада I ступеня</Text>
+      </Answer>
+      <Answer>
+        <Text>Внутрішньопередсердна блокада</Text>
+      </Answer>
+      <Answer>
+        <Text>Повна атріовентрикулярна блокада</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий з діагнозом цукровий діабет, вранці натще отримав призначену дозу інсуліну пролонгованої дії. Пропустив черговий прийом їжі і невдовзі відчув слабкість, біль голови, запаморочення, пітливість, тремтіння тіла, судоми, відчуття голоду, явища гіпоглікемії. Застосування глюкози стан не полегшило. Який препарат необхідно ввести для ку-пірування даного стану?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Адреналін</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Тріамцінолон</Text>
+      </Answer>
+      <Answer>
+        <Text>Норадреналін</Text>
+      </Answer>
+      <Answer>
+        <Text>Пренізолон</Text>
+      </Answer>
+      <Answer>
+        <Text>Гідрокортизон</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У чоловіка 25-ти років з переломом основи черепа виділяється великий об’єм сечі з низькою відносною щільністю. Причиною змін сечоутворення є порушення синтезу такого гормону:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Вазопресин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Тиреотропний гормон</Text>
+      </Answer>
+      <Answer>
+        <Text>Адренокортикотропний гормон</Text>
+      </Answer>
+      <Answer>
+        <Text>Окситоцин</Text>
+      </Answer>
+      <Answer>
+        <Text>Соматотропний гормон</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Розпочинається імплантація бластоцисти людини. Як називається період ембріогенезу, що розпочинається одночасно з імплантацією?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гаструляція</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Інвагінація</Text>
+      </Answer>
+      <Answer>
+        <Text>Диференціювання</Text>
+      </Answer>
+      <Answer>
+        <Text>Гістогенез</Text>
+      </Answer>
+      <Answer>
+        <Text>Дроблення</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Дитина 8-ми років готувалася до тон-зилектомії. Аналіз крові показав, що час згортання збільшено (до 7 хвилин). Який препарат за 5 днів до операції слід включити до комплексу лікарських засобів підготовчого періоду в першу чергу?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Вікасол</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Кальцію хлорид</Text>
+      </Answer>
+      <Answer>
+        <Text>Амінокапронова кислота</Text>
+      </Answer>
+      <Answer>
+        <Text>Фібриноген</Text>
+      </Answer>
+      <Answer>
+        <Text>Дицинон</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У дитини, що страждає на пілоросте-ноз, що супроводжується частим блюванням, розвинулись ознаки зневоднення організму. Яка форма порушення кислотно-основного стану може розвиватися у даному випадку?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Негазовий алкалоз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Негазовий ацидоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Газовий ацидоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Газовий алкалоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Метаболічний ацидоз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого після автомобільної травми артеріальний тиск - 70/40 мм рт.ст. Хворий у непритомному стані. За добу виділяє близько 550 мл сечі. Яке порушення функції нирок спостерігається у хворого?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гостра ниркова недостатність</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гострий дифузний гломерулонефрит</Text>
+      </Answer>
+      <Answer>
+        <Text>Тубулопатія</Text>
+      </Answer>
+      <Answer>
+        <Text>Хронічна ниркова недостатність</Text>
+      </Answer>
+      <Answer>
+        <Text>Пієлонефрит</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У гістопрепараті яєчника жінки визначаються структури, що мають велику порожнину. Овоцит І порядку в них оточений прозорою оболонкою, промени- стим вінцем і розташований у яйценосному горбику, стінка утворена шаром фолікулярних клітин i текою. Вкажіть, якій структурі яєчника належать дані морфологічні ознаки:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Зрілий (третинний) фолікул</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Примордіальний фолікул</Text>
+      </Answer>
+      <Answer>
+        <Text>Первинний фолікул</Text>
+      </Answer>
+      <Answer>
+        <Text>Жовте тіло</Text>
+      </Answer>
+      <Answer>
+        <Text>Атретичне тіло</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий переніс повторний інтраму-ральний інфаркт міокарда. Після лікування та реабілітації виписаний у задовільному стані під нагляд дільничного терапевта. Через 2 роки загинув у автомобільній катастрофі. Який характер патологічного процесу в міокарді було встановлено на розтині?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Крупновогнищевий кардіосклероз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Дрібновогнищевий кардіосклероз</Text>
+      </Answer>
+      <Answer>
+        <Text>Атрофія</Text>
+      </Answer>
+      <Answer>
+        <Text>Некроз</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіперплазія</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При бактеріологічному дослідженні гною з післяопераційної рани виділені мікроорганізми, які дали ріст на цукрово-кров’яному агарі через 7-10 днів в анаеробних умовах: колонії S-форми, блискучі, чорного кольору з неприємним запахом. При мікроскопії виявлені поліморфні грамнегативні палички. Які мікроорганізми могли викликати цей нагнійний процес?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Бактероїди</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Клостридії</Text>
+      </Answer>
+      <Answer>
+        <Text>Фузобактерії</Text>
+      </Answer>
+      <Answer>
+        <Text>Велонели</Text>
+      </Answer>
+      <Answer>
+        <Text>Кишкова паличка</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У 12-річного хлопчика в сечі виявлено високий вміст усіх амінокислот аліфатичного ряду. При цьому відмічена найбільш висока екскреція цистину та цистеїну. Крім того, УЗД нирок показало наявність каменів у них. Виберіть можливу патологію:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Цистинурія</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Алкаптонурія</Text>
+      </Answer>
+      <Answer>
+        <Text>Цистит</Text>
+      </Answer>
+      <Answer>
+        <Text>Фенілкетонурія</Text>
+      </Answer>
+      <Answer>
+        <Text>Хвороба Хартнупа</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Цикл Кребса відіграє важливу роль у реалізації глюкопластичного ефекту амінокислот. Це зумовлено обов’язковим перетворенням безазотистого залишку амінокислот у:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Оксалоацетат</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Малат</Text>
+      </Answer>
+      <Answer>
+        <Text>Сукцинат</Text>
+      </Answer>
+      <Answer>
+        <Text>Фумарат</Text>
+      </Answer>
+      <Answer>
+        <Text>Цитрат</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Після прийому препарату у хворого з серцевою недостатністю зменшилася частота скорочень серця, пульс став кращого наповнення, зменшилися набряки, збільшився діурез. Вкажіть, який препарат приймав хворий:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Дигоксин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Анаприлін</Text>
+      </Answer>
+      <Answer>
+        <Text>Верапаміл</Text>
+      </Answer>
+      <Answer>
+        <Text>Дилтіазем</Text>
+      </Answer>
+      <Answer>
+        <Text>Резерпін</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У пацієнта 65-ти років з тривалими скаргами, характерними для хронічного гастриту, у периферичній крові виявлені мегалоцити, у кістковому мозку мегало-бластичний еритропоез. Який найбільш імовірний діагноз?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>B12-фолієводефіцитна анемія</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Апластична анемія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпопластична анемія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гемолітична анемія</Text>
+      </Answer>
+      <Answer>
+        <Text>Залізодефіцитна анемія</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>З калу та блювотних мас від хворого з підозрою на холеру були виділені культури вібріонів. Проведення якої реакції дозволить визначити вид мікроба, що викликав це захворювання?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Аглютинації з сироватками, що містять О-антитіла</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Аглютинації з сироватками, що містять Н-антитіла</Text>
+      </Answer>
+      <Answer>
+        <Text>Пасивної гемаглютинації з еритроци-тарним антигенним діагностикумом</Text>
+      </Answer>
+      <Answer>
+        <Text>Аглютинації Відаля</Text>
+      </Answer>
+      <Answer>
+        <Text>Преципітації</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У дитини на слизовій оболонці щік та язика виявлені білуваті плями, які нагадують молоко, що скипілося. У виготовлених препаратах-мазках знайдені грампо-зитивні овальні дріжджоподібні клітини. Які це збудники?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гриби роду Кандіда</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Стафілококи</Text>
+      </Answer>
+      <Answer>
+        <Text>Дифтерійна паличка</Text>
+      </Answer>
+      <Answer>
+        <Text>Актиноміцети</Text>
+      </Answer>
+      <Answer>
+        <Text>Фузобактерії</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При обстеженні юнака з розумовою відсталістю виявлено євнухоїдну будову тіла, недорозвиненість статевих органів. В клітинах порожнини рота - статевий хроматин. Який метод генетичного дослідження слід застосувати для уточнен- ня діагнозу?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Цитологічний</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Біохімічний</Text>
+      </Answer>
+      <Answer>
+        <Text>Клініко-генеалогічний</Text>
+      </Answer>
+      <Answer>
+        <Text>Популяційно-статистичний</Text>
+      </Answer>
+      <Answer>
+        <Text>Дерматогліфіка</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого з жовтяницею встановлено: підвищення у плазмі крові вмісту загального білірубіну за рахунок непрямого (вільного), в калі та сечі - високий вміст стеркобіліну, рівень прямого (зв’язаного) білірубіну в плазмі крові в межах норми. Про який вид жовтяниці можна думати?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гемолітична</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Паренхіматозна (печінкова)</Text>
+      </Answer>
+      <Answer>
+        <Text>Механічна</Text>
+      </Answer>
+      <Answer>
+        <Text>Жовтяниця немовлят</Text>
+      </Answer>
+      <Answer>
+        <Text>Хвороба Жильбера</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Кухар в результаті необачності обпік руку парою. Підвищення концентрації якої речовини викликало почервоніння, набряклість та болючість ураженої ділянки шкіри?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гістамін</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Тіамін</Text>
+      </Answer>
+      <Answer>
+        <Text>Глутамін</Text>
+      </Answer>
+      <Answer>
+        <Text>Лізин</Text>
+      </Answer>
+      <Answer>
+        <Text>Галактозамін</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Дитина доставлена в санпропускник в стані асфіксії. При огляді в гортані виявлені білуваті плівки, що обтурують просвіт та легко видаляються. Лікар запідозрив дифтерію. Про яке запалення гортані йдеться?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Крупозне</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Катаральне</Text>
+      </Answer>
+      <Answer>
+        <Text>Дифтеритичне</Text>
+      </Answer>
+      <Answer>
+        <Text>Серозне</Text>
+      </Answer>
+      <Answer>
+        <Text>Гнійне</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого із запаленням легень спостерігається підвищення температури тіла. Яка біологічно активна речовина відіграє провідну роль у виникненні цього прояву хвороби?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Інтерлейкін-I</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гістамін</Text>
+      </Answer>
+      <Answer>
+        <Text>Брадикінін</Text>
+      </Answer>
+      <Answer>
+        <Text>Серотонін</Text>
+      </Answer>
+      <Answer>
+        <Text>Лейкотрієни</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий 12-ти років поступив в клініку з гемартрозом колінного суглоба, з раннього дитинства страждає кровоточивістю. Яка хвороба у хлопчика?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гемофілія</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Геморагічний васкуліт</Text>
+      </Answer>
+      <Answer>
+        <Text>Гемолітична анемія</Text>
+      </Answer>
+      <Answer>
+        <Text>B12 фолієво-дефіцитна анемія</Text>
+      </Answer>
+      <Answer>
+        <Text>Тромбоцитопенічна пурпура</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого видалено 12-палу кишку. Це призведе до зменшення секреції, перш за все, такого гормону:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Холецистокінін-секретин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гастрин</Text>
+      </Answer>
+      <Answer>
+        <Text>Гістамін</Text>
+      </Answer>
+      <Answer>
+        <Text>Соматостатин</Text>
+      </Answer>
+      <Answer>
+        <Text>Нейротензин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В клітині, яка мітотично ділиться, спостерігається розходження дочірніх хроматид до полюсів клітини. На якій стадії мітотичного циклу знаходиться клітина?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Анафаза</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Метафаза</Text>
+      </Answer>
+      <Answer>
+        <Text>Телофаза</Text>
+      </Answer>
+      <Answer>
+        <Text>Профаза</Text>
+      </Answer>
+      <Answer>
+        <Text>Інтерфаза</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Знешкодження ксенобіотиків (лікарських засобів, епоксидів, ареноксидів, альдегідів, нітропохідних тощо) та ендогенних метаболітів (естрадіолу, простагландинів, лейкотрієнів) відбувається в печінці шляхом їх кон’югації з:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Глутатіоном</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Аспарагіновою кислотою</Text>
+      </Answer>
+      <Answer>
+        <Text>Гліцином</Text>
+      </Answer>
+      <Answer>
+        <Text>S-Аденозилметіоніном</Text>
+      </Answer>
+      <Answer>
+        <Text>Фосфоаденозином</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Вітамін A у комплексі зі специфічними циторецепторами проникає через ядерні мембрани, індукує процеси транскрипції, що стимулює ріст та диференціювання клітин. Ця біологічна функція реалізується наступною формою вітаміну A:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Транс-ретиноєва кислота</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Транс -ретиналь</Text>
+      </Answer>
+      <Answer>
+        <Text>Цис-ретиналь</Text>
+      </Answer>
+      <Answer>
+        <Text>Ретинол</Text>
+      </Answer>
+      <Answer>
+        <Text>Каротин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Одна з форм вродженої патології супроводжується гальмуванням перетворення фенілаланіну в тирозин. Біохімічною ознакою хвороби є накопичення в організмі деяких органічних кислот, у тому числі такої кислоти:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Фенілпіровиноградна</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Лимонна</Text>
+      </Answer>
+      <Answer>
+        <Text>Піровиноградна</Text>
+      </Answer>
+      <Answer>
+        <Text>Молочна</Text>
+      </Answer>
+      <Answer>
+        <Text>Ілутамінова</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому встановлено діагноз - активний вогнищевий туберкульоз легень. Вкажіть, який із препаратів йому найбільш доцільно призначити в першу чергу</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ізоніазид</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Сульфален</Text>
+      </Answer>
+      <Answer>
+        <Text>Циклосерин</Text>
+      </Answer>
+      <Answer>
+        <Text>Етіонамід</Text>
+      </Answer>
+      <Answer>
+        <Text>Етоксид</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В експерименті на спинному мозку при збудженні альфа-мотонейронів згиначів встановлено гальмування альфа-мотонейронів м’язів-розгиначів. Який вид гальмування лежить в основі цього явища?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Реципрокне</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Пресинаптичне</Text>
+      </Answer>
+      <Answer>
+        <Text>Деполяризаційне</Text>
+      </Answer>
+      <Answer>
+        <Text>Зворотнє</Text>
+      </Answer>
+      <Answer>
+        <Text>Латеральне</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого, що страждає на важку форму порушення водно-сольового обміну, настала зупинка серця у діастолі. Який найбільш імовірний механізм зупинки серця у діастолі?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гіперкаліємія</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гіпернатріємія</Text>
+      </Answer>
+      <Answer>
+        <Text>Дегідратація організма</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпокаліємія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпонатріємія</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Встановлено ураження ВІЛ Т-лімфоцитів. При цьому фермент вірусу зворотня транскриптаза (РНК-залежна ДНК-полімераза) каталізує синтез:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>ДНК на матриці вірусної і-РНК</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Вірусної і-РНК на матриці ДНК</Text>
+      </Answer>
+      <Answer>
+        <Text>ДНК на вірусній р-РНК</Text>
+      </Answer>
+      <Answer>
+        <Text>Вірусної РНК на матриці ДНК</Text>
+      </Answer>
+      <Answer>
+        <Text>і-РНК на матриці вірусного білку</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Людина зробила спокійний видих. Як називається об’єм повітря, який міститься у неї в легенях при цьому?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Функціональна залишкова ємкість легень</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Залишковий об’єм</Text>
+      </Answer>
+      <Answer>
+        <Text>Резервний об’єм видиху</Text>
+      </Answer>
+      <Answer>
+        <Text>Дихальний об’єм</Text>
+      </Answer>
+      <Answer>
+        <Text>Життєва ємність легень</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Людина зробила максимально глибо- кий видих. Як називається об’єм повітря, що знаходиться в її легенях після цього?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Залишковий об’єм</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Функціональна залишкова ємність легень</Text>
+      </Answer>
+      <Answer>
+        <Text>Ємність вдиху</Text>
+      </Answer>
+      <Answer>
+        <Text>Резервний об’єм видиху</Text>
+      </Answer>
+      <Answer>
+        <Text>Альвеолярний об’єм</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У людини необхідно оцінити стан клапанів серця. Яким з інструментальних методів дослідження доцільно скористатися для цього?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Фонокардіографія</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Електрокардіографія</Text>
+      </Answer>
+      <Answer>
+        <Text>Сфігмографія</Text>
+      </Answer>
+      <Answer>
+        <Text>Флебографія</Text>
+      </Answer>
+      <Answer>
+        <Text>Зондування судин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Чоловіку 40-ка років за вимогою діагностичних тестів зробили лімфографію органів грудної порожнини. Хірург встановив, що пухлина вразила орган, з лімфатичних судин якого лімфа безпосередньо переходить в грудну протоку. Який це орган?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Стравохід</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Трахея</Text>
+      </Answer>
+      <Answer>
+        <Text>Лівий головний бронх</Text>
+      </Answer>
+      <Answer>
+        <Text>Серце</Text>
+      </Answer>
+      <Answer>
+        <Text>Осердя</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При гістологічному дослідженні бі-оптату шкіри виявлені гранульоми, які складаються з макрофагальних вузликів з наявністю лімфоцитів та плазматичних клітин. Крім того, зустрічаються великі макрофаги з жировими вакуолями, які містять запакованих у вигляді куль збудників захворювання (клітини Вірхова). Грануляційна тканина добре васкуляри-зована. Для якого захворювання характерна описана гранульома?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Лепра</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Туберкульоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Сифіліс</Text>
+      </Answer>
+      <Answer>
+        <Text>Риносклерома</Text>
+      </Answer>
+      <Answer>
+        <Text>Сап</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При мікроскопічному дослідженні бі-оптату шкіри виявляються гранульоми, які складаються з епітеліоїдних клітин, оточених в основному Т-лімфоцитами. Серед епітеліоїдних клітин розташовуються поодинокі гігантські багатоядерні клітини типу Пирогова-Лангханса. В центрі гранульом виявляються ділянки казеозного некрозу. Кровоносні судини відсутні. Для якого захворювання характерні описані гранульоми?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Туберкульоз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Сифіліс</Text>
+      </Answer>
+      <Answer>
+        <Text>Лепра</Text>
+      </Answer>
+      <Answer>
+        <Text>Риносклерома</Text>
+      </Answer>
+      <Answer>
+        <Text>Сап</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Ліквідатору наслідків аварії на Чорнобильські АЕС, що отримав велику дозу опромінення, проведено трансплантацію кісткового мозку. Через деякий час після проведеної операції у пацієнта діагностовано розвиток реакції трансплантат проти хазяїна. Які антигени послужили пусковим механізмом виникнення цієї реакції?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Антигени системи HLA клітин організму ліквідатора</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Антигени системи Rh еритроцитів ліквідатора</Text>
+      </Answer>
+      <Answer>
+        <Text>Антигени HBs, HBc, Hbe</Text>
+      </Answer>
+      <Answer>
+        <Text>Антигенами системи ABO еритроцитів ліквідатора</Text>
+      </Answer>
+      <Answer>
+        <Text>Антигени системи HLA клітин організму донора</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Під час гістологічного дослідження стулок мітрального клапана серця жінки 30-ти років було встановлено, що ендоте-ліальні клітини вогнищево десквамовані, в цих ділянках на поверхні стулки розташовані дрібні тромботичні нашарування, сполучна тканина стулки з явищами му-коїдного набухання з ділянками склерозу та васкуляризації. Діагностуйте вид клапанного ендокардиту:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Поворотньо-бородавчастий</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Дифузний</Text>
+      </Answer>
+      <Answer>
+        <Text>Гострий бородавчастий</Text>
+      </Answer>
+      <Answer>
+        <Text>Фібропластичний</Text>
+      </Answer>
+      <Answer>
+        <Text>Поліпозно-виразковий</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При органічних пошкодженнях головного мозку пам’ять може покращити:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Пірацетам</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Нітразепам</Text>
+      </Answer>
+      <Answer>
+        <Text>Мезапам</Text>
+      </Answer>
+      <Answer>
+        <Text>Діазепам</Text>
+      </Answer>
+      <Answer>
+        <Text>Кофеїн</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворої під час травми стався розрив лобкового симфізу. Який тип з’єднання постраждав?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Іеміартроз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Синдесмоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Синхондроз</Text>
+      </Answer>
+      <Answer>
+        <Text>Синостоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Діартроз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого діагностовано інфаркт задньої частини міжшлуночкової перегородки. В ділянці якої кровоносної судини виникло порушення кровообігу?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>R. interventricularis posterior</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>R. marginalis dexter</Text>
+      </Answer>
+      <Answer>
+        <Text>R. atrialis intermedius</Text>
+      </Answer>
+      <Answer>
+        <Text>R. circumflexus</Text>
+      </Answer>
+      <Answer>
+        <Text>R. marginalis sinister</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У дитячому відділенні інфекційної клініки хлопчику поставлено діагноз ’’дифтерія” Який препарат потрібно ввести хворому в першу чергу?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Протидифтерійна антитоксична сироватка</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Дифтерійний анатоксин</Text>
+      </Answer>
+      <Answer>
+        <Text>АКДП</Text>
+      </Answer>
+      <Answer>
+        <Text>АДП</Text>
+      </Answer>
+      <Answer>
+        <Text>TABte</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У студента перед екзаменом виникла тахікардія. Які зміни на ЕКГ будуть свідчити про її наявність?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Укорочення інтервалу R-R</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Подовження інтервалу R-R</Text>
+      </Answer>
+      <Answer>
+        <Text>Розширення комплексу QRS</Text>
+      </Answer>
+      <Answer>
+        <Text>Подовження інтервалу P-Q</Text>
+      </Answer>
+      <Answer>
+        <Text>Подовження сегменту Q-T</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При розтині тіла чоловіка, померлого від опікової хвороби, знайдено набряк головного мозку, збільшення печінки, а також нирок, кірковий шар яких широкий, блідо-сірий, мозковий - повнокровний. Мікроскопічно: некроз епітелію ка-нальців головних відділів з деструкцією базальних мембран, набряк інтерстицію з лейкоцитарною інфільтрацією та крововиливами. Який з перелічених діагнозів найбільш імовірний?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Некротичний нефроз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Тубулоінтерстиціальний нефрит</Text>
+      </Answer>
+      <Answer>
+        <Text>Пієлонефрит</Text>
+      </Answer>
+      <Answer>
+        <Text>Подагрична нирка</Text>
+      </Answer>
+      <Answer>
+        <Text>Мієломна нирка</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворої 59-ти років з нейроциркуляторною (первинною) артеріальною гіпотензією купіровано гіпотонічний криз підшкірним введенням 1 мл 20% розчину кофеїну бензоату натрію. Механізм дії цього препарату полягає у тому, що він блокує:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Аденозинові рецептори</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Пуринові рецептори</Text>
+      </Answer>
+      <Answer>
+        <Text>Альфа-адренорецептори</Text>
+      </Answer>
+      <Answer>
+        <Text>Бета-адренорецептори</Text>
+      </Answer>
+      <Answer>
+        <Text>Моноаміноксідазу</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий похилого віку страждає на хронічний закреп, в основі якого лежить гіпотонія товстого кишечнику. Який препарат слід призначити хворому?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Бісакодил</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Натрію сульфат</Text>
+      </Answer>
+      <Answer>
+        <Text>Касторова олія</Text>
+      </Answer>
+      <Answer>
+        <Text>Ацеклідин</Text>
+      </Answer>
+      <Answer>
+        <Text>Прозерин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У жінки через 6 місяців після пологів розвинулася маткова кровотеча. При гінекологічному огляді у порожнині матки виявлена тканина темно-червоного кольору з множинними порожнинами, що нагадує ”губку” При мікроскопічному дослідженні пухлини у лакунах крові виявлені атипові світлі епітеліальні клітини Лангханса і гігантські клітини синцитіо-трофобласту. Назвіть пухлину:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Хоріонепітеліома</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Плоскоклітинний незроговілий рак</Text>
+      </Answer>
+      <Answer>
+        <Text>Аденокарцінома</Text>
+      </Answer>
+      <Answer>
+        <Text>Фіброміома</Text>
+      </Answer>
+      <Answer>
+        <Text>Міхурний занесок</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого спостерігається гемералопія (куряча сліпота). Яка з перерахованих речовин володітиме лікувальною дією?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Каротин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Кератин</Text>
+      </Answer>
+      <Answer>
+        <Text>Креатин</Text>
+      </Answer>
+      <Answer>
+        <Text>Карнітин</Text>
+      </Answer>
+      <Answer>
+        <Text>Карнозин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий 18-ти років звернувся до лікарні із скаргами на шум та больові відчуття у вусі. Об’єктивно: у хворого гостре респіраторне захворювання, риніт. Крізь який отвір глотки інфекція потрапила до барабанної порожнини та викликала її запалення?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Глотковий отвір слухової труби</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Барабанний отвір слухової труби</Text>
+      </Answer>
+      <Answer>
+        <Text>Хоани</Text>
+      </Answer>
+      <Answer>
+        <Text>Зів</Text>
+      </Answer>
+      <Answer>
+        <Text>Вхід до гортані</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий 50-ти років страждає на гіпертонічну хворобу. Під час фізичного навантаження у нього з’явилося відчуття слабкості, нестачі повітря, синюшність слизової оболонки губ, шкіри обличчя. Дихання супроводжувалося відчутними на відстані вологими хрипами. Який механізм лежить в основі виникнення такого синдрому?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гостра лівошлуночкова недостатність</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Хронічна правошлуночкова недостатність</Text>
+      </Answer>
+      <Answer>
+        <Text>Хронічна лівошлуночкова недостатність</Text>
+      </Answer>
+      <Answer>
+        <Text>Колапс</Text>
+      </Answer>
+      <Answer>
+        <Text>Тампонада серця</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Внаслідок тривалого голодування в організмі людини швидко зникають резерви вуглеводів. Який з процесів метаболізму за цих умов поновлює вміст глюкози в крові?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ілюконеогенез</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Анаеробний гліколіз</Text>
+      </Answer>
+      <Answer>
+        <Text>Аеробний гліколіз</Text>
+      </Answer>
+      <Answer>
+        <Text>Ілікогеноліз</Text>
+      </Answer>
+      <Answer>
+        <Text>Пентозофосфатний шлях</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У чоловіка 40-ка років було встановлено діагноз: серпоподібноклітинна анемія. Який механізм приводить до зменшення кількості еритроцитів в крові у цього хворого?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Позасудинний гемоліз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Внутрішньосудинний гемоліз</Text>
+      </Answer>
+      <Answer>
+        <Text>Нестача заліза в організмі</Text>
+      </Answer>
+      <Answer>
+        <Text>Нестача вітаміну B12 і фолієвої кислоти</Text>
+      </Answer>
+      <Answer>
+        <Text>Нестача білка</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У жінки 52-х років при обстеженні було виявлено зниження кількості еритроцитів у крові та підвищення рівня вільного гемоглобіну в плазмі крові (гемогло-бінемія). КП- 0,85. Який вид анемії спостерігається у хворої?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Набута гемолітична</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Спадкова гемолітична</Text>
+      </Answer>
+      <Answer>
+        <Text>Іостра постгеморагічна</Text>
+      </Answer>
+      <Answer>
+        <Text>Хронічна постгеморагічна</Text>
+      </Answer>
+      <Answer>
+        <Text>Анемія внаслідок порушення еритро-поезу</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Лікування туберкульозу здійснюється за допомогою комбінованої хіміотерапії, що поєднує речовини різного механізму дії. Який з протитуберкульозних засобів пригнічує транскрипцію ДНК в РНК мікобактерій?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Рифампіцин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Ізоніазид</Text>
+      </Answer>
+      <Answer>
+        <Text>Стрептоміцин</Text>
+      </Answer>
+      <Answer>
+        <Text>Етіонамід</Text>
+      </Answer>
+      <Answer>
+        <Text>ПАСК</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>На тканину діють електричним імпульсом катодного напрямку, амплітуда якого дорівнює 70% порогу. Які зміни мембранного потенціалу клітин це викличе?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Часткова деполяризація</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гіперполяризація</Text>
+      </Answer>
+      <Answer>
+        <Text>Потенціал дії</Text>
+      </Answer>
+      <Answer>
+        <Text>Змін не буде</Text>
+      </Answer>
+      <Answer>
+        <Text>-</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У людини визначили величину енер-говитрат. У якому стані знаходилась лю- дина, якщо її енерговитрати виявилися меншими за основний обмін?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Сон</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Відпочинок</Text>
+      </Answer>
+      <Answer>
+        <Text>Легка робота</Text>
+      </Answer>
+      <Answer>
+        <Text>Нервове напруження</Text>
+      </Answer>
+      <Answer>
+        <Text>Спокій</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При визначенні основного обміну з’ясовано, що його величина у досліджуваного менша за належну величину на 7%. Це означає, що інтенсивність процесів енергетичного метаболізму у досліджуваного:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Нормальна</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Помірно підвищена</Text>
+      </Answer>
+      <Answer>
+        <Text>Помірно знижена</Text>
+      </Answer>
+      <Answer>
+        <Text>Суттєво знижена</Text>
+      </Answer>
+      <Answer>
+        <Text>Суттєво підвищена</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Внаслідок руйнування певних структур стовбуру мозку тварина втратила орієнтувальні рефлекси. Які структури було зруйновано?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Чотиригорбкові тіла</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Медіальні ядра ретикулярної формації</Text>
+      </Answer>
+      <Answer>
+        <Text>Червоні ядра</Text>
+      </Answer>
+      <Answer>
+        <Text>Вестибулярні ядра</Text>
+      </Answer>
+      <Answer>
+        <Text>Чорна речовина</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У новонародженого малюка педіатр виявив, що отвір крайньої плоті за величиною не перевищує діаметр сечовивідного каналу і голівка статевого члена не може виходити через такий отвір. Як називається цей стан?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Фімоз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Епіспадія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпоспадія</Text>
+      </Answer>
+      <Answer>
+        <Text>Парафімоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Гермафродитизм</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Психологічне дослідження встановило: у людини добра здатність швидко пристосовуватися до нового оточення, добра пам’ять, емоційна стійкість, висока працездатність. Найімовірніше, ця людина:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Сангвінік</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Холерик</Text>
+      </Answer>
+      <Answer>
+        <Text>Меланхолік</Text>
+      </Answer>
+      <Answer>
+        <Text>Флегматик</Text>
+      </Answer>
+      <Answer>
+        <Text>Флегматик з елементами меланхоліка</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий на ішемічну хворобу серця не повідомив лікаря, що в нього бувають напади бронхоспазму. Лікар призначив препарат, після прийому якого напади стенокардії стали рідше, але напади бронхоспазму стали частіше. Який препарат був призначений?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Анаприлін</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Верапаміл</Text>
+      </Answer>
+      <Answer>
+        <Text>Нітросорбід</Text>
+      </Answer>
+      <Answer>
+        <Text>Нітрогліцерин</Text>
+      </Answer>
+      <Answer>
+        <Text>Дилтіазем</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>До ендокринолога звернулась хвора 45-ти років із скаргами на підвищення апетиту, сухість слизових оболонок ротової порожнини, збільшення діурезу. При обстеженні вперше виявлено інсулінне-залежний діабет. Який з названих препаратів доцільно призначити хворій?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ілібенкламід</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Інсулін</Text>
+      </Answer>
+      <Answer>
+        <Text>Адіурекрин</Text>
+      </Answer>
+      <Answer>
+        <Text>Вазопресин</Text>
+      </Answer>
+      <Answer>
+        <Text>Окситоцин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Дитина 7-ми років поступила в інфекційне відділення зі скаргами на різкий біль у горлі, утруднення під час ковтання, підвищення температури тіла до 39oC, набряк шиї. Об’єктивно: мигдалики збільшені, їх слизова оболонка повнокровна, вкрита великою кількістю плівок білувато-жовтого кольору, які щільно прилягають до слизової оболонки. При спробі зняти плівку залишається глибокий дефект, який кровоточить. Який вид запалення має місце?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Дифтеритичне</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гнійне</Text>
+      </Answer>
+      <Answer>
+        <Text>Серозне</Text>
+      </Answer>
+      <Answer>
+        <Text>Крупозне</Text>
+      </Answer>
+      <Answer>
+        <Text>Геморагічне</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого на хронічний дифузний гломерулонефрит розвинулася хронічна недостатність нирок. В термінальній стадії ХНН розвивається оліго- та анурія, що спричиняється:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Зниженням маси діючих нефронів</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Ішемією коркової речовини нирок внаслідок спазму судин</Text>
+      </Answer>
+      <Answer>
+        <Text>Зменшенням фільтраційного тиску та фільтрації</Text>
+      </Answer>
+      <Answer>
+        <Text>Збільшенням реабсорбції води в дистальних канальцях</Text>
+      </Answer>
+      <Answer>
+        <Text>Дисемінованим внутрішньосудинним зсіданням крові</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При розтині тіла померлого чоловіка 48-ми років в ділянці 1-го сегменту правої легені виявлено круглий утвір діаметром 5 см з чіткими контурами, оточений тонким прошарком сполучної тканини, виповнений білими крихкими масами. Діагностуйте форму вторинного туберкульозу:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Туберкулома</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Казеозна пневмонія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гострий кавернозний туберкульоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Гострий вогнищевий туберкульоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Фіброзно-кавернозний туберкульоз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>На препарат представлено орган, вкритий сполучнотканинною капсулою, від якої відходять трабекули. В органі можна розрізнити кіркову речовину, де містяться лiмфатичнi вузлики та мозкову речовину, представлену тяжами лімфої-дних клітин. Який орган представлений на препараті?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Лімфатичний вузол</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Тимус</Text>
+      </Answer>
+      <Answer>
+        <Text>Селезінка</Text>
+      </Answer>
+      <Answer>
+        <Text>Червоний кістковий мозок</Text>
+      </Answer>
+      <Answer>
+        <Text>Мигдалики</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В регуляції фізіологічних функцій беруть участь іони металів. Один із них отримав назву ’’король месенджерів” Таким біоелементом посередником є:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Са++</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Na+</Text>
+      </Answer>
+      <Answer>
+        <Text>K+</Text>
+      </Answer>
+      <Answer>
+        <Text>Fe+++</Text>
+      </Answer>
+      <Answer>
+        <Text>Zn++</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий звернувся до лікаря зі скаргами на болі в кульшовому суглобі та у всіх привідних м’язах і шкірі над ними при рухах. Який нерв ушкоджено?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Затульний нерв</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Клубово-пахвинний нерв</Text>
+      </Answer>
+      <Answer>
+        <Text>Стегновий нерв</Text>
+      </Answer>
+      <Answer>
+        <Text>Латеральний шкірний нерв стегна</Text>
+      </Answer>
+      <Answer>
+        <Text>Задній шкірний нерв стегна</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому 35-ти років для обстеження очного дна був призначений атропіну сульфат у вигляді очних крапель. Для відновлення акомодації йому закрапали пілокарпіну гідрохлорид, але це не дало бажаного ефекту. Що є причиною відсутності ефекту?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Односторонній антагонізм</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Синергізм</Text>
+      </Answer>
+      <Answer>
+        <Text>Тахіфілаксія</Text>
+      </Answer>
+      <Answer>
+        <Text>Двосторонній антагонізм</Text>
+      </Answer>
+      <Answer>
+        <Text>Звикання</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В поліклініку до лікаря звернулася жінка 32-х років зі скаргами на відсутність в неї лактації після народження дитини. Дефіцитом якого гормону, найбільш імовірно, можна пояснити дане порушення?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Пролактин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Соматотропін</Text>
+      </Answer>
+      <Answer>
+        <Text>Вазопресин</Text>
+      </Answer>
+      <Answer>
+        <Text>Тиреокальцитонін</Text>
+      </Answer>
+      <Answer>
+        <Text>Глюкагон</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого пухлина черевної порожнини, що стискає нижню порожнисту вену. Який кава-кавальний анастомоз на передній стінці живота забезпечить відтік венозної крові?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Між верхньою і нижньою надчеревними венами</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Між непарною і напівнепарною венами</Text>
+      </Answer>
+      <Answer>
+        <Text>Між хребетними і пупковими венами</Text>
+      </Answer>
+      <Answer>
+        <Text>Між верхніми і нижніми прямокишко-вими венами</Text>
+      </Answer>
+      <Answer>
+        <Text>Між пупковою і верхньою надчеревною венами</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У людини під дією мутагенного фактору з’явилась велика кількість мутантних клітин. Але більшість з них були розпізнані і знищені клітинами:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Т-лімфоцитами кілерами</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Плазмобластами</Text>
+      </Answer>
+      <Answer>
+        <Text>Т-лімфоцитами супресорами</Text>
+      </Answer>
+      <Answer>
+        <Text>В -лімфоцитами</Text>
+      </Answer>
+      <Answer>
+        <Text>Стовбуровими</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При пошкодженні клітини іонізуючим випромінюванням вмикаються механізми захисту і адаптації. Який механізм відновлення порушеного внутрішньоклітинного гомеостазу реалізується при цьому?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Активація антиоксидантної системи</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Активація Са-опосередкованих клітинних функцій</Text>
+      </Answer>
+      <Answer>
+        <Text>Накопичення Na+ в клітинах</Text>
+      </Answer>
+      <Answer>
+        <Text>Пригнічення аденілатциклази</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпертрофія мітохондрій</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>На гістологічному препараті легень видно структуру діаметром близько 0,5 мм, слизова оболонка якої вкрита одношаровим кубічним війковим епітелієм, у якому зустрічаються секреторні клітини Клара, війчасті клітини, мікроворсинча-сті. Вкажіть структуру:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Термінальна бронхіола</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Малий бронх</Text>
+      </Answer>
+      <Answer>
+        <Text>Альвеола</Text>
+      </Answer>
+      <Answer>
+        <Text>Альвеолярний хід</Text>
+      </Answer>
+      <Answer>
+        <Text>Середній бронх</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Чоловік 36-ти років, лісник за фахом, через тиждень після тривалого перебування у весняному лісі гостро захворів -гарячка, головний біль, порушення свідомості, епілептиформні напади, смерть розвинулася на 3-й день хвороби. На роз- тині тіла: набряк головного мозку, множинні точкові геморагії; під час мікроскопічного дослідження - периваскуляр-ний та перицелюлярний набряк, множинні периваскулярні, переважно лімфоци-тарні, інфільтрати. Діагностуйте основне захворювання:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Кліщовий енцефаліт</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Менінгококова інфекція</Text>
+      </Answer>
+      <Answer>
+        <Text>Поліомієліт</Text>
+      </Answer>
+      <Answer>
+        <Text>Гнійний енцефаліт</Text>
+      </Answer>
+      <Answer>
+        <Text>Церебро-васкулярна хвороба</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого з флегмоною передпліччя при мікробіологічному аналізі ексудату в зоні запалення визначена присутність стрептококів. Які клітини будуть переважати в ексудаті?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Нейтрофільні гранулоцити</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Еозинофільні гранулоцити</Text>
+      </Answer>
+      <Answer>
+        <Text>Лімфоцити</Text>
+      </Answer>
+      <Answer>
+        <Text>Базофільні гранулоцити</Text>
+      </Answer>
+      <Answer>
+        <Text>Моноцити</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У п’ятимісячної дівчинки виявлено застійні явища у легенях. При обстеженні виявлено зв’язок між висхідною аортою та легеневою артерією, що в нормі спостерігається у деяких земноводних і плазунів. Назвіть цю природжену ваду розвитку:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Незрощення боталової протоки</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Дефект міжпередсердної перегородки</Text>
+      </Answer>
+      <Answer>
+        <Text>Дефект міжшлуночкової перегородки</Text>
+      </Answer>
+      <Answer>
+        <Text>Розвиток правої дуги аорти</Text>
+      </Answer>
+      <Answer>
+        <Text>Транспозиція магістральних судин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому на гострий інфаркт міокарда у комплексній терапії було призначено гепарин. Через деякий час після введення даного препарату з’явилася гематурія. Який антагоніст гепарину необхідно ввести хворому для усунення даного ускладнення?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Протаміну сульфат</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Вікасол</Text>
+      </Answer>
+      <Answer>
+        <Text>Амінокапронова кислота</Text>
+      </Answer>
+      <Answer>
+        <Text>Неодикумарин</Text>
+      </Answer>
+      <Answer>
+        <Text>Фібриноген</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>До лікарні звернулася жінка з дитиною, у якої на голові була гангренозна рана. Лікар при огляді виявив у рані білих червоподібних личинок комах. Яка комаха могла їх відкласти?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Вольфартова муха</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Муха-жигалка</Text>
+      </Answer>
+      <Answer>
+        <Text>Москіти</Text>
+      </Answer>
+      <Answer>
+        <Text>Комарі</Text>
+      </Answer>
+      <Answer>
+        <Text>Блохи</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>На дослідження в бактеріологічну лабораторію було відправлено випорожнення хворої дитини грудного віку, з яких виділена культура ентеропатоген-них кишкових паличок О55К59. На основі яких критеріїв виділена культура віднесена до ЕПКП О55?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Антигенні властивості</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Морфологічні ознаки</Text>
+      </Answer>
+      <Answer>
+        <Text>Культуральні ознаки</Text>
+      </Answer>
+      <Answer>
+        <Text>Біохімічні властивості</Text>
+      </Answer>
+      <Answer>
+        <Text>Визначення фаговару</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У чоловіка 30-ти років перед операцією визначили групову належність крові. Кров резус-позитивна. Реакцію аглютинації еритроцитів не викликали стандартні сироватки груп 0а/3 (I), А/3 (II), Ва (III). Досліджувана кров належить до групи:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>0ав (I)</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Ар (II)</Text>
+      </Answer>
+      <Answer>
+        <Text>Ва (III)</Text>
+      </Answer>
+      <Answer>
+        <Text>АВ (IV)</Text>
+      </Answer>
+      <Answer>
+        <Text>-</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Швидкість проведення збудження нервовими волокнами становить 120 м/с. Який з наведених чинників, перш за все, забезпечує таку швидкість?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Наявність мієлінової оболонки</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Великий потенціал спокою</Text>
+      </Answer>
+      <Answer>
+        <Text>Велика амплітуда потенціалу дії</Text>
+      </Answer>
+      <Answer>
+        <Text>Малий поріг деполяризації</Text>
+      </Answer>
+      <Answer>
+        <Text>Великий фактор надійності</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У тварини зруйнували отолітові ве-стибулорецептори. Які з наведених рефлексів зникнуть внаслідок цього у тварини?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Статокінетичні при рухах з лінійним прискоренням</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Статокінетичні при рухах з кутовим прискоренням</Text>
+      </Answer>
+      <Answer>
+        <Text>Міотатичні</Text>
+      </Answer>
+      <Answer>
+        <Text>Випрямлення тулуба</Text>
+      </Answer>
+      <Answer>
+        <Text>Первинні орієнтувальні</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого з ВШ-інфекцією визначена ураження шкіри нижніх кінцівок у вигляді множинних пухлинних вузликів синюшно-червоного кольору, що зливаються і створюють поверхневі виразки. При дослідженні біоптату шкіри виявлено новоутворення кровоносних судин, що створюють порожнини різної форми і величини та побудоване з ендотелію, багато пучків веретеноподібних клітин. Діагностуйте найімовірніший характер шкірної патології:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Саркома Капоші</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Базаліома</Text>
+      </Answer>
+      <Answer>
+        <Text>Дерматомікоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Лімфома шкіри</Text>
+      </Answer>
+      <Answer>
+        <Text>Запальний дерматит</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого з патологією серцево-судинної системи розвинулись набряки на нижніх кінцівках. Який механізм розвитку серцевого набряку?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Підвищення гідростатичного тиску в венулах</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Підвищення онкотичного тиску плазми крові</Text>
+      </Answer>
+      <Answer>
+        <Text>Підвищення гідростатичного тиску в артеріолах</Text>
+      </Answer>
+      <Answer>
+        <Text>Зниження осмотичного тиску плазми крові</Text>
+      </Answer>
+      <Answer>
+        <Text>Порушення лімфовідтоку</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворої при лікуванні гіпертонічної хвороби на фоні прийому препарату виник сухий кашель. Для якого препарату характерна така побічна дія?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Лізиноприл</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Резерпін</Text>
+      </Answer>
+      <Answer>
+        <Text>Гідрохлортіазид</Text>
+      </Answer>
+      <Answer>
+        <Text>Дротаверин</Text>
+      </Answer>
+      <Answer>
+        <Text>Но-шпа</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У фібробластах шкіри дитини із хворобою Дауна виявлено 47 хромосом. Визначте тип аномалії:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Трисомія 21</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Полісомія Y</Text>
+      </Answer>
+      <Answer>
+        <Text>Трисомія 13</Text>
+      </Answer>
+      <Answer>
+        <Text>Трисомія 18</Text>
+      </Answer>
+      <Answer>
+        <Text>Трисомія Х</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При операції у хлопчика 12-ти років видалений апендикс, який надіслано патологу на дослідження. Макроскопічно: апендикс в дистальному відділі з бу-лавоподібним стовщенням діаметром 3 см, при розрізі якого вилилася прозора жовтувата рідина, стінка апендикса стоншена. Мікроскопічно: атрофія всіх шарів апендикса, ознак запалення немає. Який найбільш імовірний діагноз?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Водянка апендикса</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Флегмонозний апендицит</Text>
+      </Answer>
+      <Answer>
+        <Text>Емпієма апендикса</Text>
+      </Answer>
+      <Answer>
+        <Text>Хронічний апендицит</Text>
+      </Answer>
+      <Answer>
+        <Text>Міксоглобульоз апендикса</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У лікарню наприкінці робочого дня доставлений робітник ’’гарячого” цеху, який скаржиться на головний біль, запаморочення, нудоту, загальну слабкість. Об’єктивно: свідомість збережена, шкірні покриви гіперемовані, сухі, гарячі на дотик. Частота серцевих скорочень - 130/хв. Дихання часте, поверхневе. Яке порушення процесів терморегуляції, найбільш імовірно, виникло у людини в даній ситуації"?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Зниження тепловіддачі</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Посилення тепловіддачі і зниження теплопродукції</Text>
+      </Answer>
+      <Answer>
+        <Text>Посилення тепловіддачі і теплопродукції</Text>
+      </Answer>
+      <Answer>
+        <Text>Посилення теплопродукції без змін тепловіддачі</Text>
+      </Answer>
+      <Answer>
+        <Text>Зниження теплопродукції без змін тепловіддачі</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При розтині трупа чоловіка 48-ми років виявлено, що кістковий мозок пласких кісток, діафізів та епіфізів трубчастих кісток соковитий, сіро-червоний або сіро-жовтий гноєподібний (піоїдний кістковий мозок). Селезінка масою - 7 кг. На розрізі вона темно-червоного кольору, з ішемічними інфарктами. Всі лімфатичні вузли збільшені, м’які, сіро-червоного кольору. В печінці жирова дистрофія і лейкемічні інфільтрати. Який найбільш імовірний діагноз?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Хронічний мієлоїдний лейкоз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Мієломна хвороба</Text>
+      </Answer>
+      <Answer>
+        <Text>Гострий мієлоїдний лейкоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Гострий лімфоїдний лейкоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Лімфогранулематоз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У 3-річної дитини тривале підвищення температури, збільшені лімфовузли, у крові - значне підвищення кількості лімфоцитів. Методом ІФА виявлено антиген віруса Епштейна-Бара. Який діагноз можна поставити на основі вказаного?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Інфекційний мононуклеоз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Лімфома Беркета</Text>
+      </Answer>
+      <Answer>
+        <Text>Герпетична аденопатія</Text>
+      </Answer>
+      <Answer>
+        <Text>Генералізована інфекція, викликана herpes-zoster</Text>
+      </Answer>
+      <Answer>
+        <Text>Цитомегаловірусна інфекція</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>В бактеріологічну лабораторію поступив досліджуваний матеріал (промивні води, в’ялена риба домашнього приготування), взятий у хворого з підозрою на ботулізм. На яке поживне середовище слід зробити первинний посів матеріалу?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Середовище Кітта-Тароцці</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Цукрово-кров’яний агар</Text>
+      </Answer>
+      <Answer>
+        <Text>Цукровий м’ясо-пептонний агар</Text>
+      </Answer>
+      <Answer>
+        <Text>Цукровий м’ясо-пептонний бульйон</Text>
+      </Answer>
+      <Answer>
+        <Text>Сироватковий агар</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У юнака 18-ти років діагностовано хворобу Марфана. При дослідженні встановлено: порушення розвитку сполучної тканини, будови кришталика ока, анома- лії серцево-судинної системи, арахнода-ктилія. Яке генетичне явище зумовило розвиток цієї хвороби?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Плейотропія</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Комплементарність</Text>
+      </Answer>
+      <Answer>
+        <Text>Кодомінування</Text>
+      </Answer>
+      <Answer>
+        <Text>Множинний алелiзм</Text>
+      </Answer>
+      <Answer>
+        <Text>Неповне домiнування</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У бактерій встановлений процес кон’югації, при якому між бактерiями утворюється цитоплазматичний місток, по якому з клітини-донора до клітини-реціпієнта надходять плазміди і фрагменти молекули ДНК. Яке значення цього процесу?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Забезпечує обмін генетичного матеріалу</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Забезпечує обмін речовинами між клітинами</Text>
+      </Answer>
+      <Answer>
+        <Text>Сприяє активізації мутаційного процесу</Text>
+      </Answer>
+      <Answer>
+        <Text>Підвищує гетерозиготність</Text>
+      </Answer>
+      <Answer>
+        <Text>Ліквідує небажані мутації</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Дослідженнями останніх десятиліть встановлено, що безпосередніми ’’виконавцями” апоптозу в клітині є особливі ферменти - каспази. В утворенні одного з них бере участь цитохром С. Вкажіть його функцію в нормальній клітині:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Фермент дихального ланцюга переносу електронів</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Фермент ЦТК</Text>
+      </Answer>
+      <Answer>
+        <Text>Фермент бета-окислювання жирних кислот</Text>
+      </Answer>
+      <Answer>
+        <Text>Компонент H + - АТФ-азной системи</Text>
+      </Answer>
+      <Answer>
+        <Text>Компонент піруватдегідрогеназної системи</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У відділення реанімації був доставлений хворий з інфарктом міокарда. Який препарат необхідно ввести хворому для лікування больового шоку?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Промедол</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Анальгін</Text>
+      </Answer>
+      <Answer>
+        <Text>Парацетамол</Text>
+      </Answer>
+      <Answer>
+        <Text>Целекоксиб</Text>
+      </Answer>
+      <Answer>
+        <Text>Налоксон</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Жінка 52-х років, хвора на рак молочної залози, пройшла курс променевої терапії. Розмір пухлини зменшився. Який з наведених механізмів ушкодження клітини найбільше обумовлює ефективність променевої терапії?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Утворення вільних радикалів</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гіпертермія</Text>
+      </Answer>
+      <Answer>
+        <Text>Лізис NK-клітинами</Text>
+      </Answer>
+      <Answer>
+        <Text>Тромбоз судин</Text>
+      </Answer>
+      <Answer>
+        <Text>Мутагенез</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Після операції на кишечнику у хворого з’явились симптоми отруєння аміаком за типом печінкової коми. Який механізм дії аміаку на енергозабезпечення ЦНС?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гальмування ЦТК в результаті зв’язування альфа-кетоглутарату</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гальмування гліколізу</Text>
+      </Answer>
+      <Answer>
+        <Text>Гальмування бета-окиснення жирних кислот</Text>
+      </Answer>
+      <Answer>
+        <Text>Інактивація ферментів дихального ланцюга</Text>
+      </Answer>
+      <Answer>
+        <Text>Роз’єднування окисного фосфорилю-вання</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У пацієнта перфоративна виразка передньої стінки шлунка. В яке похідне очеревини попаде вміст шлунка?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Передшлункова сумка</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Чепцева сумка</Text>
+      </Answer>
+      <Answer>
+        <Text>Печінкова сумка</Text>
+      </Answer>
+      <Answer>
+        <Text>Правий брижовий синус</Text>
+      </Answer>
+      <Answer>
+        <Text>Лівий брижовий синус</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При огляді хворої лікар-гінеколог відмітив симптоми запалення статевих шляхів, у мазку взятому із піхви, виявлено грушоподібні найпростіші з шипом, з передньої частини відходять джгутики, наявна ундулююча мембрана. Яке захворювання підозрює лікар у хворої?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Урогенітальний трихомоноз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Лямбліоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Кишковий трихомоноз</Text>
+      </Answer>
+      <Answer>
+        <Text>Токсоплазмоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Балантидіоз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Жінка звернулася до лікаря зі скаргами на утруднення рухів язика. Обстеження головного мозку за допомогою ЯМР показало, що у хворої крововилив в нижньому відділі довгастого мозку. Про пошкодження якого ядра довгастого мозку у хворої можна думати?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ядро під’язикового нерва</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Нижнє слиновидільне ядро</Text>
+      </Answer>
+      <Answer>
+        <Text>Ядро додаткового нерва</Text>
+      </Answer>
+      <Answer>
+        <Text>Подвійне ядро</Text>
+      </Answer>
+      <Answer>
+        <Text>Одиноке ядро</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При мікроскопічному дослідженні виявляється паренхіматозний орган, в якому епітеліальні тяжі формують клу-бочкову, пучкову та сітчасту зони. Центральна частина органу представлена скупченнями хроматофінних клітин. Ви- значте орган:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Надниркова залоза</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Щитоподібна залоза</Text>
+      </Answer>
+      <Answer>
+        <Text>Епіфіз</Text>
+      </Answer>
+      <Answer>
+        <Text>Печінка</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпофіз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У відділення реанімації поступив хворий після ДТП з однобічним пневмотораксом. Який вид дихання спостерігається у даному випадку?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Поверхневе часте</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Глибоке часте</Text>
+      </Answer>
+      <Answer>
+        <Text>Поверхневе рідке</Text>
+      </Answer>
+      <Answer>
+        <Text>Поверхневе</Text>
+      </Answer>
+      <Answer>
+        <Text>Асфіктичне</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворої виявлена ракова пухлина шийки матки. У які регіонарні лімфатичні вузли можливе розповсюдження метастазів?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Пахвинні і здухвинні</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Поперекові і ниркові</Text>
+      </Answer>
+      <Answer>
+        <Text>Верхні і нижні брижові</Text>
+      </Answer>
+      <Answer>
+        <Text>Навколоміхурні і поперекові</Text>
+      </Answer>
+      <Answer>
+        <Text>-</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При огляді порожнини рота дитини педіатр виявила наявність нижніх медіальних різців. Дитина розвивається нормально. Визначте її вік:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>6-7 місяців</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>8-9 місяців</Text>
+      </Answer>
+      <Answer>
+        <Text>10-12 місяців</Text>
+      </Answer>
+      <Answer>
+        <Text>13-14 місяців</Text>
+      </Answer>
+      <Answer>
+        <Text>-</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Серед антиатеросклеротичних препаратів, що застосовуються з метою профілактики та лікування атеросклерозу, є левостатин. Він діє шляхом:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гальмування біосинтезу холестерину</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Пригнічення всмоктування холестерину в кишківнику</Text>
+      </Answer>
+      <Answer>
+        <Text>Активації метаболізму холестерину</Text>
+      </Answer>
+      <Answer>
+        <Text>Стимулювання екскреції холестерину з організму</Text>
+      </Answer>
+      <Answer>
+        <Text>Усіма наведеними шляхами</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При зниженні активності ферментів антиоксидантного захисту посилюються процеси перекисного окиснення ліпідів клітинних мембран. При нестачі якого мікроелементу знижується активність глутатіонпероксидази?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Селен</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Молібден</Text>
+      </Answer>
+      <Answer>
+        <Text>Кобальт</Text>
+      </Answer>
+      <Answer>
+        <Text>Марганець</Text>
+      </Answer>
+      <Answer>
+        <Text>Мідь</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворий 75-ти років був оперований з приводу рака передміхурової залози, помер раптово на 4-ту добу після оперативного втручання. При розтині тіла померлого у просвітах головного стовбура і біфуркації легеневої артерії були виявлені і легко видалені крихкі маси темно-червоного кольору з тьмяною поверхнею. Такі ж маси знаходились у порожнині правого шлуночка серця. Який різновид порушення кровообігу призвів до раптової смерті хворого?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Тромбоемболія легеневої артерії</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Тканинна емболія</Text>
+      </Answer>
+      <Answer>
+        <Text>Тромбоз легеневої артерії</Text>
+      </Answer>
+      <Answer>
+        <Text>!нфаркт міокарда</Text>
+      </Answer>
+      <Answer>
+        <Text>Парадоксальна емболія</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При обстеженні жінки 56-ти років, що хвора на цукровий діабет 1-го типу, виявлене порушення білкового обміну, що при лабораторному дослідженні крові проявляється аміноацидемією а клінічно - уповільненням загоєння ран і зменшенням синтезу антитіл. Який з перерахованих механізмів викликає розвиток аміноацидемії?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Підвищення протеолізу</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гіперпротеїнемія</Text>
+      </Answer>
+      <Answer>
+        <Text>Зменшення концентрації амінокислот у крові</Text>
+      </Answer>
+      <Answer>
+        <Text>Підвищення онкотичного тиску в плазмі крові</Text>
+      </Answer>
+      <Answer>
+        <Text>Збільшення ліпопротеїдів високої щільності</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При недостатності вітаміну C спостерігається порушення структури колагенових волокон. Яка стадія їх синтезу порушується при цьому?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Утворення гідроксипроліну і гідрокси-лізину</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Утворення гама-карбоксиглутамату</Text>
+      </Answer>
+      <Answer>
+        <Text>Приєднання глюкозних і галактозних залишків</Text>
+      </Answer>
+      <Answer>
+        <Text>Відщеплення сигнальних олігопептидів</Text>
+      </Answer>
+      <Answer>
+        <Text>Агрегація тропоколагену і утворення фібрил</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У людини в результаті патологічного процесу збільшена товщина гематоальвеолярного бар’єру. Безпосереднім наслідком цього буде зменшення:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Дифузійної здатності легень</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Резервного об’єму видиху</Text>
+      </Answer>
+      <Answer>
+        <Text>Альвеолярної вентиляції легень</Text>
+      </Answer>
+      <Answer>
+        <Text>Кисневої ємності крові</Text>
+      </Answer>
+      <Answer>
+        <Text>Хвилинного об’єму дихання</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Недостатність в організмі мікроелементу селену проявляється кардіоміопа- тією. Імовірною причиною такого стану є зниження активності такого селенвмі-сного ферменту:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ілутатіонпероксидаза</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Лактатдегідрогеназа</Text>
+      </Answer>
+      <Answer>
+        <Text>Каталаза</Text>
+      </Answer>
+      <Answer>
+        <Text>Цитохромоксидаза</Text>
+      </Answer>
+      <Answer>
+        <Text>Сукцинатдегідрогеназа</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого після перенесеного ішемічного інсульту стали неможливими довільні рухи у правих кінцівках, спостерігається гіперрефлексія. Під час пальпації визначається підвищений тонус м’язів кінцівок. Яка форма порушення рухової функції має місце у хворого?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Центральний параліч</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Периферичний парез</Text>
+      </Answer>
+      <Answer>
+        <Text>Мозочкова атаксія</Text>
+      </Answer>
+      <Answer>
+        <Text>Периферичний параліч</Text>
+      </Answer>
+      <Answer>
+        <Text>Тетанія</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У жінки, що тривало приймала антибіотики з приводу кишкової інфекції, розвинулось ускладнення з боку слизової порожнини рота у вигляді запального процесу і білого нальоту, у якому під час бактеріологічного дослідження були виявлені дріжджеподібні грибки Candida albicans. Який з перерахованих препаратів показаний для лікування цього ускладнення?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Флуконазол</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Бісептол</Text>
+      </Answer>
+      <Answer>
+        <Text>Тетрациклін</Text>
+      </Answer>
+      <Answer>
+        <Text>Фуразолідон</Text>
+      </Answer>
+      <Answer>
+        <Text>Поліміксин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Досліджуються клітини червоного кісткового мозку людини, які належать до клітинного комплексу, що постійно діляться. Який процес забезпечує генетичну ідентичність цих клітин:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Мітоз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Мейоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Репарація</Text>
+      </Answer>
+      <Answer>
+        <Text>Мутація</Text>
+      </Answer>
+      <Answer>
+        <Text>Трансплантація</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хвора 57-ми років для лікування гіпертонічної хвороби тривалий час приймала анаприлін. Побічні ефекти спонукали пацієнтку відмовитись від прийому препарату, що призвело до розвитку гіпертонічного кризу і нападу стенокардії. Як називається ускладнення, яке виникло?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Синдром відміни</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Лікарська залежність</Text>
+      </Answer>
+      <Answer>
+        <Text>Тахіфілаксія</Text>
+      </Answer>
+      <Answer>
+        <Text>Сенсибілізація</Text>
+      </Answer>
+      <Answer>
+        <Text>Звикання</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>При лабораторному дослідженні крові пацієнта виявлено, що вміст білків у плазмі становить 40 г/л. Як це впливає на транскапілярний обмін води в мікро-циркуляторному руслі?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Збільшується фільтрація, зменшується реабсорбція</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Збільшуються фільтрація і реабсорбція</Text>
+      </Answer>
+      <Answer>
+        <Text>Зменшується фільтрація, збільшується реабсорбція</Text>
+      </Answer>
+      <Answer>
+        <Text>Зменшуються фільтрація і реабсорбція</Text>
+      </Answer>
+      <Answer>
+        <Text>Обмін не змінюється</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого спостерігається тремтіння рук, що пов’язане з хворобою Паркінсо-на. Дефіцит якого медіатора в стріопалі-дарних структурах призводить до таких симптомів?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Дофамін</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>ГАМК</Text>
+      </Answer>
+      <Answer>
+        <Text>Субстанція Р</Text>
+      </Answer>
+      <Answer>
+        <Text>Норадреналін</Text>
+      </Answer>
+      <Answer>
+        <Text>Серотонін</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого на жовчно-кам’яну хворобу спостерігаються ознаки холемічного синдрому. Який симптом з перерахованих зумовлений відсутністю надходження жовчі у кишечник?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Стеаторея</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Брадикардія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпотонія</Text>
+      </Answer>
+      <Answer>
+        <Text>Шкірний свербіж</Text>
+      </Answer>
+      <Answer>
+        <Text>Астенія</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У людини після гострої крововтрати виникло відчуття спраги. Зміна якого гомеостатичного параметру викликала це відчуття?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Зменшення об’єму позаклітинної рідини</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Підвищення осмотичного тиску рідин організму</Text>
+      </Answer>
+      <Answer>
+        <Text>Зниження осмотичного тиску рідин організму</Text>
+      </Answer>
+      <Answer>
+        <Text>Підвищення онкотичного тиску рідин організму</Text>
+      </Answer>
+      <Answer>
+        <Text>Зниження онкотичного тиску рідин організму</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Студент використав консервовану донорську кров для визначення часу її зсідання. Однак, будь-якого позитивного результату він отримати не зміг. Причиною цього є відсутність в крові:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Іонізованого кальцію</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Фактора Хагемана</Text>
+      </Answer>
+      <Answer>
+        <Text>Тромбопластину</Text>
+      </Answer>
+      <Answer>
+        <Text>Фі6риногєну</Text>
+      </Answer>
+      <Answer>
+        <Text>Вітаміну K</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Введення тварині екстракту тканини передсердя посилює виділення натрію з сечею. Дія якої біологічно активної речовини стала причиною такого стану?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Натрійуретичний гормон</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Ілюкокортикоїд</Text>
+      </Answer>
+      <Answer>
+        <Text>Адреналін</Text>
+      </Answer>
+      <Answer>
+        <Text>Серотонін</Text>
+      </Answer>
+      <Answer>
+        <Text>Калійкреїн</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворій жінці із захворюванням нирок, що супроводжується вираженими набряками, призначили діуретичний препарат, що пригнічує реабсорбцію в нирках іонів Na+ і води, посилює виведення нирками іонів K + і Mg++, викликає гіпе-рурикемію, зумовлює потужний діуретичний ефект. Назвіть цей препарат:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Фуросемід</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Тріамтерен</Text>
+      </Answer>
+      <Answer>
+        <Text>Спіронолактон</Text>
+      </Answer>
+      <Answer>
+        <Text>Діакарб</Text>
+      </Answer>
+      <Answer>
+        <Text>Аллопуринол</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому призначили антибіотик хлорамфенікол (левомецитин), який порушує у мікроорганізмів синтез білку шляхом гальмування процесу:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Елонгація трансляції</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Утворення полірибосом</Text>
+      </Answer>
+      <Answer>
+        <Text>Транскрипція</Text>
+      </Answer>
+      <Answer>
+        <Text>Процесінг</Text>
+      </Answer>
+      <Answer>
+        <Text>Ампліфікація генів</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>До офтальмолога звернулася жінка зі скаргами на шкірний свербіж і набряклість повік. При обстеженні виявлено членистоноге червоподібної форми величиною 0,4 мм. Суцільний щиток вкриває передню частину тіла, тіло має поперечну смугастість. Ноги короткі, лапки з двома кігтиками. Який діагноз може встановити лікар?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Демодекоз</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Педікульоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Короста</Text>
+      </Answer>
+      <Answer>
+        <Text>Фтиріоз</Text>
+      </Answer>
+      <Answer>
+        <Text>Факультативний міаз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого 69-ти років на шкірі в ділянці нижньої повіки з’явилося невелике бляшкоподібне утворення з наступним виразкуванням, яке було оперативно видалене. При мікроскопічному дослідженні утворення: в дермі шкіри комплекси з атипових епітеліальних клітин; пери- ферії клітини розташовані перпендикулярно до базальної мембрани. Клітини темні, призматичної полігональної форми з гіперхромними ядрами з частими мі-тозами. Іноді зустрічаються утворення, подібні до волосяного фолікула. Яка гістологічна форма раку у хворого?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Базально-клітинний рак</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Плоскоклітинний рак з ороговінням</Text>
+      </Answer>
+      <Answer>
+        <Text>Плоскоклітинний рак без ороговіння</Text>
+      </Answer>
+      <Answer>
+        <Text>Аденокарцинома</Text>
+      </Answer>
+      <Answer>
+        <Text>Недиференційований рак</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Після перелому нижньої щелепи по-страждалий відзначає втрату чутливості шкіри у ділянці підборіддя і нижньої губи. Який нерв був пошкоджений?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Mentalis</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Facialis</Text>
+      </Answer>
+      <Answer>
+        <Text>Maxillaris</Text>
+      </Answer>
+      <Answer>
+        <Text>Infraorbitalis</Text>
+      </Answer>
+      <Answer>
+        <Text>Buccalis</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У молодого чоловіка внаслідок подразнення сонячного сплетення запальним процесом (солярит) підвищена функціональна активність залоз шлунка, що виражається, зокрема, у збільшенні продукції хлоридної кислоти. Яка з вказаних нижче речовин викликає гіперхлор-гідрію у даному випадку?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Іастрин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Іастроінгібуючий пептид</Text>
+      </Answer>
+      <Answer>
+        <Text>Урогастрон</Text>
+      </Answer>
+      <Answer>
+        <Text>Глюкагон</Text>
+      </Answer>
+      <Answer>
+        <Text>Калікреїн</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У альпініста, що піднявся на висоту 5200 м, розвинувся газовий алкалоз. Що є причиною його розвитку?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Гіпервентиляція легенів</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гіповентиляція легенів</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпероксемія</Text>
+      </Answer>
+      <Answer>
+        <Text>Гіпоксемія</Text>
+      </Answer>
+      <Answer>
+        <Text>Зниження температури навколишнього середовища</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Реакції міжмолекулярного транспорту одновуглецевих радикалів є необхідними для синтезу білків та нуклеїнових кислот. З якого з наведених нижче вітамінів утворюється кофермент, потрібний для вказаних вище реакцій?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Фолієва кислота</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Пантотенова кислота</Text>
+      </Answer>
+      <Answer>
+        <Text>Тіамін</Text>
+      </Answer>
+      <Answer>
+        <Text>Рибофлавін</Text>
+      </Answer>
+      <Answer>
+        <Text>Аскорбінова кислота</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Прокаріотичні та еукаріотичні клітини характеризуються здатністю до по- ділу. Поділ прокаріотичних клітин відрізняється від поділу еукаріотичних, але існує молекулярний процес, який лежить в основі цих поділів. Який це процес?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Реплікація ДНК</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Транскрипція</Text>
+      </Answer>
+      <Answer>
+        <Text>Репарація</Text>
+      </Answer>
+      <Answer>
+        <Text>Трансляція</Text>
+      </Answer>
+      <Answer>
+        <Text>Ампліфікація генів</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Для проведення анальгезії наркотичний анальгетик застосували з препаратом бензодіазепінового ряду. Який засіб використали для потенціювання анальгезії?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Діазепам</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Хлорпротіксен</Text>
+      </Answer>
+      <Answer>
+        <Text>Трифтазин</Text>
+      </Answer>
+      <Answer>
+        <Text>Карбамазепін</Text>
+      </Answer>
+      <Answer>
+        <Text>Імізин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Молода людина 25-ти років споживає надмірну кількість вуглеводів (600 г на добу), що перевищує її енергетичні потреби. Який процес буде активуватися в організмі людини у даному випадку?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ліпогенез</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гліколіз</Text>
+      </Answer>
+      <Answer>
+        <Text>Ліполіз</Text>
+      </Answer>
+      <Answer>
+        <Text>Ілюконеогенез</Text>
+      </Answer>
+      <Answer>
+        <Text>Окиснення жирних кислот</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Юнак 15-ти років скаржиться на загальну слабкість, запаморочення, швидку стомлюваність. При обстеженні виявлено еритроцити зміненої форми, кількість їх знижена. Попередній діагноз: серпоподібно-клітинна анемія. Який тип мутації зумовлює розвиток цього патологічного стану?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Точкова мутація</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Мутація зсуву рамки зчитування</Text>
+      </Answer>
+      <Answer>
+        <Text>Делеція</Text>
+      </Answer>
+      <Answer>
+        <Text>Інверсія</Text>
+      </Answer>
+      <Answer>
+        <Text>Хромосомна аберація</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому із больовим синдромом в суглобах постійно призначають аспірин. Який з перерахованих ферментів він пригнічує?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Циклооксигеназа</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Ліпооксигеназа</Text>
+      </Answer>
+      <Answer>
+        <Text>Фосфоліпаза А2</Text>
+      </Answer>
+      <Answer>
+        <Text>Фосфоліпаза Д</Text>
+      </Answer>
+      <Answer>
+        <Text>Фосфоліпаза С</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Препарати групи вітаміну В2 призначають при захворюваннях шкіри. Завдяки наявності якої структури в його складі визначається здатність до окиснення-відновлення?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ізоалоксазин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Аденін</Text>
+      </Answer>
+      <Answer>
+        <Text>Рибітол</Text>
+      </Answer>
+      <Answer>
+        <Text>Рибозофосфат</Text>
+      </Answer>
+      <Answer>
+        <Text>Залишок фосфорної кислоти</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Під час автомобільної аварії людина отримала сильний удар в епігастральну ділянку, внаслідок чого виникла зупинка серця. Що могло стати причиною таких змін серцевої діяльності?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Підвищення тонусу блукаючого нерва</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Збільшене виділення кортизолу</Text>
+      </Answer>
+      <Answer>
+        <Text>Збільшене виділення адреналіну</Text>
+      </Answer>
+      <Answer>
+        <Text>Збільшене виділення альдостерону</Text>
+      </Answer>
+      <Answer>
+        <Text>Підвищення тонусу симпатичної нервової системи</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого з синдромом Іценко-Кушинга спостерігаються стійка гіперглікемія та глюкозурія. Синтез та секреція якого гормону збільшені у цього хворого?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Кортизол</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Адреналін</Text>
+      </Answer>
+      <Answer>
+        <Text>Глюкагон</Text>
+      </Answer>
+      <Answer>
+        <Text>Тироксин</Text>
+      </Answer>
+      <Answer>
+        <Text>Альдостерон</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого має місце хронічний запальний процес мигдаликів. За рахунок якого біохімічного процесу у вогнищі запалення підтримується концентрація НАДФН, необхідного для реалізації механізму фагоцитозу?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Пентозо-фосфатний шлях</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Цикл Корі</Text>
+      </Answer>
+      <Answer>
+        <Text>Цикл Кребса</Text>
+      </Answer>
+      <Answer>
+        <Text>Орнітиновий цикл</Text>
+      </Answer>
+      <Answer>
+        <Text>Гліколіз</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Щоденно в організмі людини 0,5% всього гемоглобіну перетворюється на метгемоглобін. Який фермент, що міститься в еритроцитах, каталізує відновлення метгемоглобіну до гемоглобіну?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Метгемоглобінредуктаза</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Метгемоглобінтрансфераза</Text>
+      </Answer>
+      <Answer>
+        <Text>Глюкуронілтрансфераза</Text>
+      </Answer>
+      <Answer>
+        <Text>Гемоксигеназа</Text>
+      </Answer>
+      <Answer>
+        <Text>Білівердинредуктаза</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого з гемолітичною анемією виявлено дефіцит піруваткінази в еритроцитах. За цих умов причиною розвитку гемолізу еритроцитів є:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Зменшення активності Na+, К+ -АТФ-ази</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Нестача Na+ в еритроцитах</Text>
+      </Answer>
+      <Answer>
+        <Text>Надлишок К + в еритроцитах</Text>
+      </Answer>
+      <Answer>
+        <Text>Генетичні дефекти глікофорину А</Text>
+      </Answer>
+      <Answer>
+        <Text>Дефіцит спектрину</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хвора 37-ми років померла під час нападу експіраторної задухи, що був спричинений контактом з екзогенним алергеном (пилок амброзії). При гістологічному дослідженні в просвіті бронхів спостерігаються скупчення слизу, в стінці бронхів багато тучних клітин (лаброци-тів), більшість з яких у стані дегрануляції, багато еозинофілів. До патогенезу якого типу реакцій гіперчутливості можна віднести описані зміни?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>I типу (анафілактична)</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>II типу (антитілозалежна)</Text>
+      </Answer>
+      <Answer>
+        <Text>III типу (імунокомплексна)</Text>
+      </Answer>
+      <Answer>
+        <Text>IV типу (клітинна цитотоксичність)</Text>
+      </Answer>
+      <Answer>
+        <Text>V типу (гранулематоз)</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого запалення присереднього надвиростка плечової кістки (епіконді-літ). Який нерв залучений у процес?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>N. ulnaris</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>N. medianus</Text>
+      </Answer>
+      <Answer>
+        <Text>N. radialis</Text>
+      </Answer>
+      <Answer>
+        <Text>N. musculocutaneus</Text>
+      </Answer>
+      <Answer>
+        <Text>N. axillaris</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Який вітамінний препарат доцільно призначити пацієнту зі скаргами на зниження гостроти зору в сутінках, сухість шкіри, часті застудні захворювання, ламкість волосся?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ретинолу ацетат</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Тіаміну хлорид</Text>
+      </Answer>
+      <Answer>
+        <Text>Нікотинова кислота</Text>
+      </Answer>
+      <Answer>
+        <Text>Ергокальциферол</Text>
+      </Answer>
+      <Answer>
+        <Text>Пантотенова кислота</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>43-х річний капітан корабля скаржиться на прояви сезонної алергії. Який лікарський засіб, що не має снодійного ефекту, можна йому призначити?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Лоратадин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Супрастин</Text>
+      </Answer>
+      <Answer>
+        <Text>Дипразин</Text>
+      </Answer>
+      <Answer>
+        <Text>Мікосептин</Text>
+      </Answer>
+      <Answer>
+        <Text>Ванкоміцин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У жінки 52-х років артеріальна гіпертензія ускладнилась правобічною геміплегією і втратою мови. Яка зона головного мозку є імовірно найбільш ураженою?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ліва передня звивина і ліва скронева частка</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Ліва передня звивина</Text>
+      </Answer>
+      <Answer>
+        <Text>Ліва скронева частка</Text>
+      </Answer>
+      <Answer>
+        <Text>Права передня звивина</Text>
+      </Answer>
+      <Answer>
+        <Text>Потилична частка</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому на хронічний бронхіт призначили муколітичний препарат, що підвищує синтез сурфактанту. Який препарат був використаний?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Амброксол</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Кодеїн</Text>
+      </Answer>
+      <Answer>
+        <Text>Мукалтин</Text>
+      </Answer>
+      <Answer>
+        <Text>Фенотерол</Text>
+      </Answer>
+      <Answer>
+        <Text>Лібексин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Ефективна діагностика носійства збудників кишкових інфекцій ґрунтується на виявленні антитіл до певних антигенів бактерій в реакції непрямої гемаглютинації. Який стандартний препарат слід застосувати у цій реакції'?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Еритроцитарні діагностикуми з адсорбованими антигенами бактерій</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Еритроцити барана й гемолітичну сироватку</Text>
+      </Answer>
+      <Answer>
+        <Text>Антитіла проти імуноглобулінів основних класів</Text>
+      </Answer>
+      <Answer>
+        <Text>Моноклональні антитіла</Text>
+      </Answer>
+      <Answer>
+        <Text>Монорецепторні діагностичні сироватки</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>На розтині тіла померлого, який страждав на гіпертонічну хворобу, у лівій гемісфері мозку виявлена порожнина округлої форми 4х5 см із іржавою стінкою, заповнена жовтуватою прозорою рідиною. Назвіть патологію, яка розвинулась у головному мозку хворого:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Кіста</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Немічний інфаркт</Text>
+      </Answer>
+      <Answer>
+        <Text>Геморагічне просякнення</Text>
+      </Answer>
+      <Answer>
+        <Text>Гематома</Text>
+      </Answer>
+      <Answer>
+        <Text>Абсцес</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Клінічні ознаки хвороби у пацієнта почалися через 24 години після вживання рибних консервів і включали нудоту, слабкість, сухість у роті. Потім приєдналися двоїння зображення, афагія, проблеми з диханням. Чим обумовлена така симптоматика при ботулізмі?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Вплив нейротоксину</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Вплив ендотоксину</Text>
+      </Answer>
+      <Answer>
+        <Text>Вплив ентеротоксину</Text>
+      </Answer>
+      <Answer>
+        <Text>Активація цАМФ</Text>
+      </Answer>
+      <Answer>
+        <Text>Розмноження збудника у ШКТ</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У хворого з підозрою на ”озену” з носоглотки були виділені грамнегатив-ні палички, які утворювали капсулу на поживному середовищі. Які мікроорганізми спричинили хворобу?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Клебсієли</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Сальмонели</Text>
+      </Answer>
+      <Answer>
+        <Text>Шигели</Text>
+      </Answer>
+      <Answer>
+        <Text>Хламідії</Text>
+      </Answer>
+      <Answer>
+        <Text>Мікоплазми</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>До травматологічного пункту доставлено хворого з пошкодженням м’язів нижніх кінцівок. За рахунок яких клітин можлива репаративна регенерація м’язових волокон і відновлення функції м’язів?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Міосателітоцити</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Адипоцити</Text>
+      </Answer>
+      <Answer>
+        <Text>Фібробласти</Text>
+      </Answer>
+      <Answer>
+        <Text>Ендотеліоцити</Text>
+      </Answer>
+      <Answer>
+        <Text>Плазмоцити</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У чоловіка 25-ти років на 4-й день після крововтрати в крові зросла кількість поліхроматофільних еритроцитів, рети-кулоцитів і навіть з’явились поодинокі нормобласти. Про що свідчить такі гематологічні зміни?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Процеси регенерації випереджають дозрівання клітин</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Ослаблені процеси еритропоезу</Text>
+      </Answer>
+      <Answer>
+        <Text>Зменшено об’єм плазми крові</Text>
+      </Answer>
+      <Answer>
+        <Text>Знижена продукція еритропоезу в нирках</Text>
+      </Answer>
+      <Answer>
+        <Text>Підвищена спорідність гемоглобіну до кисню</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хворому на туберкульоз легень призначений препарат першого ряду, який спричинив розвиток невриту лицьового нерва та порушення рівноваги. Вкажіть цей лікарський засіб:</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Ізоніазид</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Бісептол</Text>
+      </Answer>
+      <Answer>
+        <Text>Фуразолідон</Text>
+      </Answer>
+      <Answer>
+        <Text>Цефазолін</Text>
+      </Answer>
+      <Answer>
+        <Text>Левоміцетин</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Хірург під час операції на щитоподібній залозі перев’язав верхню щитоподі- бну артерію. Гілку якої судини перев’язав лікар?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>A. carotis externa</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>A. lingualis</Text>
+      </Answer>
+      <Answer>
+        <Text>A. facialis</Text>
+      </Answer>
+      <Answer>
+        <Text>A. carotis interna</Text>
+      </Answer>
+      <Answer>
+        <Text>A. pharyngea ascendens</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>Батьки - глухонімі, але глухота у дружини залежить від аутосомно-рецесивного гена, а у чоловіка виникла внаслідок тривалого прийому антибіотиків у дитинстві. Яка імовірність народження глухої дитини в родині, якщо батько гомозиготний за аллелю нормального слуху?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>0%</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>10%</Text>
+      </Answer>
+      <Answer>
+        <Text>25%</Text>
+      </Answer>
+      <Answer>
+        <Text>75%</Text>
+      </Answer>
+      <Answer>
+        <Text>100%</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>До лікарні потрапив футболіст з ушкодженням поверхневого пахвинного кільця та розривом двох ніжок, що його обмежують. Похідним якої анатомічної структури вони є?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Апоневроз зовнішнього косого м’яза живота</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Апоневроз внутрішнього косого м’яза живота</Text>
+      </Answer>
+      <Answer>
+        <Text>Апоневроз поперечного м’яза живота</Text>
+      </Answer>
+      <Answer>
+        <Text>Власна фасція живота</Text>
+      </Answer>
+      <Answer>
+        <Text>Міжножкові волокна</Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+  <Question>
+    <QuestionText>У потерпілого перелом у ділянці бічної поверхні променево-зап’ясткового суглоба. Де найімовірніше відбувся перелом?</QuestionText>
+    <Answers>
+      <Answer>
+        <Text>Шилоподібний відросток променевої кістки</Text>
+        <TrueAnswer>1</TrueAnswer>
+      </Answer>
+      <Answer>
+        <Text>Гачкувата кістка</Text>
+      </Answer>
+      <Answer>
+        <Text>Головчаста кістка</Text>
+      </Answer>
+      <Answer>
+        <Text>Шилоподібний відросток ліктьової кістки</Text>
+      </Answer>
+      <Answer>
+        <Text>Нижня третина плечової кістки </Text>
+      </Answer>
+    </Answers>
+
+  </Question>
+</ArrayOfQuestion>
