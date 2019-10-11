@@ -91,7 +91,7 @@ namespace IFNMUSiteCore.Controllers
                             if (thisDay >= Convert.ToDateTime(w.From).AddDays(-2) && thisDay <= Convert.ToDateTime(w.To).AddDays(1))
                             {
                                 ViewBag.Weeks = week;
-                                return View("ScheduleBig", w);
+                                return View("ScheduleBig", await db.Weeks.FindAsync(w.Id));
                             }
                         }
                         return View("ScheduleBig");

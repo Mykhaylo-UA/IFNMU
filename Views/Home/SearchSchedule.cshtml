@@ -13,7 +13,7 @@
 {
     if (week.NumberWeek == 1)
     {
-        @foreach (var day in week.ScheduleDays)
+        @foreach (var day in week.ScheduleDays.OrderBy(day => day.DayNumber))
         {
             <table class="oneWeekTable">
                 <caption>
@@ -36,7 +36,7 @@
                             break;
                     }
                 </caption>
-                @foreach (var lessons in day.Lessons)
+                @foreach (var lessons in day.Lessons.OrderBy(les => les.LessonNumber))
                 {
                     <tr>
                         <td>@lessons.LessonNumber</td>
@@ -65,7 +65,7 @@
     }
     else
     {
-        @foreach (var day in week.ScheduleDays)
+        @foreach (var day in week.ScheduleDays.OrderBy(day => day.DayNumber))
         {
             <table class="twoWeekTable" hidden>
                 <caption>
@@ -88,7 +88,7 @@
                         break;
                 }
                 </caption>
-                @foreach (var lessons in day.Lessons)
+                @foreach (var lessons in day.Lessons.OrderBy(les => les.LessonNumber))
                 {
                     <tr>
                     <td> @lessons.LessonNumber </td >

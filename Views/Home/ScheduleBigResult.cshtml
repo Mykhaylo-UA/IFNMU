@@ -7,7 +7,7 @@
         <th>Time</th>
     </tr>
 </table>
-@foreach (var day in Model.ScheduleDays)
+@foreach (var day in Model.ScheduleDays.OrderBy(day => day.DayNumber))
 {
     <table>
         <caption>
@@ -30,7 +30,7 @@
                     break;
             }
         </caption>
-        @foreach (var lessons in day.Lessons)
+        @foreach (var lessons in day.Lessons.OrderBy(les => les.LessonNumber))
         {
             <tr>
                 <td>@lessons.LessonNumber</td>
