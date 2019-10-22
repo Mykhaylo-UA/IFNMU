@@ -46,7 +46,7 @@
     <PackageReference Include="Microsoft.jQuery.Unobtrusive.Ajax" Version="3.2.6" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\ThematicPlans\" />
     <Folder Include="wwwroot\MethodicalRecomentadion\" />
+    <Folder Include="wwwroot\ThematicPlans\" />
   </ItemGroup>
 </Project>

@@ -57,10 +57,61 @@ namespace IFNMUSiteCore.Controllers
                 {
                     HttpContext.Response.Cookies.Append("Course", courses.ToString(), new Microsoft.AspNetCore.Http.CookieOptions() { IsEssential = true, Expires = DateTime.Now.AddMonths(1) });
                     HttpContext.Response.Cookies.Append("Group", group, new Microsoft.AspNetCore.Http.CookieOptions() { IsEssential = true, Expires = DateTime.Now.AddMonths(1) });
-                    week = await db.Weeks.Where(w => w.Course == courses && w.Group == group).Include(day => day.ScheduleDays).ThenInclude(les => les.Lessons).ToListAsync();
+                    week = await db.Weeks.Where(w => w.Course == courses && w.Group == group.Replace("+","").Replace("-", "").Replace("*", "")).Include(day => day.ScheduleDays).ThenInclude(les => les.Lessons).ToListAsync();
                     ViewBag.Course = courses;
                     ViewBag.Group = group;
-                    if (week[0].From == null) return View(week);
+                    if (week[0].From == null)
+                    {
+                        if(group.Contains("+"))
+                        {
+                            for (byte i=0;i<week.Count;i++)
+                            {
+                                for (byte a = 0; a < week[i].ScheduleDays.Count; a++)
+                                {
+                                    List<Lesson> wk = new List<Lesson>();
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                    foreach (var l in wk)
+                                    {
+                                        week[i].ScheduleDays[a].Lessons.Remove(l);
+                                    }
+                                }
+                            }
+                        }
+                        if (group.Contains("-"))
+                        {
+                            for (byte i = 0; i < week.Count; i++)
+                            {
+                                for (byte a = 0; a < week[i].ScheduleDays.Count; a++)
+                                {
+                                    List<Lesson> wk = new List<Lesson>();
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                    foreach (var l in wk)
+                                    {
+                                        week[i].ScheduleDays[a].Lessons.Remove(l);
+                                    }
+                                }
+                            }
+                        }
+                        if (group.Contains("*"))
+                        {
+                            for (byte i = 0; i < week.Count; i++)
+                            {
+                                for (byte a = 0; a < week[i].ScheduleDays.Count; a++)
+                                {
+                                    List<Lesson> wk = new List<Lesson>();
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                    foreach (var l in wk)
+                                    {
+                                        week[i].ScheduleDays[a].Lessons.Remove(l);
+                                    }
+                                }
+                            }
+                        }
+                        return View(week);
+                    }
                     else
                     {
                         DateTime thisDay = DateTime.Now;
@@ -69,7 +120,48 @@ namespace IFNMUSiteCore.Controllers
                             if (thisDay >= Convert.ToDateTime(w.From).AddDays(-2) && thisDay <= Convert.ToDateTime(w.To).AddDays(1))
                             {
                                 ViewBag.Weeks = week;
-                                return View("ScheduleBig", await db.Weeks.FindAsync(w.Id));
+                                ViewBag.Group = group;
+                                Week weekResult = db.Weeks.Find(w.Id);
+                                if (group.Contains("+"))
+                                {
+                                        for (byte a = 0; a < weekResult.ScheduleDays.Count; a++)
+                                        {
+                                            List<Lesson> wk = new List<Lesson>();
+                                            wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                            wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                            foreach (var l in wk)
+                                            {
+                                                weekResult.ScheduleDays[a].Lessons.Remove(l);
+                                            }
+                                        }
+                                }
+                                if (group.Contains("-"))
+                                {
+                                    for (byte a = 0; a < weekResult.ScheduleDays.Count; a++)
+                                    {
+                                        List<Lesson> wk = new List<Lesson>();
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                        foreach (var l in wk)
+                                        {
+                                            weekResult.ScheduleDays[a].Lessons.Remove(l);
+                                        }
+                                    }
+                                }
+                                if (group.Contains("*"))
+                                {
+                                    for (byte a = 0; a < weekResult.ScheduleDays.Count; a++)
+                                    {
+                                        List<Lesson> wk = new List<Lesson>();
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                        foreach (var l in wk)
+                                        {
+                                            weekResult.ScheduleDays[a].Lessons.Remove(l);
+                                        }
+                                    }
+                                }
+                                return View("ScheduleBig", weekResult);
                             }
                         }
                         return View("ScheduleBig");
@@ -79,10 +171,61 @@ namespace IFNMUSiteCore.Controllers
                 {
                     c = HttpContext.Request.Cookies["Course"];
                     g = HttpContext.Request.Cookies["Group"];
-                    week = await db.Weeks.Where(w => w.Course == Convert.ToByte(c) && w.Group == g).Include(day => day.ScheduleDays).ThenInclude(les => les.Lessons).ToListAsync();
+                    week = await db.Weeks.Where(w => w.Course == Convert.ToByte(c) && w.Group == g.Replace("+", "").Replace("-", "").Replace("*", "")).Include(day => day.ScheduleDays).ThenInclude(les => les.Lessons).ToListAsync();
                     ViewBag.Course = c;
                     ViewBag.Group = g;
-                    if (week[0].From == null) return View(week);
+                    if (week[0].From == null)
+                    {
+                        if (g.Contains("+"))
+                        {
+                            for (byte i = 0; i < week.Count; i++)
+                            {
+                                for (byte a = 0; a < week[i].ScheduleDays.Count; a++)
+                                {
+                                    List<Lesson> wk = new List<Lesson>();
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                    foreach (var l in wk)
+                                    {
+                                        week[i].ScheduleDays[a].Lessons.Remove(l);
+                                    }
+                                }
+                            }
+                        }
+                        if (g.Contains("-"))
+                        {
+                            for (byte i = 0; i < week.Count; i++)
+                            {
+                                for (byte a = 0; a < week[i].ScheduleDays.Count; a++)
+                                {
+                                    List<Lesson> wk = new List<Lesson>();
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                    foreach (var l in wk)
+                                    {
+                                        week[i].ScheduleDays[a].Lessons.Remove(l);
+                                    }
+                                }
+                            }
+                        }
+                        if (g.Contains("*"))
+                        {
+                            for (byte i = 0; i < week.Count; i++)
+                            {
+                                for (byte a = 0; a < week[i].ScheduleDays.Count; a++)
+                                {
+                                    List<Lesson> wk = new List<Lesson>();
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                    wk.AddRange(week[i].ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                    foreach (var l in wk)
+                                    {
+                                        week[i].ScheduleDays[a].Lessons.Remove(l);
+                                    }
+                                }
+                            }
+                        }
+                        return View(week);
+                    }
                     else
                     {
                         DateTime thisDay = DateTime.Today;
@@ -91,7 +234,48 @@ namespace IFNMUSiteCore.Controllers
                             if (thisDay >= Convert.ToDateTime(w.From).AddDays(-2) && thisDay <= Convert.ToDateTime(w.To).AddDays(1))
                             {
                                 ViewBag.Weeks = week;
-                                return View("ScheduleBig", await db.Weeks.FindAsync(w.Id));
+                                ViewBag.Group = g;
+                                Week weekResult = db.Weeks.Find(w.Id);
+                                if (g.Contains("+"))
+                                {
+                                    for (byte a = 0; a < weekResult.ScheduleDays.Count; a++)
+                                    {
+                                        List<Lesson> wk = new List<Lesson>();
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                        foreach (var l in wk)
+                                        {
+                                            weekResult.ScheduleDays[a].Lessons.Remove(l);
+                                        }
+                                    }
+                                }
+                                if (g.Contains("-"))
+                                {
+                                    for (byte a = 0; a < weekResult.ScheduleDays.Count; a++)
+                                    {
+                                        List<Lesson> wk = new List<Lesson>();
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                        foreach (var l in wk)
+                                        {
+                                            weekResult.ScheduleDays[a].Lessons.Remove(l);
+                                        }
+                                    }
+                                }
+                                if (g.Contains("*"))
+                                {
+                                    for (byte a = 0; a < weekResult.ScheduleDays.Count; a++)
+                                    {
+                                        List<Lesson> wk = new List<Lesson>();
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                        wk.AddRange(weekResult.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                        foreach (var l in wk)
+                                        {
+                                            weekResult.ScheduleDays[a].Lessons.Remove(l);
+                                        }
+                                    }
+                                }
+                                return View("ScheduleBig", weekResult);
                             }
                         }
                         return View("ScheduleBig");
@@ -105,9 +289,48 @@ namespace IFNMUSiteCore.Controllers
         }
         
         [HttpPost]
-        public async Task<IActionResult> ScheduleBig(int WeekId)
+        public async Task<IActionResult> ScheduleBig(int WeekId, string group)
         {
             Week week = await db.Weeks.Include(day => day.ScheduleDays).ThenInclude(les => les.Lessons).FirstOrDefaultAsync(w => w.Id == WeekId);
+            if (group.Contains("+"))
+            {
+                for (byte a = 0; a < week.ScheduleDays.Count; a++)
+                {
+                    List<Lesson> wk = new List<Lesson>();
+                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                    foreach (var l in wk)
+                    {
+                        week.ScheduleDays[a].Lessons.Remove(l);
+                    }
+                }
+            }
+            if (group.Contains("-"))
+            {
+                for (byte a = 0; a < week.ScheduleDays.Count; a++)
+                {
+                    List<Lesson> wk = new List<Lesson>();
+                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                    foreach (var l in wk)
+                    {
+                        week.ScheduleDays[a].Lessons.Remove(l);
+                    }
+                }
+            }
+            if (group.Contains("*"))
+            {
+                for (byte a = 0; a < week.ScheduleDays.Count; a++)
+                {
+                    List<Lesson> wk = new List<Lesson>();
+                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                    foreach (var l in wk)
+                    {
+                        week.ScheduleDays[a].Lessons.Remove(l);
+                    }
+                }
+            }
             return View("ScheduleBigResult", week);
         }
 
@@ -125,14 +348,32 @@ namespace IFNMUSiteCore.Controllers
         {
             return View();
         }
+        [Route("instruction")]
+        [HttpGet]
+        public ActionResult Instruction()
+        {
+            return View();
+        }
         public ActionResult Documents(int id)
         {
             var lesson = db.Lessons.Include(l => l.ThematicPlan).Include(l=> l.MethodicalRecomendation).SingleOrDefault(l => l.Id == id);
             if (lesson.ThematicPlan.Id == -1 && lesson.MethodicalRecomendation.Id == -1) return View("NoThematicPlan");
-            ViewBag.Domen = Request.Host;
             return View(lesson);
         }
-
+        public ActionResult MethodicalRecomendation(int id)
+        {
+            string path = db.MethodicalRecomendations.Find(id).Path;
+            path = "https://docs.google.com/viewer?url=http://" + Request.Host + "" + path + "&embedded=true";
+            ViewBag.Path = path;
+            return View();
+        }
+        public ActionResult ThematicPlan(int id)
+        {
+            string path = db.ThematicPlans.Find(id).Path;
+            path = "https://docs.google.com/viewer?url=http://" + Request.Host + "" + path + "&embedded=true";
+            ViewBag.Path = path;
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

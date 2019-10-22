@@ -140,3 +140,6 @@ C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Ra
 C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\NoSchedule.g.cshtml.cs
 C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\ScheduleBigResult.g.cshtml.cs
 C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Warning.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Instruction.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\MethodicalRecomendation.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\ThematicPlan.g.cshtml.cs

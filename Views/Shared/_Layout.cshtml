@@ -8,20 +8,21 @@
     <link href="~/css/main.css" rel="stylesheet" />
     <link href="~/logo.ico" rel="shortcut icon" runat="server" type="image/x-icon" />
     <link href="~/logo.ico" rel="icon" runat="server" type="image/ico" />
+    @RenderSection("Link", false)
     @RenderSection("Style", false)
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147988086-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-      gtag('config', 'UA-147988086-1');
+        gtag('config', 'UA-147988086-1');
     </script>
 </head>
 <body>
     <div class="nav">
         <div class="logo"><img src="~/images/logo.png" alt="Logo"></div>
-        <div class="navigation">
+        <div class="navigation" style="z-index:2">
             <div class="formIndex">
                 <form action="/Home/SearchSchedule" data-ajax="true" data-ajax-loading="#loading" data-ajax-mode="replace" data-ajax-update="#results" id="form0" method="post">
                     <input type="text" name="courses" placeholder="Курс">
@@ -32,6 +33,7 @@
             <div class="navb">
                 <ul class="ulnav">
                     <li><a asp-controller="Home" asp-action="Index">Головна</a></li>
+                    <li><a asp-controller="Home" asp-action="Instruction">Інструкція</a></li>
                     <li><a asp-controller="Home" asp-action="Properties">Налаштування</a></li>
                     <li><a asp-controller="Home" asp-action="About">Про нас</a></li>
                     <li><a href="https://list.e-decanat-ifnmu.site/">Записатись в деканат</a></li>

@@ -36,17 +36,8 @@
     <div style="margin: auto;width: 100%;display: flex;justify-content: center;flex-wrap: wrap;">
         @if (Model.ThematicPlan.Id != -1)
         {
-            string s;
-            if (Model.ThematicPlan.Path.IndexOf(".pdf") != -1)
-            {
-		s = Model.ThematicPlan.Path;
-            }
-            else
-            {
-                s = "https://view.officeapps.live.com/op/embed.aspx?src=http://" + ViewBag.Domen + "" + Model.ThematicPlan.Path;
-            }
             <div class="block" style="">
-                <a href=@s>
+                <a asp-action="ThematicPlan" asp-controller="Home" asp-route-id="@Model.ThematicPlan.Id">
                     <img style="margin: auto;width: 70%;margin-right: 10%;" src="https://shops.alutech-group.com/files/105/105/222.png">
                     <p style="font-size: 1.2em;">Тематичний план</p>
                 </a>
@@ -54,17 +45,8 @@
         }
         @if (Model.MethodicalRecomendation.Id != -1)
         {
-            string s;
-            if (Model.MethodicalRecomendation.Path.IndexOf(".pdf") != -1)
-            {
-                s = Model.MethodicalRecomendation.Path;
-            }
-            else
-            {
-                s = "https://view.officeapps.live.com/op/embed.aspx?src=http://" + ViewBag.Domen + "" + Model.MethodicalRecomendation.Path;
-            }
             <div class="block" style="">
-                <a href=@s>
+                <a asp-action="MethodicalRecomendation" asp-controller="Home" asp-route-id="@Model.MethodicalRecomendation.Id">
                     <img style="width: 70%;margin: auto;" src="http://s1.iconbird.com/ico/2013/9/450/w256h2561380453931Wordpad256x25632.png">
                     <p style="font-size: 1.2em;">Методичні рекомендації</p>
                 </a>

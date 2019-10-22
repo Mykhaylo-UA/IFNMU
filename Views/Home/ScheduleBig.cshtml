@@ -10,6 +10,7 @@
             <option value="@w.Id">@Convert.ToDateTime(w.From).ToString("d MMMM yyyy", new CultureInfo("uk-UA")) - @Convert.ToDateTime(w.To).ToString("d MMMM yyyy", new CultureInfo("uk-UA"))</option>
         }
     </select>
+    <input type="hidden" value="@ViewBag.Group" name="group" id="group"/>
     <input id="sbm" style="display:none;" type="submit" value=""/>
 </form>
 <div id="results2">

@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Інструкція";
+}
+@{Layout = "~/Views/Shared/_Layout.cshtml";}
+@section Link {
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">}
+@section Style{
+    <style>
+        .inctructionblock {
+            width: 80%;
+            height: 30%;
+            text-align: center;
+            font-size: 1.05em;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            border-bottom: groove yellow 4px;
+        }
+        .swiper-container {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 526px;
+        }
+    </style>
+}
+    <div class="inctructionblock">
+        Щоб переглянути розклад потрібно у відповідне поле ввести номер курсу і назву групи і натиснути кнопку "Показати". (Для того що переглянути
+        розлад підгрупи/клінічки до назви групи впишіть відповідний символ "+"/"-"/"*"). Також не потрібно кожного разу вводити номер курсу і групи,
+        якщо ви залишите поле пустим, вам буде представлено розклад останньої групи яку ви переглядали.
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3493.PNG)"> </div>
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3494.PNG)"> </div>
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3495.PNG)"> </div>
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3496.PNG)"> </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="inctructionblock">
+        У вас є можливість переглядати методичні рекомендації та тематичні плани, для цього натисніть по назві дисципліни документи якої бажаєте переглянути
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3508.PNG)"> </div>
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3509.PNG)"> </div>
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3510.PNG)"> </div>
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3511.PNG)"> </div>
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3512.PNG)"> </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="inctructionblock">
+        Також ви можете налаштувати сайт під свій смак, натисніть пункт "Налаштування" на шапці сайту.
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3513.PNG)"> </div>
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3514.PNG)"> </div>
+                <div class="swiper-slide" style="background-image:url(/images/IMG_3515.PNG)"> </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+@section Script{
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+}
