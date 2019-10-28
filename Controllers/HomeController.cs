@@ -7,6 +7,9 @@ using MailKit.Net.Smtp;
 using System.Threading.Tasks;
 using System;
 using System.Collections.Generic;
+using System.Net;
+using System.IO;
+using System.Text;
 
 namespace IFNMUSiteCore.Controllers
 {
@@ -362,18 +365,29 @@ namespace IFNMUSiteCore.Controllers
         }
         public ActionResult MethodicalRecomendation(int id)
         {
-            string path = db.MethodicalRecomendations.Find(id).Path;
-            path = "https://docs.google.com/viewer?url=http://" + Request.Host + "" + path + "&embedded=true";
-            ViewBag.Path = path;
-            return View();
+            MethodicalRecomendation mr = db.MethodicalRecomendations.Find(id);
+            if(mr.Name.Contains(".pdf"))
+            {
+                return LocalRedirect("~"+ mr.Path);
+            }
+            else
+            {
+                return Redirect("https://view.officeapps.live.com/op/embed.aspx?src=http://" + Request.Host + "" + mr.Path);
+            }
         }
         public ActionResult ThematicPlan(int id)
         {
-            string path = db.ThematicPlans.Find(id).Path;
-            path = "https://docs.google.com/viewer?url=http://" + Request.Host + "" + path + "&embedded=true";
-            ViewBag.Path = path;
-            return View();
+            ThematicPlan tp = db.ThematicPlans.Find(id);
+            if (tp.Name.Contains(".pdf"))
+            {
+                return LocalRedirect("~" + tp.Path);
+            }
+            else
+            {
+                return Redirect("https://view.officeapps.live.com/op/embed.aspx?src=http://" + Request.Host + "" + tp.Path);
+            }
         }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
