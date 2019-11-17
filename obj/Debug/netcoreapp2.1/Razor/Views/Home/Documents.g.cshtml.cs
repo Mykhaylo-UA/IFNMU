@@ -98,7 +98,7 @@ using IFNMUSiteCore.Models;
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(644, 104, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca021771ea9e48deb42a9240f38da5fa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91e1fc35ce734037ad7b7d9638685b92", async() => {
                 BeginContext(650, 91, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Documents</title>\r\n");
                 EndContext();
@@ -118,7 +118,7 @@ using IFNMUSiteCore.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(750, 1099, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb2219f752d64070a4fb937cd962e20a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9e391dcf676447659866deab18532667", async() => {
                 BeginContext(756, 101, true);
                 WriteLiteral("\r\n    <div style=\"margin: auto;width: 100%;display: flex;justify-content: center;flex-wrap: wrap;\">\r\n");
                 EndContext();
@@ -132,7 +132,7 @@ using IFNMUSiteCore.Models;
                 WriteLiteral("            <div class=\"block\" style=\"\">\r\n                ");
                 EndContext();
                 BeginContext(969, 319, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1fecadb339b4d2b9c01ba34d4dda7bc", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb6ea6c742884df98ac3b90505849dc6", async() => {
                     BeginContext(1058, 226, true);
                     WriteLiteral("\r\n                    <img style=\"margin: auto;width: 70%;margin-right: 10%;\" src=\"https://shops.alutech-group.com/files/105/105/222.png\">\r\n                    <p style=\"font-size: 1.2em;\">Тематичний план</p>\r\n                ");
                     EndContext();
@@ -186,7 +186,7 @@ using IFNMUSiteCore.Models;
                 WriteLiteral("            <div class=\"block\" style=\"\">\r\n                ");
                 EndContext();
                 BeginContext(1444, 353, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5360fee4405349148ab9b0d18d7b8d3f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7db855e8b4f8487582b092e0a2c44b98", async() => {
                     BeginContext(1555, 238, true);
                     WriteLiteral("\r\n                    <img style=\"width: 70%;margin: auto;\" src=\"http://s1.iconbird.com/ico/2013/9/450/w256h2561380453931Wordpad256x25632.png\">\r\n                    <p style=\"font-size: 1.2em;\">Методичні рекомендації</p>\r\n                ");
                     EndContext();

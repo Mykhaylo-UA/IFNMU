@@ -64,7 +64,7 @@ using IFNMUSiteCore.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(96, 321, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6fda3d3b03ef49928f4a07f6a79d075b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c37638f9de4c4f64b9321e39bef992dd", async() => {
                 BeginContext(102, 308, true);
                 WriteLiteral(@"
     <meta name=""viewport"" content=""width=device-width"" />
@@ -88,12 +88,12 @@ using IFNMUSiteCore.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(419, 1309, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c753ef7d5fb4499b80efab66af088c79", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "990ea431341b4a748ec392c99aee8e8d", async() => {
                 BeginContext(425, 45, true);
                 WriteLiteral("\r\n    <div class=\"container-fluid\">\r\n        ");
                 EndContext();
                 BeginContext(470, 632, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19e60422278e4e43ac0653e76667d1ea", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2636fb3f36ef415c88c9283f623faf04", async() => {
                     BeginContext(516, 579, true);
                     WriteLiteral(@"
                 <div class=""form-group"" style=""display: flex; flex-wrap: wrap; padding: 1% 0; border-bottom: 1px solid yellowgreen;"">
