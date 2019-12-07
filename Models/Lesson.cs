@@ -21,6 +21,9 @@ namespace IFNMUSiteCore.Models
         public int ScheduleDayId { get; set; }
         public ScheduleDay ScheduleDay { get; set; }
 
+        public int? ChairId { get; set; }
+        public Chair Chair { get; set; }
+
         public Lesson() { }
         public Lesson(string Name, int LessonNumber, int ThematicPlanId,  int MethodicalRecomendationId)
         {

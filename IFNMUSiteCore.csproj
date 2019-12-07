@@ -15,6 +15,49 @@
     <None Remove="wwwroot\Content\main.css" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="wwwroot\lib\summernote\lang\summernote-ar-AR.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-bg-BG.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-ca-ES.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-cs-CZ.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-da-DK.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-de-DE.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-el-GR.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-es-ES.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-es-EU.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-fa-IR.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-fi-FI.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-fr-FR.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-gl-ES.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-he-IL.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-hr-HR.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-hu-HU.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-id-ID.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-it-IT.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-ja-JP.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-ko-KR.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-lt-LT.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-lt-LV.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-mn-MN.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-nb-NO.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-nl-NL.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-pl-PL.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-pt-BR.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-pt-PT.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-ro-RO.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-ru-RU.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-sk-SK.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-sl-SI.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-sr-RS-Latin.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-sr-RS.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-sv-SE.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-ta-IN.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-th-TH.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-tr-TR.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-uk-UA.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-uz-UZ.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-vi-VN.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-zh-CN.js" />
+    <None Include="wwwroot\lib\summernote\lang\summernote-zh-TW.js" />
     <None Include="wwwroot\Scripts\bootstrap.js" />
     <None Include="wwwroot\Scripts\bootstrap.min.js" />
     <None Include="wwwroot\Scripts\jquery-3.3.1.intellisense.js" />
@@ -48,5 +91,17 @@
   <ItemGroup>
     <Folder Include="wwwroot\MethodicalRecomentadion\" />
     <Folder Include="wwwroot\ThematicPlans\" />
+    <Folder Include="wwwroot\Files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Views\Home\Chair.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Home\ChairPartial.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+    <Content Update="Views\Home\Folder.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
   </ItemGroup>
 </Project>

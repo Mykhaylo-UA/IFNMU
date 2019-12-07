@@ -141,3 +141,14 @@ C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Ra
 C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\ScheduleBigResult.g.cshtml.cs
 C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Warning.g.cshtml.cs
 C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Instruction.g.cshtml.cs
+c:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddChair.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Chair.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Folder.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\ChairPartial.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Chair.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ChairPartial.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Folder.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\UpdateFolderAjax.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\UpdateFolderAjaxFile.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\UpdateAjaxAdvertisement.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\UpdateAjaxGraphic.g.cshtml.cs

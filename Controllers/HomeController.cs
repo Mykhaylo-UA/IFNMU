@@ -10,16 +10,21 @@ using System.Collections.Generic;
 using System.Net;
 using System.IO;
 using System.Text;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Hosting;
+using System.Web;
 
 namespace IFNMUSiteCore.Controllers
 {
     public class HomeController : Controller
     {
         private LessonContext db; // контекст БД
+        private IHostingEnvironment _appEnvironment;
 
-        public HomeController(LessonContext context) // конструктор
+        public HomeController(LessonContext context, IHostingEnvironment appEnvironment) // конструктор
         {
             db = context;
+            _appEnvironment = appEnvironment;
         }
 
         // Головна сторінка
@@ -294,47 +299,54 @@ namespace IFNMUSiteCore.Controllers
         [HttpPost]
         public async Task<IActionResult> ScheduleBig(int WeekId, string group)
         {
-            Week week = await db.Weeks.Include(day => day.ScheduleDays).ThenInclude(les => les.Lessons).FirstOrDefaultAsync(w => w.Id == WeekId);
-            if (group.Contains("+"))
+            try
             {
-                for (byte a = 0; a < week.ScheduleDays.Count; a++)
+                Week week = await db.Weeks.Include(day => day.ScheduleDays).ThenInclude(les => les.Lessons).FirstOrDefaultAsync(w => w.Id == WeekId);
+                if (group.Contains("+"))
                 {
-                    List<Lesson> wk = new List<Lesson>();
-                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
-                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
-                    foreach (var l in wk)
+                    for (byte a = 0; a < week.ScheduleDays.Count; a++)
                     {
-                        week.ScheduleDays[a].Lessons.Remove(l);
+                        List<Lesson> wk = new List<Lesson>();
+                        wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                        wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                        foreach (var l in wk)
+                        {
+                            week.ScheduleDays[a].Lessons.Remove(l);
+                        }
                     }
                 }
-            }
-            if (group.Contains("-"))
-            {
-                for (byte a = 0; a < week.ScheduleDays.Count; a++)
+                if (group.Contains("-"))
                 {
-                    List<Lesson> wk = new List<Lesson>();
-                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
-                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
-                    foreach (var l in wk)
+                    for (byte a = 0; a < week.ScheduleDays.Count; a++)
                     {
-                        week.ScheduleDays[a].Lessons.Remove(l);
+                        List<Lesson> wk = new List<Lesson>();
+                        wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                        wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                        foreach (var l in wk)
+                        {
+                            week.ScheduleDays[a].Lessons.Remove(l);
+                        }
                     }
                 }
-            }
-            if (group.Contains("*"))
-            {
-                for (byte a = 0; a < week.ScheduleDays.Count; a++)
+                if (group.Contains("*"))
                 {
-                    List<Lesson> wk = new List<Lesson>();
-                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
-                    wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
-                    foreach (var l in wk)
+                    for (byte a = 0; a < week.ScheduleDays.Count; a++)
                     {
-                        week.ScheduleDays[a].Lessons.Remove(l);
+                        List<Lesson> wk = new List<Lesson>();
+                        wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                        wk.AddRange(week.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                        foreach (var l in wk)
+                        {
+                            week.ScheduleDays[a].Lessons.Remove(l);
+                        }
                     }
                 }
+                return View("ScheduleBigResult", week);
             }
-            return View("ScheduleBigResult", week);
+            catch(Exception exp)
+            {
+                return View("Warning", exp);
+            }
         }
 
         // Налаштування
@@ -385,6 +397,36 @@ namespace IFNMUSiteCore.Controllers
             else
             {
                 return Redirect("https://view.officeapps.live.com/op/embed.aspx?src=http://" + Request.Host + "" + tp.Path);
+            }
+        }
+
+        [HttpGet]
+        public ActionResult Chair(int id)
+        {
+            ViewBag.Host = HttpContext.Request.Host.ToString();
+            return View(db.Chairs.Include(a => a.Folders).Include(b => b.Files).Include(c => c.Advertisements).Include(d=> d.Graphics).Single(c => c.Id == id));
+        }
+
+
+        [HttpPost]
+        public ActionResult Folder(string btn)
+        {
+            try
+            {
+                ViewBag.Host = HttpContext.Request.Host.ToString();
+                if (btn.Contains("c".ToLower()))
+                {
+                    return View("ChairPartial", db.Chairs.Include(f => f.Folders).Include(fl => fl.Files).Single(a => a.Id == Convert.ToInt32(btn.TrimStart('c'))));
+                }
+                else
+                {
+                    int i = Convert.ToInt32(btn);
+                    return View(db.Folders.Include(a => a.Folders).Include(b => b.Files).Single(c => c.Id == i));
+                }
+            }
+            catch (Exception exp)
+            {
+                return View("Warning", exp);
             }
         }
 

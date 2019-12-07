@@ -1,0 +1,811 @@
+﻿@model IFNMUSiteCore.Models.Chair
+@{
+    ViewData["Title"] = "Chair";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string classCss, path;
+}
+@section Link{
+    <link href="~/lib/summernote/summernote-lite.css" rel="stylesheet" />
+}
+
+@section Style{
+    <style>
+        .blockOgoloshennya h2 {
+            text-align: center;
+        }
+
+        .blockDocuments h2 {
+            text-align: center;
+        }
+        .blockGraphics h2 {
+            text-align: center;
+        }
+
+        .blockDocuments form > div > button:nth-child(1) {
+            width: 120px;
+            height: 120px;
+            background-position: center 5%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: 0px;
+            border-radius: 25%;
+        }
+
+        .blockDocuments form > div > a {
+            width: 120px;
+            height: 120px;
+            background-position: center 5%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: 0px;
+            border-radius: 25%;
+            margin: 0.5%;
+            margin-top: 0.5%;
+            display: flex;
+            text-align: center;
+        }
+
+        .blockDocuments form > div {
+            margin: 0.5%;
+        }
+
+        .blockDocuments p {
+            text-align: center;
+            margin: auto;
+            margin-top: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 35px;
+        }
+
+        .blockDocuments form button:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            cursor: pointer;
+        }
+
+        .blockDocuments form a:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            cursor: pointer;
+        }
+
+        .folder {
+            background-image: url(https://img.icons8.com/nolan/64/000000/folder-invoices.png);
+        }
+
+        .fileExcel {
+            background-image: url(https://img.icons8.com/nolan/64/000000/ms-excel.png);
+        }
+
+        .fileWord {
+            background-image: url(https://img.icons8.com/nolan/64/000000/ms-word.png);
+        }
+
+        .filePowerPoint {
+            background-image: url(https://img.icons8.com/nolan/64/000000/ms-powerpoint.png);
+        }
+
+        .filePDF {
+            background-image: url(https://img.icons8.com/nolan/64/000000/pdf.png);
+        }
+
+        .fileImage {
+            background-image: url(https://img.icons8.com/nolan/64/000000/image-file.png);
+        }
+
+        .fileDJVU {
+            background-image: url(https://img.icons8.com/nolan/64/000000/book.png);
+        }
+
+        .fileNone {
+            background-image: url(https://img.icons8.com/nolan/64/000000/new-file.png);
+        }
+
+        .arrowLeft {
+            background-image: url(https://img.icons8.com/nolan/64/000000/long-arrow-left--v2.png);
+            width: 120px;
+            height: 120px;
+            background-position: center 5%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: 0px;
+            border-radius: 25%;
+            display: flex;
+            text-align: center;
+            margin: 0.5%;
+        }
+
+        .btnInfoСlass {
+            background-position: center 5%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: 0px;
+            border-radius: 25%;
+            margin: 0.5%;
+            margin-top: 0.5%;
+            display: flex;
+            text-align: center;
+            width: 35px;
+            height: 35px;
+            position: relative;
+            background-image: url(https://img.icons8.com/plasticine/100/000000/info.png);
+            top: -80px;
+            border-radius: 0.6em;
+            left: 80px;
+            background-position: center;
+            background-size: 130%;
+        }
+
+        .btnInfoСlassFile {
+            background-position: center 5%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: 0px;
+            border-radius: 25%;
+            margin: 0.5%;
+            margin-top: 0.5%;
+            display: flex;
+            text-align: center;
+            width: 35px;
+            height: 35px;
+            position: relative;
+            background-image: url(https://img.icons8.com/plasticine/100/000000/info.png);
+            top: -80px;
+            border-radius: 0.6em;
+            left: 80px;
+            background-position: center;
+            background-size: 130%;
+        }
+
+        .formDocuments {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+        }
+
+        .navigationChair ul {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #ecfcfc;
+            margin-top: 0;
+            padding: 0;
+            height: auto;
+            align-items: center;
+        }
+
+        .navigationChair li {
+            margin: 0.5% 1%;
+            padding: 0.5% 5%;
+            border-radius: 10%;
+        }
+
+            .navigationChair li:hover {
+                background-color: rgb(255, 255, 201);
+            }
+
+        .infoChair {
+            border-bottom: 4px groove rgb(199, 255, 255);
+            background-color: #fffdf6;
+            border-top: 4px groove rgb(199, 255, 255);
+            padding: 0.5%;
+            width: 99%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: center;
+            font-size: 0.8em;
+        }
+
+            .infoChair h1 {
+                text-align: center;
+            }
+
+            .infoChair img {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+            }
+
+        .contentOgoloshennya {
+            display: flex;
+            flex-wrap: wrap;
+        }
+            .contentOgoloshennya > div {
+                width: 100%;
+                border-bottom: 1px solid yellow;
+            }
+        .contBtn {
+            width: 120px;
+            height: 120px;
+        }
+
+        .modalContentAdmin {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: center;
+            margin: 0;
+            text-align: center;
+        }
+
+            .modalContentAdmin > input {
+                margin: 1% auto;
+                border-radius: 1em;
+                height: 30px;
+                font-size: 1em;
+            }
+
+        @@media (max-width:600px) {
+            .infoChair div {
+                width: auto;
+            }
+
+            .blockDocuments p {
+                text-align: left;
+                margin-left: 50px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                height: 17px;
+            }
+
+            .blockDocuments div a p, .blockDocuments form > button p {
+                margin-top: 5px;
+            }
+
+            .blockDocuments div button p {
+                margin-top: 0;
+            }
+
+            .blockDocuments form > div > button:nth-child(1) {
+                width: 85%;
+                height: 40px;
+                background-position: 10px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                border: 0px;
+                border-radius: 2em;
+                margin: 0.5%;
+                margin-top: 0.5%;
+            }
+
+            .blockDocuments form > button {
+                width: 85%;
+                height: 40px;
+                background-position: 10px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                border: 0px;
+                border-radius: 2em;
+                margin: 0.5%;
+                margin-top: 0.5%;
+            }
+
+            .blockDocuments form div button:nth-child(1) {
+                width: 100%;
+                height: 100%;
+            }
+
+            .contBtn {
+                width: 80%;
+                height: 30px;
+            }
+
+            .blockDocuments form > div > a {
+                width: 80%;
+                height: 30px;
+                background-position: 10px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                border: 0px;
+                border-radius: 2em;
+                margin: 0.5%;
+                margin-top: 0.5%;
+                margin-top: 10px;
+            }
+
+            .btnInfoСlassFile {
+                width: 30px;
+                height: 30px;
+                top: -35px;
+                float: right;
+                left: 0;
+            }
+
+            .btnInfoСlass {
+                width: 30px;
+                height: 30px;
+                top: -35px;
+                float: right;
+                left: 0;
+                z-index: -1;
+            }
+        }
+
+        .addButton {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin:50px 0;
+        }
+
+        .note-editor {
+            width: 100%;
+        }
+
+        .note-toolbar {
+            display: inline-flex;
+        }
+
+        .note-editing-area {
+            height: 20em;
+            text-align:left;
+        }
+
+        .btnInfoAdvert, .btnInfoGraphic {
+            background-position: center 5%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: 0px;
+            display: flex;
+            text-align: center;
+            width: 35px;
+            height: 35px;
+            background-image: url(https://img.icons8.com/plasticine/100/000000/info.png);
+            border-radius: 0.6em;
+            background-position: center;
+            background-size: 130%;
+            position: relative;
+            float: right;
+            margin-right: 5%;
+        }
+
+            .btnInfoAdvert:hover,
+            .btnInfoGraphic:hover{
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                cursor: pointer;
+            }
+
+    </style>
+}
+
+
+<div class="infoChair">
+    <div>
+        <h1>@Model.Name</h1>
+    </div>
+    <div style="display: inline-flex;">
+        <img src="@Model.PathAvatar" alt="">
+        <h2 style="margin-left: 30px;">@Model.Manager</h2>
+    </div>
+</div>
+
+<div class="navigationChair">
+    <ul>
+        <li><div><a href="#blockAdvert">Оголошення</a></div></li>
+        <li><a href="#blockDoc">Документи</a></li>
+        <li><a href="#blockGraph">Графіки</a></li>
+        <li><a href="@Model.PathChairIFNMU">Співробітники</a></li>
+        <li><a href="@Model.PathChairIFNMU">Історія</a></li>
+    </ul>
+</div>
+
+<div id="blockAdvert" class="blockOgoloshennya">
+    <h2>Оголошення</h2>
+    <div class="addButton">
+        <button id="buttonModal4" type="button" class="btn btn-primary btn-lg">
+            + Оголошення
+        </button>
+    </div>
+    <div class="contentOgoloshennya">
+        @foreach (Advertisement advertisement in Model.Advertisements)
+        {
+            <div>
+                @Html.Raw(advertisement.Text)
+                <button type="button" name="btnInfo" class="btnInfoAdvert" id="btnInfo" value="@advertisement.Id"></button>
+            </div>
+        }
+    </div>
+</div>
+<hr />
+<div id="blockDoc" class="blockDocuments">
+    <h2>Документи</h2>
+    <div class="addButton">
+        <button id="buttonModal2" type="button" class="btn btn-primary btn-lg">
+            + Папку
+        </button>
+    </div>
+    <div id="foldersAndFiles">
+        <form class="formDocuments" action="/Admin/Folder" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#foldersAndFiles" method="post">
+            @foreach (Folder folder in Model.Folders)
+            {
+                <div class="contBtn">
+                    <button name="btn" class="folder" value="@folder.Id" title="@folder.Name"><p>@folder.Name</p></button>
+                    <button type="button" name="btnInfo" class="btnInfoСlass" id="btnInfo" value="@folder.Id"></button>
+                </div>
+            }
+            @foreach (File file in Model.Files)
+            {
+                switch (file.TypeFile)
+                {
+                    case TypeFile.Word:
+                        {
+                            classCss = "fileWord";
+                            path = "https://view.officeapps.live.com/op/embed.aspx?src=http://" + (string)ViewBag.Host + "" + file.Path;
+                            break;
+                        }
+                    case TypeFile.Excel:
+                        {
+                            classCss = "fileExcel";
+                            path = "https://view.officeapps.live.com/op/embed.aspx?src=http://" + (string)ViewBag.Host + "" + file.Path;
+                            break;
+                        }
+                    case TypeFile.PowerPoint:
+                        {
+                            classCss = "filePowerPoint";
+                            path = "https://view.officeapps.live.com/op/view.aspx?src=http://" + (string)ViewBag.Host + "" + file.Path;
+                            break;
+                        }
+                    case TypeFile.PDF:
+                        {
+                            classCss = "filePDF";
+                            path = (string)ViewBag.Host + file.Path;
+                            break;
+                        }
+                    case TypeFile.Image:
+                        {
+                            classCss = "fileImage";
+                            path = (string)ViewBag.Host + file.Path;
+                            break;
+                        }
+                    case TypeFile.DJVU:
+                        {
+                            classCss = "fileDJVU";
+                            path = (string)ViewBag.Host + file.Path;
+                            break;
+                        }
+                    default:
+                        {
+                            classCss = "fileNone";
+                            path = (string)ViewBag.Host + file.Path;
+                            break;
+                        }
+                }
+                <div class="contBtn">
+                    <a class="@(classCss)" href="@path" title="@file.Name"><p>@file.Name</p></a>
+                    <button type="button" name="btnInfo" class="btnInfoСlassFile" id="btnInfo" value="@file.Id"></button>
+                </div>
+            }
+        </form>
+
+        <div class="modal-overlay modalFolderAdd" style="overflow-y: auto">
+            <div class="modal modal2">
+
+                <a class="close-modal close-modal2">
+                    <svg viewBox="0 0 20 20">
+                        <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                    </svg>
+                </a><!-- close modal -->
+
+                <div class="modal-content">
+                    <form class="modalContentAdmin" method="post" asp-controller="Admin" asp-action="FolderAdd" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#foldersAndFiles" data-ajax-complete="function () {$('.modalFolderAdd').removeClass('active');$('.modal2').removeClass('active');}">
+                        <input type="hidden" name="ChairId" id="ChairId" value="@Model.Id" />
+                        <label for="Name">Введіть назву папки</label><br />
+                        <input type="text" name="Name" id="Name" style="width:80%"><br />
+                        <input type="submit" value="Створити" />
+                    </form>
+                </div><!-- content -->
+
+            </div><!-- modal -->
+        </div><!-- overlay -->
+        <div class="modal-overlay modalFileAdd" style="overflow-y: auto">
+            <div class="modal modal3">
+
+                <a class="close-modal close-modal3">
+                    <svg viewBox="0 0 20 20">
+                        <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                    </svg>
+                </a><!-- close modal -->
+
+                <div class="modal-content">
+                    <form class="modalContentAdmin" enctype="multipart/form-data" method="post" asp-controller="Admin" asp-action="FileAdd" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#foldersAndFiles" data-ajax-complete="function () {$('.modalFileAdd').removeClass('active');$('.modal3').removeClass('active');}">
+                        <input type="hidden" name="ChairIdd" id="ChairIdd" value="@Model.Id" />
+                        <label for="Name">Додайте файли</label>
+                        <input type="file" name="uploadFile" id="uploadFile" style="width:80%" multiple>
+                        <input type="submit" value="Додати" />
+                    </form>
+                </div><!-- content -->
+
+            </div><!-- modal -->
+        </div><!-- overlay -->
+    </div>
+</div>
+<hr />
+<div id="blockGraph" class="blockGraphics">
+    <h2>Графіки</h2>
+    <div class="addButton">
+        <button id="buttonModal7" type="button" class="btn btn-primary btn-lg">
+            + Графік
+        </button>
+    </div>
+    <div class="contentGraphic">
+        @foreach (Graphic graph in Model.Graphics)
+        {
+            <div>
+                @Html.Raw(graph.Text)
+                <button type="button" name="btnInfo" class="btnInfoGraphic" id="btnInfo" value="@graph.Id"></button>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="modal-overlay modalAdvertisementAdd" style="overflow-y: auto">
+    <div class="modal modal4">
+
+        <a class="close-modal close-modal4">
+            <svg viewBox="0 0 20 20">
+                <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+            </svg>
+        </a><!-- close modal -->
+
+        <div class="modal-content">
+            <form class="modalContentAdmin" method="post" asp-controller="Admin" asp-action="AddAdvertisement">
+                <input type="hidden" name="ChairId" id="ChairId" value="@Model.Id" />
+                <label for="Name">Введіть текст оголошення</label><br />
+                <textarea style="width:100%" id="Text" name="Text"></textarea>
+                <input type="submit" value="Створити" />
+            </form>
+        </div><!-- content -->
+
+    </div><!-- modal -->
+</div><!-- overlay -->
+
+<div class="modal-overlay modalUpdate" style="overflow-y: auto">
+    <div class="modal modal5">
+
+        <a class="close-modal close-modal5">
+            <svg viewBox="0 0 20 20">
+                <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+            </svg>
+        </a><!-- close modal -->
+
+        <div class="modal-content" id="resultAjaxUpdate">
+        </div><!-- content -->
+
+    </div><!-- modal -->
+</div><!-- overlay -->
+
+<div class="modal-overlay modalUpdateAdvert" style="overflow-y: auto">
+    <div class="modal modal6">
+
+        <a class="close-modal close-modal6">
+            <svg viewBox="0 0 20 20">
+                <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+            </svg>
+        </a><!-- close modal -->
+
+        <div class="modal-content" id="resultAjaxUpdateAdvert">
+        </div><!-- content -->
+
+    </div><!-- modal -->
+</div><!-- overlay -->
+
+
+<div class="modal-overlay modalGraphicAdd" style="overflow-y: auto">
+    <div class="modal modal7">
+
+        <a class="close-modal close-modal7">
+            <svg viewBox="0 0 20 20">
+                <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+            </svg>
+        </a><!-- close modal -->
+
+        <div class="modal-content">
+            <form class="modalContentAdmin" method="post" asp-controller="Admin" asp-action="AddGraphic">
+                <input type="hidden" name="ChairId" id="ChairId" value="@Model.Id" />
+                <label for="Name">Введіть текст</label><br />
+                <textarea style="width:100%" id="TextGraphic" name="Text"></textarea>
+                <input type="submit" value="Створити" />
+            </form>
+        </div><!-- content -->
+
+    </div><!-- modal -->
+</div><!-- overlay -->
+
+<div class="modal-overlay modalUpdateGraphic" style="overflow-y: auto">
+    <div class="modal modal8">
+
+        <a class="close-modal close-modal8">
+            <svg viewBox="0 0 20 20">
+                <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+            </svg>
+        </a><!-- close modal -->
+
+        <div class="modal-content" id="resultAjaxUpdateGraphic">
+        </div><!-- content -->
+
+    </div><!-- modal -->
+</div><!-- overlay -->
+
+@section Script{
+    <script src="~/lib/summernote/summernote-lite.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#Text').summernote({
+                toolbar: [
+                    ['style', ['bold', 'italic', 'underline', 'clear']],
+                    ['font', ['strikethrough', 'superscript', 'subscript']],
+                    ['fontsize', ['fontsize']],
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['table', ['table']],
+                    ['insert', ['link', 'picture']]
+                ],
+                table: [
+                    ['add', ['addRowDown', 'addRowUp', 'addColLeft', 'addColRight']],
+                    ['delete', ['deleteRow', 'deleteCol', 'deleteTable']],
+                ],
+                image: [
+                    ['image', ['resizeFull', 'resizeHalf', 'resizeQuarter', 'resizeNone']],
+                    ['float', ['floatLeft', 'floatRight', 'floatNone']],
+                    ['remove', ['removeMedia']]
+                ],
+                link: [
+                    ['link', ['linkDialogShow', 'unlink']]
+                ]
+            });
+            $('#TextGraphic').summernote({
+                toolbar: [
+                    ['style', ['bold', 'italic', 'underline', 'clear']],
+                    ['font', ['strikethrough', 'superscript', 'subscript']],
+                    ['fontsize', ['fontsize']],
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['table', ['table']],
+                    ['insert', ['link', 'picture']]
+                ],
+                table: [
+                    ['add', ['addRowDown', 'addRowUp', 'addColLeft', 'addColRight']],
+                    ['delete', ['deleteRow', 'deleteCol', 'deleteTable']],
+                ],
+                image: [
+                    ['image', ['resizeFull', 'resizeHalf', 'resizeQuarter', 'resizeNone']],
+                    ['float', ['floatLeft', 'floatRight', 'floatNone']],
+                    ['remove', ['removeMedia']]
+                ],
+                link: [
+                    ['link', ['linkDialogShow', 'unlink']]
+                ]
+            });
+        });
+
+        $(document).on('click touchstart', '.btnInfoAdvert', function (e) {
+            $.ajax({
+                type: "GET",
+                url: "/Admin/UpdateAjaxAdvertisement",
+                data: { id: e.target.value },
+                dataType: "html"
+            }).done(function (msg) {
+                $("#resultAjaxUpdateAdvert").html(msg);
+                $('#TextEdit').summernote({
+                    toolbar: [
+                        ['style', ['bold', 'italic', 'underline', 'clear']],
+                        ['font', ['strikethrough', 'superscript', 'subscript']],
+                        ['fontsize', ['fontsize']],
+                        ['color', ['color']],
+                        ['para', ['ul', 'ol', 'paragraph']],
+                        ['table', ['table']],
+                        ['insert', ['link', 'picture']]
+                    ],
+                    table: [
+                        ['add', ['addRowDown', 'addRowUp', 'addColLeft', 'addColRight']],
+                        ['delete', ['deleteRow', 'deleteCol', 'deleteTable']],
+                    ],
+                    image: [
+                        ['image', ['resizeFull', 'resizeHalf', 'resizeQuarter', 'resizeNone']],
+                        ['float', ['floatLeft', 'floatRight', 'floatNone']],
+                        ['remove', ['removeMedia']]
+                    ],
+                    link: [
+                        ['link', ['linkDialogShow', 'unlink']]
+                    ],
+                    code: msg
+                });
+            });
+        });
+        $(document).on('click touchstart', '.btnInfoGraphic', function (e) {
+            $.ajax({
+                type: "GET",
+                url: "/Admin/UpdateAjaxGraphic",
+                data: { id: e.target.value },
+                dataType: "html"
+            }).done(function (msg) {
+                $("#resultAjaxUpdateGraphic").html(msg);
+                $('#TextGraphicEdit').summernote({
+                    toolbar: [
+                        ['style', ['bold', 'italic', 'underline', 'clear']],
+                        ['font', ['strikethrough', 'superscript', 'subscript']],
+                        ['fontsize', ['fontsize']],
+                        ['color', ['color']],
+                        ['para', ['ul', 'ol', 'paragraph']],
+                        ['table', ['table']],
+                        ['insert', ['link', 'picture']]
+                    ],
+                    table: [
+                        ['add', ['addRowDown', 'addRowUp', 'addColLeft', 'addColRight']],
+                        ['delete', ['deleteRow', 'deleteCol', 'deleteTable']],
+                    ],
+                    image: [
+                        ['image', ['resizeFull', 'resizeHalf', 'resizeQuarter', 'resizeNone']],
+                        ['float', ['floatLeft', 'floatRight', 'floatNone']],
+                        ['remove', ['removeMedia']]
+                    ],
+                    link: [
+                        ['link', ['linkDialogShow', 'unlink']]
+                    ],
+                    code:msg
+                });
+            });
+        });
+
+        $(document).on('click touchstart', '.btnInfoСlass', function (e) {
+            $.ajax({
+                type: "GET",
+                url: "/Admin/UpdateFolderAjax",
+                data: { id: e.target.value },
+                dataType: "html"
+            }).done(function (msg) {
+                $("#resultAjaxUpdate").html(msg);
+            });
+        });
+
+        $(document).on('click touchstart', '.btnInfoСlassFile', function (e) {
+            $.ajax({
+                type: "GET",
+                url: "/Admin/UpdateFolderAjaxFile",
+                data: { id: e.target.value },
+                dataType: "html"
+            }).done(function (msg) {
+                $("#resultAjaxUpdate").html(msg);
+            });
+        });
+
+        $(document).on('click touchstart', '.btnInfoСlass', function () {
+            $('.modalUpdate').addClass('active');
+            $('.modal5').addClass('active');
+        });
+        $(document).on('click touchstart', '.btnInfoСlassFile', function () {
+            $('.modalUpdate').addClass('active');
+            $('.modal5').addClass('active');
+        });
+
+        $(document).on('click touchstart', '.btnInfoAdvert', function () {
+            $('.modalUpdateAdvert').addClass('active');
+            $('.modal6').addClass('active');
+        });
+        $(document).on('click touchstart', '.btnInfoGraphic', function () {
+            $('.modalUpdateGraphic').addClass('active');
+            $('.modal8').addClass('active');
+        });
+    </script>
+}

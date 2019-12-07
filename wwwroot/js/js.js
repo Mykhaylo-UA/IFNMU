@@ -53,11 +53,10 @@ function openF() {
 }
 document.getElementById("toggleId").addEventListener("click", openF);
 
-var elements = $('.modal-overlay, .modal');
-
 $('#buttonModal').click(function () {
     var computedStyle = getComputedStyle(document.getElementsByClassName("navigation")[0]);
-    elements.addClass('active');
+    $('.modalSchedule').addClass('active');
+    $('.modal1').addClass('active');
     if (open == false) {
     if (computedStyle.position == "absolute") {
         navigation.style.display = "none";
@@ -67,14 +66,84 @@ $('#buttonModal').click(function () {
     }
 });
 
-var elements = $('.modal-overlay, .modal');
-
-$('button').click(function () {
-    elements.addClass('active');
+$('#buttonModal').click(function () {
+    $('.modalSchedule').addClass('active');
+    $('.modal1').addClass('active');;
 });
 
-$('.close-modal').click(function () {
-    elements.removeClass('active');
+$('.close-modal1').click(function () {
+    $('.modalSchedule').removeClass('active');
+    $('.modal1').removeClass('active');
+});
+
+$('#buttonModal2').click(function () {
+    $('.modalFolderAdd').addClass('active');
+    $('.modal2').addClass('active');
+});
+
+$('.close-modal2').click(function () {
+    $('.modalFolderAdd').removeClass('active');
+    $('.modal2').removeClass('active');
+});
+
+$('#buttonModal3').click(function () {
+    $('.modalFileAdd').addClass('active');
+    $('.modal3').addClass('active');
+});
+
+$('.close-modal3').click(function () {
+    $('.modalFileAdd').removeClass('active');
+    $('.modal3').removeClass('active');
+});
+
+$('#buttonModal4').click(function () {
+    $('.modalAdvertisementAdd').addClass('active');
+    $('.modal4').addClass('active');
+});
+
+$('.close-modal4').click(function () {
+    $('.modalAdvertisementAdd').removeClass('active');
+    $('.modal4').removeClass('active');
+});
+
+$('#btnInfoСlass').click(function () {
+    $('.modalUpdate').addClass('active');
+    $('.modal5').addClass('active');
+});
+$('#btnInfoСlassFile').click(function () {
+    $('.modalUpdate').addClass('active');
+    $('.modal5').addClass('active');
+});
+$('.close-modal5').click(function () {
+    $('.modalUpdate').removeClass('active');
+    $('.modal5').removeClass('active');
+});
+
+$('#btnInfoAdvert').click(function () {
+    $('.modalUpdateAdvert').addClass('active');
+    $('.modal6').addClass('active');
+});
+$('.close-modal6').click(function () {
+    $('.modalUpdateAdvert').removeClass('active');
+    $('.modal6').removeClass('active');
+});
+
+$('#buttonModal7').click(function () {
+    $('.modalGraphicAdd').addClass('active');
+    $('.modal7').addClass('active');
+});
+$('.close-modal7').click(function () {
+    $('.modalGraphicAdd').removeClass('active');
+    $('.modal7').removeClass('active');
+});
+
+$('#btnInfoGraphic').click(function () {
+    $('.modalUpdateGraphic').addClass('active');
+    $('.modal8').addClass('active');
+});
+$('.close-modal8').click(function () {
+    $('.modalUpdateGraphic').removeClass('active');
+    $('.modal8').removeClass('active');
 });
 
 function clickAnswer(e) {

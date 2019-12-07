@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="~/css/main.css" rel="stylesheet" />
+    <link href="~/css/general.css" rel="stylesheet" />
     <link href="~/logo.ico" rel="shortcut icon" runat="server" type="image/x-icon" />
     <link href="~/logo.ico" rel="icon" runat="server" type="image/ico" />
     @RenderSection("Link", false)
@@ -36,7 +36,6 @@
                     <li><a asp-controller="Home" asp-action="Index">Головна</a></li>
                     <li><a asp-controller="Home" asp-action="Instruction">Інструкція</a></li>
                     <li><a asp-controller="Home" asp-action="Properties">Налаштування</a></li>
-                    <li><a asp-controller="Home" asp-action="About">Про нас</a></li>
                     <li><a href="https://list.e-decanat-ifnmu.site/">Записатись в деканат</a></li>
                 </ul>
             </div>
@@ -47,14 +46,14 @@
             <div></div>
         </div>
     </div>
-    <div style="display: flex;justify-content: center;text-align: center;align-items: center;padding: 0.3%;">
+    @*<div style="display: flex;justify-content: center;text-align: center;align-items: center;padding: 0.3%;">
         <p style="margin-right: 2%;font-style: oblique;">Підтримай проект</p>
         <img src="http://nikvesti.com/images/imageeditor/2015/2/6/65117/65117_1.jpg" alt="logo" style="width: 3em;"><p>5168755111070815</p>
-    </div>
-    <div class="modal-overlay" style="overflow-y: auto">
-        <div class="modal">
+    </div>*@
+    <div class="modal-overlay modalSchedule" style="overflow-y: auto">
+        <div class="modal modal1" style="z-index:2;">
 
-            <a class="close-modal">
+            <a class="close-modal close-modal1">
                 <svg viewBox="0 0 20 20">
                     <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
                 </svg>
@@ -84,9 +83,19 @@
         </div><!-- modal -->
     </div><!-- overlay -->
     @RenderBody()
+    <div style="width: 100%;display: flex;justify-content: center;flex-wrap: wrap; font-size:0.9em; padding-top:50px;">
+            <p style="align-items: center;display: inline-flex;margin: 0 2%; margin-top:2%">
+                <img src="https://img.icons8.com/nolan/64/000000/telegram-app.png" style="width: 50px;">
+                Telegram: misha1809
+            </p>
+            <p style="display: inline-flex;align-items: center;margin: 0 2%; margin-top:2%;">
+                <img src="https://img.icons8.com/nolan/64/000000/email.png" style="width: 50px;">
+                E-mail: mykhaylo1809@gmail.com
+            </p>
+        </div>
     <script src="~/Scripts/jquery-3.3.1.min.js"></script>
     <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
-    <script src="~/js/site.js"></script>
+    <script src="~/js/js.js"></script>
     @RenderSection("Script", false)
 </body>
 </html>

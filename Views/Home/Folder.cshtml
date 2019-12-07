@@ -1,0 +1,61 @@
+﻿@model IFNMUSiteCore.Models.Folder
+@{
+    Layout = null;
+    string classCss, path;
+}
+<form class="formDocuments" action="/Home/Folder" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#foldersAndFiles" method="post">
+    <button name="btn" class="arrowLeft" value="@(Model.ChairId !=null ? ("c" + Model.ChairId):(""+Model.FolderId))" title="Назад"><p>Назад</p></button>
+    @foreach (Folder folder in Model.Folders)
+    {
+        <button name="btn" class="folder" value="@folder.Id" title="@folder.Name"><p>@folder.Name</p></button>
+    }
+    @foreach (File file in Model.Files)
+    {
+        switch (file.TypeFile)
+        {
+            case TypeFile.Word:
+                {
+                    classCss = "fileWord";
+                    path = "https://view.officeapps.live.com/op/embed.aspx?src=http://" + (string)ViewBag.Host + "" + file.Path;
+                    break;
+                }
+            case TypeFile.Excel:
+                {
+                    classCss = "fileExcel";
+                    path = "https://view.officeapps.live.com/op/embed.aspx?src=http://" + (string)ViewBag.Host + "" + file.Path;
+                    break;
+                }
+            case TypeFile.PowerPoint:
+                {
+                    classCss = "filePowerPoint";
+                    path = "https://view.officeapps.live.com/op/embed.aspx?src=http://" + (string)ViewBag.Host + "" + file.Path;
+                    break;
+                }
+            case TypeFile.PDF:
+                {
+                    classCss = "filePDF";
+                    path = (string)ViewBag.Host + file.Path;
+                    break;
+                }
+            case TypeFile.Image:
+                {
+                    classCss = "fileImage";
+                    path = (string)ViewBag.Host + file.Path;
+                    break;
+                }
+            case TypeFile.DJVU:
+                {
+                    classCss = "fileDJVU";
+                    path = (string)ViewBag.Host + file.Path;
+                    break;
+                }
+            default:
+                {
+                    classCss = "fileNone";
+                    path = (string)ViewBag.Host + file.Path;
+                    break;
+                }
+        }
+        <a class="@classCss" href="@path" title="@file.Name"><p>@file.Name</p></a>
+    }
+</form>

@@ -1,0 +1,327 @@
+﻿@model IFNMUSiteCore.Models.Chair
+@{
+    ViewData["Title"] = Model.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string classCss, path;
+}
+@section Style{
+    <style>
+        .blockOgoloshennya h2 {
+            text-align: center;
+        }
+
+        .blockDocuments h2 {
+            text-align: center;
+        }
+
+        .blockDocuments form button {
+            width: 120px;
+            height: 120px;
+            background-position: center 5%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: 0px;
+            border-radius: 25%;
+            margin: 0.5%;
+        }
+
+        .blockDocuments form a {
+            width: 120px;
+            height: 120px;
+            background-position: center 5%;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: 0px;
+            border-radius: 25%;
+            margin: 0.5%;
+        }
+
+        .blockDocuments p {
+            text-align: center;
+            margin-top: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 35px;
+        }
+
+        .blockDocuments form button:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            cursor: pointer;
+        }
+
+        .blockDocuments form a:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            cursor: pointer;
+        }
+        .blockGraphics h2 {
+            text-align: center;
+        }
+        .folder {
+            background-image: url(https://img.icons8.com/nolan/64/000000/folder-invoices.png);
+        }
+
+        .fileExcel {
+            background-image: url(https://img.icons8.com/nolan/64/000000/ms-excel.png);
+        }
+
+        .fileWord {
+            background-image: url(https://img.icons8.com/nolan/64/000000/ms-word.png);
+        }
+
+        .filePowerPoint {
+            background-image: url(https://img.icons8.com/nolan/64/000000/ms-powerpoint.png);
+        }
+
+        .filePDF {
+            background-image: url(https://img.icons8.com/nolan/64/000000/pdf.png);
+        }
+
+        .fileImage {
+            background-image: url(https://img.icons8.com/nolan/64/000000/image-file.png);
+        }
+
+        .fileDJVU {
+            background-image: url(https://img.icons8.com/nolan/64/000000/book.png);
+        }
+
+        .fileNone {
+            background-image: url(https://img.icons8.com/nolan/64/000000/new-file.png);
+        }
+
+        .arrowLeft {
+            background-image: url(https://img.icons8.com/nolan/64/000000/long-arrow-left--v2.png);
+        }
+
+        .formDocuments {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+        }
+
+        .navigationChair ul {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #ecfcfc;
+            margin-top: 0;
+            padding: 0;
+            height: auto;
+            align-items: center;
+        }
+
+        .navigationChair li {
+            margin: 0.5% 1%;
+            padding: 0.5% 5%;
+            border-radius: 10%;
+        }
+
+            .navigationChair li:hover {
+                background-color: rgb(255, 255, 201);
+            }
+
+        .infoChair {
+            border-bottom: 4px groove rgb(199, 255, 255);
+            background-color: #fffdf6;
+            border-top: 4px groove rgb(199, 255, 255);
+            padding: 0.5%;
+            width: 99%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: center;
+            font-size: 0.8em;
+        }
+
+            .infoChair h1 {
+                text-align: center;
+            }
+
+            .infoChair img {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+            }
+
+        .contentOgoloshennya {
+            display: flex;
+            flex-wrap: wrap;
+        }
+            .contentOgoloshennya > div {
+                width: 100%;
+                border-bottom: 1px solid yellow;
+            }
+
+        @@media (max-width:600px) {
+            .infoChair div {
+                width: auto;
+            }
+
+            .blockDocuments p {
+                text-align: left;
+                margin-left: 50px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin-top: 10px;
+                height: 17px;
+            }
+
+            .blockDocuments form button {
+                width: 85%;
+                height: 40px;
+                background-position: 10px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                border: 0px;
+                border-radius: 2em;
+                margin: 0.5%;
+                margin-top: 0.5%;
+                margin-top: 10px;
+            }
+
+            .blockDocuments form a {
+                width: 85%;
+                height: 40px;
+                background-position: 10px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-color: transparent;
+                border: 0px;
+                border-radius: 2em;
+                margin: 0.5%;
+                margin-top: 0.5%;
+                margin-top: 10px;
+            }
+        }
+
+        .addButton {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+            margin:50px 0;
+        }
+    </style>
+}
+
+
+<div class="infoChair">
+    <div>
+        <h1>@Model.Name</h1>
+    </div>
+    <div style="display: inline-flex;">
+        <img src="@Model.PathAvatar" alt="">
+        <h2 style="margin-left: 30px;">@Model.Manager</h2>
+    </div>
+</div>
+
+<div class="navigationChair">
+    <ul>
+        <li><div><a href="#blockAdvert">Оголошення</a></div></li>
+        <li><a href="#blockDoc">Документи</a></li>
+        <li><a href="#blockGraph">Графіки</a></li>
+        <li><a href="@Model.PathChairIFNMU">Співробітники</a></li>
+        <li><a href="@Model.PathChairIFNMU">Історія</a></li>
+    </ul>
+</div>
+
+@if (Model.Advertisements.Count > 0)
+{
+    <div class="blockOgoloshennya">
+        <h2>Оголошення</h2>
+        <div class="contentOgoloshennya">
+            @foreach (Advertisement advertisement in Model.Advertisements)
+            {
+                <div>@Html.Raw(advertisement.Text)</div>
+            }
+        </div>
+    </div>
+    <hr />
+}
+<div class="blockDocuments">
+    <h2>Документи</h2>
+    <div id="foldersAndFiles">
+        <form class="formDocuments" action="/Home/Folder" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#foldersAndFiles" method="post">
+            @foreach (Folder folder in Model.Folders)
+            {
+                <button name="btn" class="folder" value="@folder.Id" title="@folder.Name"><p>@folder.Name</p></button>
+            }
+            @foreach (File file in Model.Files)
+            {
+                switch (file.TypeFile)
+                {
+                    case TypeFile.Word:
+                        {
+                            classCss = "fileWord";
+                            path = "https://view.officeapps.live.com/op/embed.aspx?src=http://" + (string)ViewBag.Host + "" + file.Path;
+                            break;
+                        }
+                    case TypeFile.Excel:
+                        {
+                            classCss = "fileExcel";
+                            path = "https://view.officeapps.live.com/op/embed.aspx?src=http://" + (string)ViewBag.Host + "" + file.Path;
+                            break;
+                        }
+                    case TypeFile.PowerPoint:
+                        {
+                            classCss = "filePowerPoint";
+                            path = "https://view.officeapps.live.com/op/view.aspx?src=http://" + (string)ViewBag.Host + "" + file.Path;
+                            break;
+                        }
+                    case TypeFile.PDF:
+                        {
+                            classCss = "filePDF";
+                            path = (string)ViewBag.Host + file.Path;
+                            break;
+                        }
+                    case TypeFile.Image:
+                        {
+                            classCss = "fileImage";
+                            path = (string)ViewBag.Host + file.Path;
+                            break;
+                        }
+                    case TypeFile.DJVU:
+                        {
+                            classCss = "fileDJVU";
+                            path = (string)ViewBag.Host + file.Path;
+                            break;
+                        }
+                    default:
+                        {
+                            classCss = "fileNone";
+                            path = (string)ViewBag.Host + file.Path;
+                            break;
+                        }
+                }
+                <a class="@classCss" href="@path" title="@file.Name"><p>@file.Name</p></a>
+            }
+        </form>
+    </div>
+</div>
+<hr />
+@if(Model.Graphics.Count>0)
+{
+<div id="blockGraph" class="blockGraphics">
+    <h2>Графіки</h2>
+    <div class="contentGraphic">
+        @foreach (Graphic graph in Model.Graphics)
+        {
+            <div>
+                @Html.Raw(graph.Text)
+            </div>
+        }
+    </div>
+</div>
+}

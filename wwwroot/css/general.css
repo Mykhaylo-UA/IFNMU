@@ -7,7 +7,7 @@ a{
     text-decoration: none;
     color:black;
 }
-td > a {
+.tableModal td > a {
     width: 100%;
 }
 .toggle {
@@ -110,35 +110,35 @@ td > a {
         div{
             margin:auto;
         }
-    
-table {
+
+.tableModal {
     width: 100%;
     margin: auto;
     border: 1px dotted;
     font-size: 2em;
 }
 
-th {
+.tableModal th {
     background-color: gainsboro;
 }
 
-    th:nth-child(1),
-    td:nth-child(1) {
-        width: 7%;
-    }
+.tableModal th:nth-child(1),
+.tableModal td:nth-child(1) {
+    width: 7%;
+}
 
-    th:nth-child(3),
-    td:nth-child(3) {
-        width: 20%;
-    }
+.tableModal th:nth-child(3),
+.tableModal td:nth-child(3) {
+    width: 20%;
+}
 
-td:nth-child(1),
-td:nth-child(3) {
+.tableModal td:nth-child(1),
+.tableModal td:nth-child(3) {
     text-align: center;
     background-color: rgb(62, 238, 179);
 }
 
-td:nth-child(2) {
+.tableModal td:nth-child(2) {
     background-color: aquamarine;
     padding-left: 2%;
     padding-right: 2%;
@@ -788,13 +788,13 @@ input {
         margin-left: 0;
     }
 
-    table {
+    .tableModal {
         font-size: 1.5em;
     }
 }
 
 @media (max-width:750px) {
-    table {
+    .tableModal {
         font-size: 1.5em;
     }
 }

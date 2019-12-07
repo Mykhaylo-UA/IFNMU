@@ -34,6 +34,15 @@
 </head>
 <body>
     <div style="margin: auto;width: 100%;display: flex;justify-content: center;flex-wrap: wrap;">
+        @if (Model.ChairId != null && Model.ChairId > 0)
+        {
+            <div class="block" style="">
+                <a asp-action="Chair" asp-controller="Home" asp-route-id="@Model.ChairId">
+                    <img style="margin: auto;width: 70%;margin-right: 10%;" src="https://img.icons8.com/ios-filled/100/000000/internet.png">
+                    <p style="font-size: 1.2em;">Сайт кафедри</p>
+                </a>
+            </div>
+        }
         @if (Model.ThematicPlan.Id != -1)
         {
             <div class="block" style="">
@@ -52,6 +61,7 @@
                 </a>
             </div>
         }
+
     </div>
 </body>
 </html>

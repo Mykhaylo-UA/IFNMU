@@ -15,7 +15,12 @@ namespace IFNMUSiteCore.Models
         public DbSet<MethodicalRecomendation> MethodicalRecomendations { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<Answer> Answers { get; set; }
-             
+        public DbSet<Chair> Chairs { get; set; }
+        public DbSet<Folder> Folders { get; set; }
+        public DbSet<File> Files { get; set; }
+        public DbSet<Advertisement> Advertisements { get; set; }
+        public DbSet<Graphic> Graphics { get; set; }
+
         public LessonContext(DbContextOptions<LessonContext> options)
             : base(options)
         {

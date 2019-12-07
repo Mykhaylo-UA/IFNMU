@@ -1,6 +1,6 @@
 ﻿@model IFNMUSiteCore.Models.Week
 @{ Layout = null;}
-<table>
+<table class="tableModal">
     <tr>
         <th>№</th>
         <th>Name</th>
@@ -9,7 +9,7 @@
 </table>
 @foreach (var day in Model.ScheduleDays.OrderBy(day => day.DayNumber))
 {
-    <table>
+    <table class="tableModal">
         <caption>
             @switch (@day.DayNumber)
             {

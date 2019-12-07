@@ -1,0 +1,23 @@
+﻿@model IFNMUSiteCore.Models.File
+@{
+    Layout = null;
+}
+<form class="modalContentAdmin" method="post" asp-controller="Admin" asp-action="UpdateFile" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#foldersAndFiles" data-ajax-complete="function () {$('.modalUpdate').removeClass('active');$('.modal5').removeClass('active'); alert('Файл змінено');}">
+    <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+    <input type="hidden" name="ChairId" id="ChairId" value="@Model.ChairId" />
+    <input type="hidden" name="FolderId" id="FolderId" value="@Model.FolderId" />
+    <input type="hidden" name="TypeFile" id="TypeFile" value="@Model.TypeFile" />
+    <input type="hidden" name="Path" id="Path" value="@Model.Path" />
+    <label for="Name">Введіть нову назву файла</label>
+    <input style="width:80%;" type="text" name="Name" id="Name" value="@Model.Name" />
+    <input style="width:80%;" type="submit" value="Змінити" />
+</form>
+<form class="modalContentAdmin" method="post" asp-controller="Admin" asp-action="DeleteFile" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#foldersAndFiles" data-ajax-confirm="Ви дійсно хочете видалити файл?" data-ajax-complete="function () {$('.modalUpdate').removeClass('active');$('.modal5').removeClass('active'); alert('Файл видалено');}">
+    <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+    <input type="hidden" name="ChairId" id="ChairId" value="@Model.ChairId" />
+    <input type="hidden" name="FolderId" id="FolderId" value="@Model.FolderId" />
+    <input type="hidden" name="TypeFile" id="TypeFile" value="@Model.TypeFile" />
+    <input type="hidden" name="Path" id="Path" value="@Model.Path" />
+    <input type="hidden" name="Name" id="Name" value="@Model.Name" />
+    <input style="width:80%;" type="submit" value="Видалити" />
+</form>

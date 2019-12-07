@@ -41,14 +41,14 @@
 }
 
 <div class="container">
-    <table>
+    <table class="tableModal">
         <tr>
             <th>№</th>
             <th><input type="color" id="color" name="color" value="#e66465"></th>
             <th>Time</th>
         </tr>
     </table>
-    <table>
+    <table class="tableModal">
         <caption><input type="color" id="captionColor" name="captionColor" value="#e66465"></caption>
         <tr>
             <td><input type="color" id="color1" name="color1" value="#e66465"></td>
@@ -83,46 +83,46 @@
             localStorage.removeItem("captionColor");
             localStorage.removeItem("colorDyscipline");
 
-            $("td:nth-child(1)").css('background-color', "#3eeeb3");
-            $("td:nth-child(2)").css('background-color', "#7fffd4");
-            $("td:nth-child(3)").css('background-color', "#3eeeb3");
-            $("table").css('color', "#000000");
-            $("th").css('background-color', "#dcdcdc");
-            $("caption").css('background-color', "#f8f8ff");
-            $("td > a").css('color', "#000000");
+            $(".tableModal td:nth-child(1)").css('background-color', "#3eeeb3");
+            $(".tableModal td:nth-child(2)").css('background-color', "#7fffd4");
+            $(".tableModal td:nth-child(3)").css('background-color', "#3eeeb3");
+            $(".tableModal").css('color', "#000000");
+            $(".tableModal th").css('background-color', "#dcdcdc");
+            $(".tableModal caption").css('background-color', "#f8f8ff");
+            $(".tableModal td > a").css('color', "#000000");
         })
 
         c1.addEventListener("input", function () {
-            $("td:nth-child(1)").css('background-color', c1.value);
+            $(".tableModal td:nth-child(1)").css('background-color', c1.value);
             localStorage.setItem("color1", c1.value);
         }, false);
 
         c2.addEventListener("input", function () {
-            $("td:nth-child(2)").css('background-color', c2.value);
+            $(".tableModal td:nth-child(2)").css('background-color', c2.value);
             localStorage.setItem("color2", c2.value);
         }, false);
 
         c3.addEventListener("input", function () {
-            $("td:nth-child(3)").css('background-color', c3.value);
+            $(".tableModal td:nth-child(3)").css('background-color', c3.value);
             localStorage.setItem("color3", c3.value);
         }, false);
 
         c4.addEventListener("input", function () {
-            $("table").css('color', c4.value);
+            $(".tableModal").css('color', c4.value);
             localStorage.setItem("color4", c4.value);
         }, false);
 
         c.addEventListener("input", function () {
-            $("th").css('background-color', c.value);
+            $(".tableModal th").css('background-color', c.value);
             localStorage.setItem("color", c.value);
         }, false);
 
         cc.addEventListener("input", function () {
-            $("caption").css('background-color', cc.value);
+            $(".tableModal caption").css('background-color', cc.value);
             localStorage.setItem("captionColor", cc.value);
         }, false);
         cd.addEventListener("input", function () {
-            $("a").css('color', cd.value);
+            $(".tableModal a").css('color', cd.value);
             localStorage.setItem("colorDyscipline", cd.value);
         }, false);
 
@@ -155,12 +155,12 @@
         if (colorDyscipline == "" || colorDyscipline === null) cd.value = "#000000";
         else cd.value = colorDyscipline;
 
-        $("td:nth-child(1)").css('background-color', color1);
-        $("td:nth-child(2)").css('background-color', color2);
-        $("td:nth-child(3)").css('background-color', color3);
-        $("table").css('color', color4);
-        $("th").css('background-color', color);
-        $("caption").css('background-color', captionColor);
-        $("td > a").css('color', colorDyscipline);
+        $(".tableModal td:nth-child(1)").css('background-color', color1);
+        $(".tableModal td:nth-child(2)").css('background-color', color2);
+        $(".tableModal td:nth-child(3)").css('background-color', color3);
+        $(".tableModal").css('color', color4);
+        $(".tableModal th").css('background-color', color);
+        $(".tableModal caption").css('background-color', captionColor);
+        $(".tableModal td > a").css('color', colorDyscipline);
     </script>
 }

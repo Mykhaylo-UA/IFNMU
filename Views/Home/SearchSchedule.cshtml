@@ -2,7 +2,7 @@
 @{Layout = null;}
 <div class="titlePage"><span>Курс - @ViewBag.Course | Група - @ViewBag.Group</span></div>
 <div class="buttonDiv"><button onclick="OneWeek()">Перший тиждень</button><button onclick="TwoWeek()">Другий тиждень</button></div>
-<table>
+<table class="tableModal">
     <tr>
         <th>№</th>
         <th>Name</th>
@@ -15,7 +15,7 @@
     {
         @foreach (var day in week.ScheduleDays.OrderBy(day => day.DayNumber))
         {
-            <table class="oneWeekTable">
+            <table class="tableModal oneWeekTable">
                 <caption>
                     @switch (@day.DayNumber)
                     {
@@ -67,7 +67,7 @@
     {
         @foreach (var day in week.ScheduleDays.OrderBy(day => day.DayNumber))
         {
-            <table class="twoWeekTable" hidden>
+            <table class="tableModal twoWeekTable" hidden>
                 <caption>
                 @switch (@day.DayNumber)
                 {
