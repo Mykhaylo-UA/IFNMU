@@ -1,0 +1,16 @@
+﻿@model IFNMUSiteCore.Models.Advertisement
+@{
+    Layout = null;
+}
+<form class="modalContentAdmin" method="post" asp-controller="Chair" asp-action="UpdateAdvertisement">
+    <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+    <input type="hidden" name="ChairId" id="ChairId" value="@Model.ChairId" />
+    <label for="Name">Введіть текст оголошення</label><br />
+    <textarea style="width:100%" id="TextEdit" name="Text">@Model.Text</textarea>
+    <input style="width:80%;" type="submit" value="Змінити" />
+</form>
+<form class="modalContentAdmin" method="post" asp-controller="Chair" asp-action="DeleteAdvertisement">
+    <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+    <input type="hidden" name="ChairId" id="ChairId" value="@Model.ChairId" />
+    <input style="width:80%;" type="submit" value="Видалити" onclick="return confirm('Ви дійсно хочете видалити оголошення?')"/>
+</form>

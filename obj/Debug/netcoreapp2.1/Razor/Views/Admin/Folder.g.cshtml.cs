@@ -71,7 +71,7 @@ using IFNMUSiteCore.Models;
 #line default
 #line hidden
             BeginContext(91, 2614, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6aea6787445749e6a3c92f97842a5158", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5df67e46eeed4431b61d0f3a44ecb13c", async() => {
                 BeginContext(234, 42, true);
                 WriteLiteral("\r\n    <button name=\"btn\" class=\"arrowLeft\"");
                 EndContext();
@@ -279,7 +279,7 @@ WriteAttributeValue("", 2658, file.Id, 2658, 8, false);
             ");
             EndContext();
             BeginContext(3490, 604, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b0e9176ea0014e41a8357e6f76ebc2b9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "66461c5cc031430da81c456f6987f133", async() => {
                 BeginContext(3774, 68, true);
                 WriteLiteral("\r\n                <input type=\"hidden\" name=\"FolderId\" id=\"FolderId\"");
                 EndContext();
@@ -338,7 +338,7 @@ WriteAttributeValue("", 3850, Model.Id, 3850, 9, false);
             ");
             EndContext();
             BeginContext(4961, 633, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9aba1b8436a4212aab68f4efa9b1972", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff58ef2404534efc9800cba030a3cc2f", async() => {
                 BeginContext(5271, 70, true);
                 WriteLiteral("\r\n                <input type=\"hidden\" name=\"FolderIdd\" id=\"FolderIdd\"");
                 EndContext();

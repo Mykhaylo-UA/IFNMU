@@ -1,0 +1,114 @@
+﻿@model List<DateTime[]>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddScheduleBig</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .table td {
+            padding: 0;
+        }
+
+        input[type=text] {
+            padding: 0 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="vueDiv" style="padding: 0, 5px;">
+            <div class="form-group">
+                <div class="row">
+                    <label>Виберіть тиждень який хочете додати:</label>
+                    <select class="form-control" id="selectDate">
+                        @for (byte i = 0; i < Model.Count; i++)
+                        {
+                            <option value="@i">@($"{Model[i][0].ToShortDateString()} - {Model[i][1].ToShortDateString()}")</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="alert alert-primary" role="alert">
+                Вибравши тиждень, натисніть <strong>"Згенерувати тиждень"</strong>. Після появи таблиці, ви можете додати більше тижднів, вибравши дату і натиснувши <strong>"Згенерувати тиждень"</strong>
+            </div>
+            <div class="form-group">
+                <a id="idA" class="btn btn-warning" data-ajax="true" data-ajax-mode="after" data-ajax-update="#generatedTable" href="/Schedule/AddScheduleBigTable?selectDate=0&newTable=true" data-ajax-complete="completed">Згенерувати тиждень</a>
+            </div>
+        </div>
+    </div>
+    <div class="container alert alert-primary" role="alert" hidden>
+        Всі поля повинні бути заповнені. Групи вказувати через пробіл. Щоб вказати 3/4 пару, введіть групи, попередньо поставивши <strong>"/"</strong>. Лекції писати в форматі <strong>ПотікНомерЗаняття-НомерАудиторії (А3-16)</strong> 
+    </div>
+    <form asp-action="AddScheduleBig" method="post">
+        <div style="display:flex; width:max-content;" id="generatedTable"></div>
+        <hr />
+        <div class="container">
+            <div id="click" class="btn btn-primary" hidden>Додати рядок</div>
+        </div>
+        <hr />
+        <div id="potikContainer" class="container"></div>
+        <div class="container">
+            <div id="addPotik" class="btn btn-danger">Додати потік</div>
+        </div>
+        <hr />
+        <div class="container">
+            <div class="form-group">
+                <label for="course">Курс</label>
+                <div>
+                    <input type="number" class="form-control" id="course" name="course" placeholder="Курс" />
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <input type="submit" class="btn btn-success" value="Зберегти розклад" hidden />
+        </div>
+    </form>
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script>
+        let optionSelect = 0;
+        let countRow = 1;
+        let htmlPotik = '<div class="form-group"> <label for="potikName">Потік (літера):</label><div><input type="text" class="form-control" id="potikName" name="potikName" placeholder="Потік" /></div><label for="potikGroups">Групи потоку:</label><div><input type="text" class="form-control" id="potikGroups" name="potikGroups" placeholder="Групи потоку (через пробіл)" /> </div></div>';
+        $("#addPotik").on("click", function () { $("#potikContainer").append(htmlPotik); });
+
+        function ReplaceA() {
+            if ($('#generatedTable').children().length > 0) {
+                document.getElementById("idA").href = "/Schedule/AddScheduleBigTable?selectDate=" + optionSelect + "&countRow=" + countRow;
+            }
+            else {
+                document.getElementById("idA").href = "/Schedule/AddScheduleBigTable?selectDate=" + optionSelect + "&newTable=true" + "&countRow=" + countRow;
+            }
+        }
+        $('#selectDate').on("change", function (event) {
+            optionSelect = event.target.value;
+            ReplaceA();
+        });
+
+        $("#idA").on("click", function () {
+            completed = function () {
+                $("option[value=" + optionSelect + "]").attr("disabled", true);
+                $("#selectDate > option").removeAttr("selected");
+                $("#selectDate > option:eq(" + (optionSelect + 1) + ")").attr("selected", "selected");
+                optionSelect += 1;
+                $("input").removeAttr("hidden");
+                $("div").removeAttr("hidden");
+                ReplaceA();
+            };
+        });
+        $("#click").on("click", function () {
+            for (var a = 0; a < $(".clone").length; a++) {
+                $(".clone:eq(" + a + ")").clone().removeClass("clone").appendTo("table:eq(" + a + ")").children("td").children("input").val("");
+            }
+            countRow += 1;
+            ReplaceA();
+        });
+    </script>
+</body>
+</html>

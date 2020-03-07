@@ -1,0 +1,30 @@
+﻿@model int
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddLessonOne</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form method="post" asp-action="AddLessonOne">
+                <input type="hidden" name="ScheduleDayId" value="@Model"/>
+            <div class="form-group">
+                <label for="">Номер заняття</label>
+                <input class="form-control" name="LessonNumber" id="LessonNumber" type="number" value="">
+            </div>
+            <div class="form-group">
+                <label for="">Назва заняття</label>
+                <input class="form-control" name="Name" id="Name" type="text" value="">
+            </div>
+            <input class="btn btn-warning" type="submit" value="Додати"/>
+        </form>
+    </div>
+</body>
+</html>

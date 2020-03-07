@@ -11,16 +11,15 @@ namespace IFNMUSiteCore.Models
         public DbSet<Week> Weeks { get; set; }
         public DbSet<Lesson> Lessons { get; set; }
         public DbSet<ScheduleDay> ScheduleDays { get; set; }
-        public DbSet<ThematicPlan> ThematicPlans { get; set; }
-        public DbSet<MethodicalRecomendation> MethodicalRecomendations { get; set; }
+        public DbSet<File> Files { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<Answer> Answers { get; set; }
         public DbSet<Chair> Chairs { get; set; }
         public DbSet<Folder> Folders { get; set; }
-        public DbSet<File> Files { get; set; }
         public DbSet<Advertisement> Advertisements { get; set; }
         public DbSet<Graphic> Graphics { get; set; }
 
+             
         public LessonContext(DbContextOptions<LessonContext> options)
             : base(options)
         {
@@ -30,11 +29,6 @@ namespace IFNMUSiteCore.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Lesson>()
-                .HasOne(p => p.ThematicPlan)
-                .WithMany(t => t.Lessons)
-                .OnDelete(DeleteBehavior.SetNull);
 
             modelBuilder.Entity<Answer>()
                 .HasOne(p => p.Question)

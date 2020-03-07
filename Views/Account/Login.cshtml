@@ -1,0 +1,25 @@
+﻿@model IFNMUSiteCore.ViewModels.LoginViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section  Style{ 
+<style>
+    .inputClass {
+    border-radius: 4px;
+    margin: 10px 0;
+}
+</style>
+}
+<h2 style="text-align: center;">Вхід</h2>
+<div style="display: flex;text-align: center;">
+    <form method="post" asp-controller="Account" asp-action="Login" style ="display: flex;flex-direction: column;margin: auto;width: 250px;" asp-route-returnUrl="@Model.ReturnUrl">
+        <div asp-validation-summary="ModelOnly"></div>
+        <label asp-for="Email"></label><br />
+        <input class="inputClass" asp-for="Email" style="width: 100%;" />
+        <span asp-validation-for="Email"></span>
+        <label asp-for="Password"></label><br />
+        <input class="inputClass" asp-for="Password" style="width: 100%;" />
+        <span asp-validation-for="Password"></span>
+        <input type="submit" value="Авторизація" style="margin: auto;border-radius: 4px;"/>
+    </form>
+</div>

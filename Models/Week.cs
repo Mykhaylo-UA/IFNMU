@@ -16,6 +16,7 @@ namespace IFNMUSiteCore.Models
         public byte NumberWeek { get; set; }
         public byte Course { get; set; }
         public string Group { get; set; }
+        public Faculty? Faculty { get; set; }
 
         [BindProperty]
         [BindRequired]
@@ -25,5 +26,18 @@ namespace IFNMUSiteCore.Models
         {
             ScheduleDays = new List<ScheduleDay>();
         }
+    }
+    public enum Faculty
+    {
+        Medicine=1,
+        Stomatology,
+        Pharmacology,
+        Pediatric,
+        PIZ,
+        Feldsher,
+        PharmacologyColedge,
+        DensTechnic,
+        Nurse,
+        Ergoterapy
     }
 }

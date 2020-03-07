@@ -1,0 +1,26 @@
+﻿@model IFNMUSiteCore.Models.Chair
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddChair</title>
+</head>
+<body>
+    <form method="post" asp-controller="Chair" asp-action="AddChair">
+        <label for="Name">Назва кафедри</label>
+        <input name="Name" id="Name" type="text" />
+        <label for="Manager">Завідуючий</label>
+        <input name="Manager" id="Manager" type="text" />
+        <label for="PathAvatar">Шлях до фото</label>
+        <input name="PathAvatar" id="PathAvatar" type="text" />
+        <label for="PathChairIFNMU">Шлях до сторінки ІФНМУ</label>
+        <input name="PathChairIFNMU" id="PathChairIFNMU" type="text" />
+        <input type="submit" />
+    </form>
+</body>
+</html>

@@ -112,7 +112,7 @@ using System.Globalization;
             WriteLiteral("</div>\r\n");
             EndContext();
             BeginContext(430, 768, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb6ba23906084fb0bd595eaa932ff83a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a1c0bfd8be04ae38fbb716c7daf1ac9", async() => {
                 BeginContext(595, 173, true);
                 WriteLiteral("\r\n    <select style=\"background-color: azure;border: 0;border-radius: 4px; margin:0.5%; font-size: 16px;\" name=\"WeekId\" id=\"WeekId\" onchange=\"$(\'#sbm\').trigger(\'click\');\">\r\n");
                 EndContext();
@@ -126,7 +126,7 @@ using System.Globalization;
                 WriteLiteral("            ");
                 EndContext();
                 BeginContext(834, 186, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aa037f918601417595a9c29f57f92945", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "afd6ce4aaa444afe879fdbd62a5eb695", async() => {
                     BeginContext(857, 76, false);
 #line 10 "C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\Views\Home\ScheduleBig.cshtml"
                              Write(Convert.ToDateTime(w.From).ToString("d MMMM yyyy", new CultureInfo("uk-UA")));

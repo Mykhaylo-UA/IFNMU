@@ -3,28 +3,26 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using IFNMUSiteCore.Models;
 using Microsoft.EntityFrameworkCore;
-using MailKit.Net.Smtp;
 using System.Threading.Tasks;
 using System;
 using System.Collections.Generic;
-using System.Net;
-using System.IO;
-using System.Text;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
-using System.Web;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization; 
 
 namespace IFNMUSiteCore.Controllers
 {
     public class HomeController : Controller
     {
         private LessonContext db; // контекст БД
-        private IHostingEnvironment _appEnvironment;
-
-        public HomeController(LessonContext context, IHostingEnvironment appEnvironment) // конструктор
+        private IWebHostEnvironment _appEnvironment;
+        UserManager<User> _users;
+        public HomeController(LessonContext context, IWebHostEnvironment appEnvironment, UserManager<User> usersManager) // конструктор
         {
             db = context;
             _appEnvironment = appEnvironment;
+            _users = usersManager;
         }
 
         // Головна сторінка
@@ -172,7 +170,49 @@ namespace IFNMUSiteCore.Controllers
                                 return View("ScheduleBig", weekResult);
                             }
                         }
-                        return View("ScheduleBig");
+                        Week weekDefault = db.Weeks.Find(week[0].Id);
+                        ViewBag.Weeks = week;
+                        ViewBag.Group = group;
+                        if (group.Contains("+"))
+                        {
+                            for (byte a = 0; a < weekDefault.ScheduleDays.Count; a++)
+                            {
+                                List<Lesson> wk = new List<Lesson>();
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                foreach (var l in wk)
+                                {
+                                    weekDefault.ScheduleDays[a].Lessons.Remove(l);
+                                }
+                            }
+                        }
+                        if (group.Contains("-"))
+                        {
+                            for (byte a = 0; a < weekDefault.ScheduleDays.Count; a++)
+                            {
+                                List<Lesson> wk = new List<Lesson>();
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                foreach (var l in wk)
+                                {
+                                    weekDefault.ScheduleDays[a].Lessons.Remove(l);
+                                }
+                            }
+                        }
+                        if (group.Contains("*"))
+                        {
+                            for (byte a = 0; a < weekDefault.ScheduleDays.Count; a++)
+                            {
+                                List<Lesson> wk = new List<Lesson>();
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                foreach (var l in wk)
+                                {
+                                    weekDefault.ScheduleDays[a].Lessons.Remove(l);
+                                }
+                            }
+                        }
+                        return View("ScheduleBig", weekDefault);
                     }
                 }
                 else
@@ -286,7 +326,49 @@ namespace IFNMUSiteCore.Controllers
                                 return View("ScheduleBig", weekResult);
                             }
                         }
-                        return View("ScheduleBig");
+                        Week weekDefault = db.Weeks.Find(week[0].Id);
+                        ViewBag.Weeks = week;
+                        ViewBag.Group = g;
+                        if (g.Contains("+"))
+                        {
+                            for (byte a = 0; a < weekDefault.ScheduleDays.Count; a++)
+                            {
+                                List<Lesson> wk = new List<Lesson>();
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                foreach (var l in wk)
+                                {
+                                    weekDefault.ScheduleDays[a].Lessons.Remove(l);
+                                }
+                            }
+                        }
+                        if (g.Contains("-"))
+                        {
+                            for (byte a = 0; a < weekDefault.ScheduleDays.Count; a++)
+                            {
+                                List<Lesson> wk = new List<Lesson>();
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("*")).ToList());
+                                foreach (var l in wk)
+                                {
+                                    weekDefault.ScheduleDays[a].Lessons.Remove(l);
+                                }
+                            }
+                        }
+                        if (g.Contains("*"))
+                        {
+                            for (byte a = 0; a < weekDefault.ScheduleDays.Count; a++)
+                            {
+                                List<Lesson> wk = new List<Lesson>();
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("-")).ToList());
+                                wk.AddRange(weekDefault.ScheduleDays[a].Lessons.Where(les => les.Name.Contains("+")).ToList());
+                                foreach (var l in wk)
+                                {
+                                    weekDefault.ScheduleDays[a].Lessons.Remove(l);
+                                }
+                            }
+                        }
+                        return View("ScheduleBig", weekDefault);
                     }
                 }
             }
@@ -372,12 +454,12 @@ namespace IFNMUSiteCore.Controllers
         public ActionResult Documents(int id)
         {
             var lesson = db.Lessons.Include(l => l.ThematicPlan).Include(l=> l.MethodicalRecomendation).SingleOrDefault(l => l.Id == id);
-            if (lesson.ThematicPlan.Id == -1 && lesson.MethodicalRecomendation.Id == -1) return View("NoThematicPlan");
+            if (lesson.ThematicPlanId == null && lesson.MethodicalRecomendationId ==null) return View("NoThematicPlan");
             return View(lesson);
         }
         public ActionResult MethodicalRecomendation(int id)
         {
-            MethodicalRecomendation mr = db.MethodicalRecomendations.Find(id);
+            File mr = db.Files.Find(id);
             if(mr.Name.Contains(".pdf"))
             {
                 return LocalRedirect("~"+ mr.Path);
@@ -389,7 +471,7 @@ namespace IFNMUSiteCore.Controllers
         }
         public ActionResult ThematicPlan(int id)
         {
-            ThematicPlan tp = db.ThematicPlans.Find(id);
+            File tp = db.Files.Find(id);
             if (tp.Name.Contains(".pdf"))
             {
                 return LocalRedirect("~" + tp.Path);
@@ -401,8 +483,16 @@ namespace IFNMUSiteCore.Controllers
         }
 
         [HttpGet]
-        public ActionResult Chair(int id)
+        public async Task<ActionResult> Chair(int id)
         {
+            if(User.Identity.IsAuthenticated)
+            {
+                var user = await GetCurrentUserAsync();
+                if(user.ChairId != null)
+                {
+                    return RedirectToAction("Chair", "Admin", new { id = user.ChairId });
+                }
+            }
             ViewBag.Host = HttpContext.Request.Host.ToString();
             return View(db.Chairs.Include(a => a.Folders).Include(b => b.Files).Include(c => c.Advertisements).Include(d=> d.Graphics).Single(c => c.Id == id));
         }
@@ -430,10 +520,20 @@ namespace IFNMUSiteCore.Controllers
             }
         }
 
+        [Authorize(Roles="moderator, admin")]
+        [HttpGet]
+        public IActionResult Panel()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [NonAction]
+        private Task<User> GetCurrentUserAsync() => _users.GetUserAsync(HttpContext.User);
     }
 }

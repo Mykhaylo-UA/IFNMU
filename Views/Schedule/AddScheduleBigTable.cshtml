@@ -1,0 +1,36 @@
+﻿@model DateTime[]
+@{
+    Layout = null;
+    int colspan = Model[1].Subtract(Model[0]).Days + 1;
+}
+<div class="table-responsive" style="overflow-x: auto; width:@(ViewBag.NewTable == true ? "750px" : "500px");">
+    <table id="generatedTable" class="table-bordered" style="text-align: center;">
+
+        <tr>
+            @if (ViewBag.NewTable == true)
+            {
+                <td rowspan="2">Назва дисципліни</td>
+            }
+            <td style="text-transform: uppercase;" colspan="@(colspan)"> @(Model[0].ToString("MMMM") + (Model[1].Month != Model[0].Month ? "/" + Model[1].ToString("MMMM") : "")) </td>
+        </tr>
+        <tr>
+            @for (var i = Model[0]; i <= Model[1]; i = i.AddDays(1))
+            {
+                <td> @i.Day </td>
+            }
+        </tr>
+        @for (int a = 0; a < ViewBag.CountRow; a++)
+        {
+            <tr @(a == 0 ? "class=clone" : "")>
+                @if (ViewBag.NewTable == true)
+                {
+                    <td style="width:500px"><input class="form-control" required type="text" style="width:100%;" name="items[-1]" /></td>
+                }
+                @for (var i = Model[0]; i <= Model[1]; i = i.AddDays(1))
+                {
+                    <td style="width:250px"><input class="form-control" required type="text" style="width:100%;" name="items[@ViewBag.SelectDate]" /></td>
+                }
+            </tr>
+        }
+    </table>
+</div>

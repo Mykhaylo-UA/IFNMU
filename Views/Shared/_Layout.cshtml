@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/css/layout_up.css" rel="stylesheet" />
     <link href="~/css/general.css" rel="stylesheet" />
     <link href="~/logo.ico" rel="shortcut icon" runat="server" type="image/x-icon" />
     <link href="~/logo.ico" rel="icon" runat="server" type="image/ico" />
@@ -21,35 +22,33 @@
     </script>
 </head>
 <body>
-    <div class="nav">
-        <div class="logo"><img src="~/images/logo.png" alt="Logo"></div>
-        <div class="navigation" style="z-index:2">
-            <div class="formIndex">
-                <form action="/Home/SearchSchedule" data-ajax="true" data-ajax-loading="#loading" data-ajax-mode="replace" data-ajax-update="#results" id="form0" method="post">
-                    <input type="text" name="courses" placeholder="Курс">
-                    <input type="text" name="group" placeholder="Група">
-                    <input id="buttonModal" type="submit" value="Показати">
-                </form>
-            </div>
-            <div class="navb">
-                <ul class="ulnav">
-                    <li><a asp-controller="Home" asp-action="Index">Головна</a></li>
-                    <li><a asp-controller="Home" asp-action="Instruction">Інструкція</a></li>
-                    <li><a asp-controller="Home" asp-action="Properties">Налаштування</a></li>
-                    <li><a href="https://list.e-decanat-ifnmu.site/">Записатись в деканат</a></li>
-                </ul>
-            </div>
+    <nav class="nav">
+        <div class="logo">
         </div>
-        <div id="toggleId" class="toggle">
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="navbar">
+            <form action="/Home/SearchSchedule" data-ajax="true" data-ajax-loading="#loading" data-ajax-mode="replace" data-ajax-update="#results" id="form0" method="post">
+                <input type="text" name="courses" placeholder="Курс">
+                <input type="text" name="group" placeholder="Група">
+                <input id="buttonModal" type="submit" value="Показати">
+            </form>
+            <ul class="ulnav">
+                <li><a asp-controller="Home" asp-action="Index">Головна</a></li>
+                <li><a asp-controller="Home" asp-action="Instruction">Інструкція</a></li>
+                <li><a asp-controller="Home" asp-action="Properties">Налаштування</a></li>
+                <li><a href="https://list.e-decanat-ifnmu.site/">Записатись в деканат</a></li>
+            </ul>
         </div>
-    </div>
+        <div id="menuToggle">
+            <input type="checkbox" autocomplete="off">
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+        </div>
+    </nav>
     @*<div style="display: flex;justify-content: center;text-align: center;align-items: center;padding: 0.3%;">
-        <p style="margin-right: 2%;font-style: oblique;">Підтримай проект</p>
-        <img src="http://nikvesti.com/images/imageeditor/2015/2/6/65117/65117_1.jpg" alt="logo" style="width: 3em;"><p>5168755111070815</p>
-    </div>*@
+            <p style="margin-right: 2%;font-style: oblique;">Підтримай проект</p>
+            <img src="http://nikvesti.com/images/imageeditor/2015/2/6/65117/65117_1.jpg" alt="logo" style="width: 3em;"><p>5168755111070815</p>
+        </div>*@
     <div class="modal-overlay modalSchedule" style="overflow-y: auto">
         <div class="modal modal1" style="z-index:2;">
 
@@ -83,19 +82,44 @@
         </div><!-- modal -->
     </div><!-- overlay -->
     @RenderBody()
-    <div style="width: 100%;display: flex;justify-content: center;flex-wrap: wrap; font-size:0.9em; padding-top:50px;">
-            <p style="align-items: center;display: inline-flex;margin: 0 2%; margin-top:2%">
-                <img src="https://img.icons8.com/nolan/64/000000/telegram-app.png" style="width: 50px;">
-                Telegram: misha1809
-            </p>
-            <p style="display: inline-flex;align-items: center;margin: 0 2%; margin-top:2%;">
-                <img src="https://img.icons8.com/nolan/64/000000/email.png" style="width: 50px;">
-                E-mail: mykhaylo1809@gmail.com
-            </p>
-        </div>
+    <div style="margin:auto; text-align:center; display:flex;justify-content:center; margin-top:40px; flex-direction: column;">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <form method="post" asp-controller="Account" asp-action="LogOff">
+                <a href="/Moderator/Index">Адмін-панель</a>
+                <input type="submit" value="Вийти" />
+            </form>
+        }
+        else
+        {
+            <a style="margin-bottom: 15px;" asp-controller="Account" asp-action="Login">Ввійти як адміністратор</a>
+            <br />
+            <a asp-controller="Account" asp-action="Register">Зареєструватись</a>
+        }
+    </div>
+    <div style="width: 100%;display: flex;justify-content: center;flex-wrap: wrap; font-size:0.9em;">
+        <p style="align-items: center;display: inline-flex;margin: 0 2%; margin-top:2%">
+            <img src="https://img.icons8.com/nolan/64/000000/telegram-app.png" style="width: 50px;">
+            Telegram: misha1809
+        </p>
+        <p style="display: inline-flex;align-items: center;margin: 0 2%; margin-top:2%;">
+            <img src="https://img.icons8.com/nolan/64/000000/email.png" style="width: 50px;">
+            E-mail: mykhaylo1809@gmail.com
+        </p>
+    </div>
     <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script>
+        $("#menuToggle").click(function () {
+            if ($("#menuToggle>input").is(':checked') == true) {
+                $(".navbar").slideDown();
+            }
+            else {
+                $(".navbar").slideUp();
+            }
+        });
+    </script>
     <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
-    <script src="~/js/js.js"></script>
+    <script src="~/js/jjs.js"></script>
     @RenderSection("Script", false)
 </body>
 </html>

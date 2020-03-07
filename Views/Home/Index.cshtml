@@ -2,7 +2,7 @@
     ViewBag.Title = "ІФНМУ";
 }
 @{Layout = "~/Views/Shared/_Layout.cshtml";}
-    <div class="containerQuestions">
+    @*\\<div class="containerQuestions">
         @{
             byte number = 0;
             foreach (var i in ViewBag.Questions)
@@ -20,4 +20,51 @@
                 </div>
             }
         }
+    </div>*@
+@section Style{ 
+    <style>
+        h3{
+            text-align:center;
+        }
+        p{
+            text-align:justify;
+        }
+    </style>
+}
+	<div class="containerQuestions">
+
+	<div class="question">
+            <h3>Закриття проекту</h3>
+            <div>
+                <p>З 15 березня 2020 року проект припинить свою роботу у зв`язку з недостатньою кількістю відвідувачів. (немає потреби підтримувати сайт для 100 користувачів)</p>
+		<p>Середня відвідуваність в тиждень: 300 переглядів / 100 користувачів</p>
+                <p>Середня відвідуваність в день: 40 переглядів /  20 користувачів</p>
+		<p>Вибачте за незручності.</p>
+            </div>
+            <p>Якщо хтось займається веб-дизайном або Frontend-розробкою пишіть в телеграм.</p>
+        </div>
+        @*<div class="question">
+            <h3>У кого є можливість</h3>
+            <div style="display: flex;justify-content: center;text-align: center;align-items: center;padding: 0.3%;">
+                <p style="margin-right: 2%;font-style: oblique;">Підтримай проект</p>
+                <img src="http://nikvesti.com/images/imageeditor/2015/2/6/65117/65117_1.jpg" alt="logo" style="width: 3em;"><p>5168755111070815</p>
+            </div>
+            <p>Якщо хтось займається веб-дизайном або Frontend-розробкою пишіть в телеграм.</p>
+        </div>
+        <div class="question">
+            <h3>УВАГА</h3>
+            <p>
+                Тепер у Вас є можливість самостійно змінювати/добавляти розклад, тематичні плани, рекомедації, редагувати сайти кафедр та інше.
+            </p>
+            <p>
+                Детальну інструкцію
+                як це все робити зроблю пізніше.
+            </p>
+            <p>Якщо є питання звертайтесь в телеграм @@misha1809.</p>
+            <p>
+                Для того щоб почати змінювати дані, вам потрібно зареєструватись (внизу кожної сторінки є посилання) і написати мені в телеграм, щоб я
+                видав доступ до адмін-панелі.
+            </p>
+
+        </div>*@
     </div>

@@ -381,7 +381,7 @@ WriteAttributeValue("", 6836, Model.PathChairIFNMU, 6836, 21, false);
             WriteLiteral("<div class=\"blockDocuments\">\r\n    <h2>Документи</h2>\r\n    <div id=\"foldersAndFiles\">\r\n        ");
             EndContext();
             BeginContext(7349, 2590, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "04f9ce4c2d224389a26cda48e371160f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b8fb2ceb8c54fe29622c80f697b1648", async() => {
                 BeginContext(7491, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();

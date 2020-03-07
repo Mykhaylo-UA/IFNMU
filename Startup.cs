@@ -11,6 +11,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using IFNMUSiteCore.Models;
+using Microsoft.AspNetCore.Identity;
+using Pomelo.EntityFrameworkCore.MySql;
+using Microsoft.Extensions.Hosting;
 
 namespace IFNMUSiteCore
 {
@@ -33,16 +36,24 @@ namespace IFNMUSiteCore
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-            string connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<LessonContext>(options =>
-                options.UseMySQL(connection));
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<UserContext>(options =>
+                options.UseMySql(Configuration.GetConnectionString("AcccountConnection")));
+
+            services.AddIdentity<User, IdentityRole>()
+                .AddEntityFrameworkStores<UserContext>();
+            /*services.AddAuthentication().AddMicrosoftAccount(microsoftOptions =>
+            {
+                microsoftOptions.ClientId = Configuration["Authentication:Microsoft:ClientId"];
+                microsoftOptions.ClientSecret = Configuration["Authentication:Microsoft:ClientSecret"];
+            });*/
+
+            services.AddMvc(options=>options.EnableEndpointRouting=false).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -56,6 +67,7 @@ namespace IFNMUSiteCore
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseCookiePolicy();
 
             app.UseMvc(routes =>

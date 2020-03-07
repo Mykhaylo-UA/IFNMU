@@ -1,0 +1,152 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddSchedule</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .table td {
+            padding: 0;
+        }
+
+        tbody td {
+            width: 100px;
+        }
+
+            tbody td:nth-child(1) {
+                width: 250px;
+            }
+    </style>
+</head>
+<body>
+    <div class="table-responsive" style="overflow-x: auto; width:3000px;">
+        <form method="post" asp-action="AddSchedule">
+            <table class="table-bordered" style="text-align: center;">
+                <thead class="thead-inverse" style="background-color: lightgoldenrodyellow;">
+                    <tr>
+                        <td rowspan="3">Назва дисципліни</td>
+                        <td colspan="25">Перший тиждень</td>
+                        <td colspan="25">Другий тиждень</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Понеділок</td>
+                        <td colspan="4">Вівторок</td>
+                        <td colspan="4">Середа</td>
+                        <td colspan="4">Четвер</td>
+                        <td colspan="4">П'ятниця</td>
+                        <td colspan="4">Понеділок</td>
+                        <td colspan="4">Вівторок</td>
+                        <td colspan="4">Середа</td>
+                        <td colspan="4">Четвер</td>
+                        <td colspan="4">П'ятниця</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+
+                    </tr>
+                </thead>
+                <tbody id="tbodyId">
+                    <tr>
+                        @for (byte i = 0; i < 41; i++)
+                        {
+                            <td>
+                                <input name="item[0][@i]" type="text" style="width:100%;" />
+                            </td>
+                        }
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">
+                            <a id="idA" class="btn btn-warning" data-ajax="true" data-ajax-mode="after" data-ajax-update="#tbodyId" href="/Schedule/AddRow?index=0">Додати новий рядок</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr />
+            <div class="form-group">
+            <div id="potikContainer"></div>
+            <div id="addPotik" class="btn btn-danger">Додати потік</div>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label for="course">Курс</label>
+                <div>
+                    <input type="number" class="form-control" id="course" name="course" placeholder="Курс" />
+                </div>
+            </div>
+            <input type="submit" class="btn btn-success" value="Додати розклад" />
+        </form>
+    </div>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script>
+        let i = 0;
+
+        var link = document.getElementById("idA");
+
+        function A() {
+            i++;
+            link.href = "/Schedule/AddRow?index=" + i;
+        }
+        link.addEventListener('click', function () { A(); }, false);
+
+         let htmlPotik = ' <div class="form-group"><label for="potikName">Потік (літера):</label><div><input type="text" class="form-control" id="potikName" name="potikName" placeholder="Потік" /></div><label for="potikGroups">Групи потоку:</label> <div> <input type="text" class="form-control" id="potikGroups" name="potikGroups" placeholder="Групи потоку (через пробіл)" /></div> </div>';
+        $("#addPotik").on("click", function () { $("#potikContainer").append(htmlPotik); });
+    </script>
+</body>
+</html >

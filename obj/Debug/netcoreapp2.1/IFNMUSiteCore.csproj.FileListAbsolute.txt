@@ -152,3 +152,9 @@ C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Ra
 C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\UpdateFolderAjaxFile.g.cshtml.cs
 C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\UpdateAjaxAdvertisement.g.cshtml.cs
 C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Admin\UpdateAjaxGraphic.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Roles\Index.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Roles\Create.g.cshtml.cs
+C:\Users\asus\Desktop\Project\IFNMUSIte\IFNMUSiteCore\obj\Debug\netcoreapp2.1\Razor\Views\Roles\UserList.g.cshtml.cs

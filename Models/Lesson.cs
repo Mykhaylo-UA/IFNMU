@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace IFNMUSiteCore.Models
 {
@@ -13,10 +14,12 @@ namespace IFNMUSiteCore.Models
         public int LessonNumber { get; set; }
 
         public int? ThematicPlanId { get; set; }
-        public ThematicPlan ThematicPlan { get; set; }
+        [ForeignKey("ThematicPlanId")]
+        public File ThematicPlan { get; set; }
 
         public int? MethodicalRecomendationId { get; set; }
-        public MethodicalRecomendation MethodicalRecomendation { get; set; }
+        [ForeignKey("MethodicalRecomendationId")]
+        public File MethodicalRecomendation { get; set; }
 
         public int ScheduleDayId { get; set; }
         public ScheduleDay ScheduleDay { get; set; }

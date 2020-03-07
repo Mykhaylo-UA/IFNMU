@@ -1,0 +1,108 @@
+﻿@model List<IFNMUSiteCore.Models.Chair>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EditMRTP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        @if (ViewBag.CountUpdate != null)
+        {
+            <div class="alert alert-primary" role="alert">
+                Ви змінили дані для <strong>@ViewBag.CountUpdate</strong> занять
+            </div>
+        }
+    <form method="post" asp-controller="Schedule" asp-action="EditMRTP">
+        <div class="form-group">
+            <label for="nameLesson">Введіть назву дисципліни, для якої будуть змінені дані</label>
+            <input class="form-control" type="text" name="nameLesson" id="nameLesson" value="" placeholder="Назва предмету" />
+        </div>
+        <div class="form-group">
+            <label for="regexIndex">Виберіть тип заняття</label>
+            <select class="form-control" name="regexIndex" id="regexIndex">
+                <option value="1">Практичне заняття</option>
+                <option value="2">Лекція</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="regexIndex">Введіть групу</label>
+            <div class="alert alert-warning" role="alert">
+                Якщо ви хочете змінити дані цілому курсу, то залиште поле пустим.
+            </div>
+            <input class="form-control" type="text" name="group" id="group" value="" placeholder="" />
+        </div>
+        <div class="form-group">
+            <label for="numberCourse">Введіть курс, для якого будуть змінені дані</label>
+            <input class="form-control" type="number" placeholder="Курс" name="numberCourse" id="numberCourse" />
+        </div>
+        <div class="form-group">
+            <label for="faculty">Виберіть факультет, для якого будуть змінені дані</label>
+            <select class="form-control" name="faculty" id="faculty">
+                <option value="1">Медичний факультет</option>
+                <option value="2">Стоматологічний факультет</option>
+                <option value="3">Фармацевтичний факультет</option>
+                <option value="4">Педіатричний факультет</option>
+                <option value="5">Підготовки іноземних громадян</option>
+                <option value="6">Коледж "Фельдшера"</option>
+                <option value="7">Коледж "Фармацевти"</option>
+                <option value="8">Коледж "Зубні техніки"</option>
+                <option value="9">Коледж "Медсестри"</option>
+                <option value="10">Ерготерапевти"</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="idChair">Виберіть кафедру, з якої будуть завантажені документи</label>
+            <select class="form-control selectChair" name="idChair" id="idChair">
+                <option value="null">Не вибрано</option>
+                @foreach (var a in Model)
+                {
+                    <option value="@a.Id">@a.Name</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="ThematicPlanId">Виберіть тематичний план</label>
+            <div class="alert alert-warning" role="alert">
+                Дані загрузяться після вибору <strong>кафедри</strong>
+            </div>
+            <select class="form-control loadDoc" name="ThematicPlanId" id="ThematicPlanId">
+                <option value="null">Немає даних</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="MethodicalRecomendationId">Виберіть методичну рекомендацію</label>
+            <div class="alert alert-warning" role="alert">
+                Дані загрузяться після вибору <strong>кафедри</strong>
+            </div>
+            <select class="form-control loadDoc" name="MethodicalRecomendationId" id="MethodicalRecomendationId">
+                <option value="null">Немає даних</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input class="btn btn-success" type="submit" value="Знайти" />
+        </div>
+    </form>
+    </div>
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).on('change', '.selectChair', function (e) {
+            $.ajax({
+                type: "GET",
+                url: "/Chair/LoadChairDoc",
+                data: { id: e.target.value },
+                dataType: "html"
+            }).done(function (msg) {
+                $(".loadDoc").html(msg);
+            });
+        });
+    </script>
+</body>
+</html>

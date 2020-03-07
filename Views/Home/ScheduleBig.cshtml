@@ -3,7 +3,7 @@
 @{Layout = null;}
 <div class="titlePage"><span>Курс - @ViewBag.Course | Група - @ViewBag.Group</span></div>
 <div style="text-align: center;margin: 1%;font-size: 1.2em;">Поточний тиждень: <br/> @Convert.ToDateTime(Model.From).ToString("d MMMM yyyy", new CultureInfo("uk-UA")) - @Convert.ToDateTime(Model.To).ToString("d MMMM yyyy", new CultureInfo("uk-UA"))</div>
-<form style="margin:0;" action="/Home/ScheduleBig" data-ajax="true" data-ajax-loading="#loading" data-ajax-mode="replace" data-ajax-update="#results2" method="post">
+<form style="margin:0;justify-content: center;display: flex;" action="/Home/ScheduleBig" data-ajax="true" data-ajax-loading="#loading" data-ajax-mode="replace" data-ajax-update="#results2" method="post">
     <select style="background-color: azure;border: 0;border-radius: 4px; margin:0.5%; font-size: 16px;" name="WeekId" id="WeekId" onchange="$('#sbm').trigger('click');">
         @foreach (var w in ViewBag.Weeks)
         {
@@ -48,7 +48,12 @@
             {
                 <tr>
                     <td>@lessons.LessonNumber</td>
-                    <td>@Html.ActionLink(lessons.Name, "Documents", "Home", new { id = lessons.Id }, null)</td>
+                    <td>@Html.ActionLink(lessons.Name, "Documents", "Home", new { id = lessons.Id }, null)
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a style="width:10%;" href=@("/Schedule/EditLesson/" + lessons.Id)>Edit</a>
+                            }
+                    </td>
                     <td>
                         @switch (lessons.LessonNumber)
                         {

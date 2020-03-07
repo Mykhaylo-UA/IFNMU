@@ -43,7 +43,7 @@
                 </a>
             </div>
         }
-        @if (Model.ThematicPlan.Id != -1)
+        @if (Model.ThematicPlanId != null)
         {
             <div class="block" style="">
                 <a asp-action="ThematicPlan" asp-controller="Home" asp-route-id="@Model.ThematicPlan.Id">
@@ -52,7 +52,7 @@
                 </a>
             </div>
         }
-        @if (Model.MethodicalRecomendation.Id != -1)
+        @if (Model.MethodicalRecomendationId != null)
         {
             <div class="block" style="">
                 <a asp-action="MethodicalRecomendation" asp-controller="Home" asp-route-id="@Model.MethodicalRecomendation.Id">

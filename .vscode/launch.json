@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.1/IFNMUSiteCore.dll",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.0/IFNMUSiteCore.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,

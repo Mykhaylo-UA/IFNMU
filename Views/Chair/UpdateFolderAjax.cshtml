@@ -1,0 +1,19 @@
+﻿@model IFNMUSiteCore.Models.Folder
+@{ 
+    Layout = null;
+}
+<form class="modalContentAdmin" method="post" asp-controller="Chair" asp-action="UpdateFolder" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#foldersAndFiles" data-ajax-complete="function () {$('.modalUpdate').removeClass('active');$('.modal5').removeClass('active'); alert('Папку змінено');}">
+    <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+    <input type="hidden" name="ChairId" id="ChairId" value="@Model.ChairId" />
+    <input type="hidden" name="FolderId" id="FolderId" value="@Model.FolderId" />
+    <label for="Name">Введіть нову назву папки</label>
+    <input style="width:80%;" type="text" name="Name" id="Name" value="@Model.Name" />
+    <input style="width:80%;" type="submit" value="Змінити" />
+</form>
+<form class="modalContentAdmin" method="post" asp-controller="Chair" asp-action="DeleteFolder" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#foldersAndFiles" data-ajax-confirm="Ви дійсно хочете видалити папку?" data-ajax-complete="function () {$('.modalUpdate').removeClass('active');$('.modal5').removeClass('active'); alert('Папку видалено');"}>
+    <input type="hidden" name="Id" id="Id" value="@Model.Id" />
+    <input type="hidden" name="ChairId" id="ChairId" value="@Model.ChairId" />
+    <input type="hidden" name="FolderId" id="FolderId" value="@Model.FolderId" />
+    <input type="hidden" name="Name" id="Name" value="@Model.Name" />
+    <input style="width:80%;" type="submit" value="Видалити" />
+</form>

@@ -1,0 +1,65 @@
+﻿@model List<IFNMUSiteCore.Models.Chair>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h3 style="text-align:center;">Адмін-панель</h3>
+    </div>
+    <hr />
+    <div class="container">
+        <div class="row justify-content-around">
+            <a class="col-lg-3 btn btn-warning" href="/Schedule/AddSchedule">Додати новий розклад (перший/другий)</a>
+            <a class="col-lg-3 btn btn-warning" href="/Schedule/AddScheduleBig">Додати новий розклад (цілий семестр)</a>
+            <a class="col-lg-3 btn btn-success" href="/Schedule/EditMRTP">Змінити методичку і тематичний план для курсу</a>
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <h4>Змінити розклад</h4>
+        <form method="post" asp-action="EditWeek">
+            <div class="form-group">
+                <label for="Course">Курс</label>
+                <input class="form-control" placeholder="Курс" type="number" id="Course" name="Course" />
+            </div>
+            <div class="form-group">
+                <label for="Group">Група</label>
+                <input class="form-control" placeholder="Група" type="text" id="Group" name="Group" />
+            </div>
+            <div class="form-group">
+                <input class="btn btn-primary" value="Змінити" type="submit" />
+            </div>
+        </form>
+        <form method="post" asp-action="EditChair" style="margin-top:60px;">
+            <fieldset>
+                <legend>Змінити дані кефедри</legend>
+                <div class="form-group">
+                    <label for="chairId">Виберіть назву кафедри</label>
+                    <select class="form-control" name="chairId" id="chairId">
+                        @foreach (var a in Model)
+                        {
+                            <option value="@a.Id">@a.Name</option>
+                        }
+                    </select>
+                </div>
+                <div class='form-group'>
+                    <input class="btn btn-primary" value="Змінити" type="submit" />
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿@model ScheduleDay
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EditDay</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+     
+            @foreach (var item in Model.Lessons.OrderBy(les => les.LessonNumber))
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.LessonNumber</td>
+                    <td>
+                        <a class="btn btn-primary" asp-action="EditLesson" asp-controller="Schedule" asp-route-id="@item.Id">Змінити</a> |
+                        <a class="btn btn-danger" asp-action="DeleteLesson" asp-controller="Schedule" asp-route-id="@item.Id">Видалити</a>
+                    </td>
+                </tr>
+            }
+        </table>
+        <a href="/Schedule/AddLessonOne/@Model.Id">Додати урок</a>
+    </div>
+</body>
+</html>

@@ -34,7 +34,13 @@
         {
             <tr>
                 <td>@lessons.LessonNumber</td>
-                <td>@Html.ActionLink(lessons.Name, "Documents", "Home", new { id = lessons.Id }, null)</td>
+                <td>@Html.ActionLink(lessons.Name, "Documents", "Home", new { id = lessons.Id }, null)
+                    
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a style="width:10%;" href=@("/Schedule/EditLesson/" + lessons.Id)>Edit</a>
+                    }
+                </td>
                 <td>
                     @switch (lessons.LessonNumber)
                     {

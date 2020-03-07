@@ -1,0 +1,12 @@
+﻿@model int
+@{
+    Layout = null;
+}
+<tr>
+    @for (byte i = 0; i < 41; i++)
+    {
+        <td>
+            <input name="item[@Model][@i]" type="text" style="width:100%;" />
+        </td>
+    }
+</tr>
